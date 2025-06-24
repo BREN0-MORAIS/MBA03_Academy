@@ -1,0 +1,16 @@
+C:\Lab\Fontes\MBA03_Academy\Academy\src\GestaoConteudo\Academy.GestaoConteudo.Domain\bin\Debug\net9.0\Academy.GestaoConteudo.Domain.deps.json
+C:\Lab\Fontes\MBA03_Academy\Academy\src\GestaoConteudo\Academy.GestaoConteudo.Domain\bin\Debug\net9.0\Academy.GestaoConteudo.Domain.dll
+C:\Lab\Fontes\MBA03_Academy\Academy\src\GestaoConteudo\Academy.GestaoConteudo.Domain\bin\Debug\net9.0\Academy.GestaoConteudo.Domain.pdb
+C:\Lab\Fontes\MBA03_Academy\Academy\src\GestaoConteudo\Academy.GestaoConteudo.Domain\bin\Debug\net9.0\Academy.Core.dll
+C:\Lab\Fontes\MBA03_Academy\Academy\src\GestaoConteudo\Academy.GestaoConteudo.Domain\bin\Debug\net9.0\Academy.Core.pdb
+C:\Lab\Fontes\MBA03_Academy\Academy\src\GestaoConteudo\Academy.GestaoConteudo.Domain\obj\Debug\net9.0\Academy.GestaoConteudo.Domain.csproj.AssemblyReference.cache
+C:\Lab\Fontes\MBA03_Academy\Academy\src\GestaoConteudo\Academy.GestaoConteudo.Domain\obj\Debug\net9.0\Academy.GestaoConteudo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Lab\Fontes\MBA03_Academy\Academy\src\GestaoConteudo\Academy.GestaoConteudo.Domain\obj\Debug\net9.0\Academy.GestaoConteudo.Domain.AssemblyInfoInputs.cache
+C:\Lab\Fontes\MBA03_Academy\Academy\src\GestaoConteudo\Academy.GestaoConteudo.Domain\obj\Debug\net9.0\Academy.GestaoConteudo.Domain.AssemblyInfo.cs
+C:\Lab\Fontes\MBA03_Academy\Academy\src\GestaoConteudo\Academy.GestaoConteudo.Domain\obj\Debug\net9.0\Academy.GestaoConteudo.Domain.csproj.CoreCompileInputs.cache
+C:\Lab\Fontes\MBA03_Academy\Academy\src\GestaoConteudo\Academy.GestaoConteudo.Domain\obj\Debug\net9.0\Academy.GestaoConteudo.Domain.sourcelink.json
+C:\Lab\Fontes\MBA03_Academy\Academy\src\GestaoConteudo\Academy.GestaoConteudo.Domain\obj\Debug\net9.0\Academy..9E947C01.Up2Date
+C:\Lab\Fontes\MBA03_Academy\Academy\src\GestaoConteudo\Academy.GestaoConteudo.Domain\obj\Debug\net9.0\Academy.GestaoConteudo.Domain.dll
+C:\Lab\Fontes\MBA03_Academy\Academy\src\GestaoConteudo\Academy.GestaoConteudo.Domain\obj\Debug\net9.0\refint\Academy.GestaoConteudo.Domain.dll
+C:\Lab\Fontes\MBA03_Academy\Academy\src\GestaoConteudo\Academy.GestaoConteudo.Domain\obj\Debug\net9.0\Academy.GestaoConteudo.Domain.pdb
+C:\Lab\Fontes\MBA03_Academy\Academy\src\GestaoConteudo\Academy.GestaoConteudo.Domain\obj\Debug\net9.0\ref\Academy.GestaoConteudo.Domain.dll
