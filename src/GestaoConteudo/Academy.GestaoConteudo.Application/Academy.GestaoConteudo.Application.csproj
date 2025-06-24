@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="CQRS\Commands\" />
+    <Folder Include="CQRS\Querys\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="AutorMapper\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Academy.GestaoConteudo.Data\Academy.GestaoConteudo.Data.csproj" />
+    <ProjectReference Include="..\Academy.GestaoConteudo.Domain\Academy.GestaoConteudo.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -15,13 +15,20 @@ namespace Academy.GestaoConteudo.Data.Mappings
         {
             builder.HasKey(c => c.Id);
 
-
             builder.Property(c => c.Titulo)
            .IsRequired()
-           .HasColumnType("Varchar(50)");
+           .HasColumnType("Varchar(250)");
+
+            builder.Property(c => c.Descricao)
+           .IsRequired()
+           .HasColumnType("Varchar(500)");
+
+
+            builder.Property(c => c.VideoUrl)
+           .IsRequired()
+           .HasColumnType("Varchar(100)");
 
             builder.ToTable("Aulas");
-
         }
     }
 }
