@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\src\GestaoConteudo\Academy.GestaoConteudo.Data\Academy.GestaoConteudo.Data.csproj" />
+    <ProjectReference Include="..\src\GestaoConteudo\Academy.GestaoConteudo.Domain\Academy.GestaoConteudo.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DTOs\" />
+    <Folder Include="AutorMapper\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+</Project>

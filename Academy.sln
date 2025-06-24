@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academy.GestaoConteudo.Doma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academy.GestaoConteudo.Data", "src\GestaoConteudo\Academy.GestaoConteudo.Data\Academy.GestaoConteudo.Data.csproj", "{1B950583-8DFE-06F0-A819-B968B9EEAF11}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academy.GestaoConteudo.Application", "Academy.GestaoConteudo.Application\Academy.GestaoConteudo.Application.csproj", "{3F1AA1BC-D6A0-4C8A-B2FC-9EFE34323B5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{1B950583-8DFE-06F0-A819-B968B9EEAF11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B950583-8DFE-06F0-A819-B968B9EEAF11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B950583-8DFE-06F0-A819-B968B9EEAF11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F1AA1BC-D6A0-4C8A-B2FC-9EFE34323B5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F1AA1BC-D6A0-4C8A-B2FC-9EFE34323B5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F1AA1BC-D6A0-4C8A-B2FC-9EFE34323B5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F1AA1BC-D6A0-4C8A-B2FC-9EFE34323B5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +57,7 @@ Global
 		{8C81F251-855C-4F90-9FCB-33ED50727125} = {77B24238-5D9E-4938-8AE7-15A28EDF2244}
 		{95A47969-C1AD-42EC-8589-00C3BEC7C64E} = {D874BE29-20C9-4861-8638-07D49DF5F2B2}
 		{1B950583-8DFE-06F0-A819-B968B9EEAF11} = {D874BE29-20C9-4861-8638-07D49DF5F2B2}
+		{3F1AA1BC-D6A0-4C8A-B2FC-9EFE34323B5C} = {D874BE29-20C9-4861-8638-07D49DF5F2B2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5D74D8C-90A0-4C5C-89D8-4741FB78B6B6}

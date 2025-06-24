@@ -7,7 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DomainValidations\" />
+    <Folder Include="Events\Handlers\" />
+    <Folder Include="Data\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="mediatr" Version="12.5.0" />
   </ItemGroup>
 
 </Project>

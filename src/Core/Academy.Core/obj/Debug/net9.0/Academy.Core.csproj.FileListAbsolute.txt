@@ -10,3 +10,16 @@ C:\Lab\Fontes\MBA03_Academy\Academy\src\Core\Academy.Core\obj\Debug\net9.0\Acade
 C:\Lab\Fontes\MBA03_Academy\Academy\src\Core\Academy.Core\obj\Debug\net9.0\refint\Academy.Core.dll
 C:\Lab\Fontes\MBA03_Academy\Academy\src\Core\Academy.Core\obj\Debug\net9.0\Academy.Core.pdb
 C:\Lab\Fontes\MBA03_Academy\Academy\src\Core\Academy.Core\obj\Debug\net9.0\ref\Academy.Core.dll
+D:\Fontes\Lab\MBA03_Academy\src\Core\Academy.Core\bin\Debug\net9.0\Academy.Core.deps.json
+D:\Fontes\Lab\MBA03_Academy\src\Core\Academy.Core\bin\Debug\net9.0\Academy.Core.dll
+D:\Fontes\Lab\MBA03_Academy\src\Core\Academy.Core\bin\Debug\net9.0\Academy.Core.pdb
+D:\Fontes\Lab\MBA03_Academy\src\Core\Academy.Core\obj\Debug\net9.0\Academy.Core.csproj.AssemblyReference.cache
+D:\Fontes\Lab\MBA03_Academy\src\Core\Academy.Core\obj\Debug\net9.0\Academy.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Fontes\Lab\MBA03_Academy\src\Core\Academy.Core\obj\Debug\net9.0\Academy.Core.AssemblyInfoInputs.cache
+D:\Fontes\Lab\MBA03_Academy\src\Core\Academy.Core\obj\Debug\net9.0\Academy.Core.AssemblyInfo.cs
+D:\Fontes\Lab\MBA03_Academy\src\Core\Academy.Core\obj\Debug\net9.0\Academy.Core.csproj.CoreCompileInputs.cache
+D:\Fontes\Lab\MBA03_Academy\src\Core\Academy.Core\obj\Debug\net9.0\Academy.Core.sourcelink.json
+D:\Fontes\Lab\MBA03_Academy\src\Core\Academy.Core\obj\Debug\net9.0\Academy.Core.dll
+D:\Fontes\Lab\MBA03_Academy\src\Core\Academy.Core\obj\Debug\net9.0\refint\Academy.Core.dll
+D:\Fontes\Lab\MBA03_Academy\src\Core\Academy.Core\obj\Debug\net9.0\Academy.Core.pdb
+D:\Fontes\Lab\MBA03_Academy\src\Core\Academy.Core\obj\Debug\net9.0\ref\Academy.Core.dll

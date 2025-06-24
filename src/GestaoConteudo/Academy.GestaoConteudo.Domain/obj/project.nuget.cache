@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "jbkAoUmG+5E=",
+  "dgSpecHash": "lOcmnOX61Xo=",
   "success": true,
-  "projectFilePath": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Domain\\Academy.GestaoConteudo.Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Domain\\Academy.GestaoConteudo.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\49607\\.nuget\\packages\\mediatr\\12.5.0\\mediatr.12.5.0.nupkg.sha512",
+    "C:\\Users\\49607\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\49607\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

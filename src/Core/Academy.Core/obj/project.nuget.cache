@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "fOrx41ZLPlk=",
+  "dgSpecHash": "zyIoN79FNnQ=",
   "success": true,
-  "projectFilePath": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Core\\Academy.Core\\Academy.Core.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Core\\Academy.Core\\Academy.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\49607\\.nuget\\packages\\mediatr\\12.5.0\\mediatr.12.5.0.nupkg.sha512",
+    "C:\\Users\\49607\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\49607\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
