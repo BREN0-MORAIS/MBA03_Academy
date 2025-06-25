@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
-namespace Academy.Core;
+namespace Academy.Core.Data.Repository;
 public class Repository<T> : IRepository<T> where T : class, IAggregateRoot, new()
 {
     private readonly DbContext _context;

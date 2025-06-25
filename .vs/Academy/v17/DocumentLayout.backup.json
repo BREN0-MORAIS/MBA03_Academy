@@ -90,8 +90,7 @@
               "RelativeToolTip": "src\\Api\\Academy\\Configurations\\DependencyInjectionConfigure.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T21:05:30.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T21:05:30.714Z"
             },
             {
               "$type": "Document",
@@ -101,7 +100,7 @@
               "RelativeDocumentMoniker": "src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Services\\Implements\\AulaService.cs",
               "ToolTip": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Services\\Implements\\AulaService.cs",
               "RelativeToolTip": "src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Services\\Implements\\AulaService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBcAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-25T21:04:11.354Z",
               "EditorCaption": ""
@@ -116,8 +115,7 @@
               "RelativeToolTip": "src\\GestaoConteudo\\Academy.GestaoConteudo.Domain\\Interface\\IAulaRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T21:02:05.591Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T21:02:05.591Z"
             },
             {
               "$type": "Document",
@@ -129,8 +127,7 @@
               "RelativeToolTip": "src\\GestaoConteudo\\Academy.GestaoConteudo.Data\\Repository\\CursoRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T21:01:30.152Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T21:01:30.152Z"
             },
             {
               "$type": "Document",
@@ -142,8 +139,7 @@
               "RelativeToolTip": "src\\GestaoConteudo\\Academy.GestaoConteudo.Data\\Repository\\AulaRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T21:01:28.44Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T21:01:28.44Z"
             },
             {
               "$type": "Document",
@@ -155,8 +151,7 @@
               "RelativeToolTip": "src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Validators\\AulaDtoValidator.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAmwA4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T20:55:12.282Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T20:55:12.282Z"
             },
             {
               "$type": "Document",
@@ -168,8 +163,7 @@
               "RelativeToolTip": "src\\GestaoConteudo\\Academy.GestaoConteudo.Domain\\Entities\\Aula.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T20:54:19.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T20:54:19.327Z"
             },
             {
               "$type": "Document",
@@ -181,8 +175,7 @@
               "RelativeToolTip": "src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\DTOs\\AulaDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T20:54:07.545Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T20:54:07.545Z"
             },
             {
               "$type": "Document",
@@ -194,8 +187,7 @@
               "RelativeToolTip": "src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\DTOs\\CursoDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T20:53:16.198Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T20:53:16.198Z"
             },
             {
               "$type": "Document",
@@ -207,8 +199,7 @@
               "RelativeToolTip": "src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Validators\\CursoDtoValidator.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T20:53:11.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T20:53:11.535Z"
             },
             {
               "$type": "Document",
@@ -220,8 +211,7 @@
               "RelativeToolTip": "src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Services\\Interfaces\\ICursoService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T20:52:14.152Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T20:52:14.152Z"
             },
             {
               "$type": "Document",
@@ -233,8 +223,7 @@
               "RelativeToolTip": "src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Services\\Interfaces\\IAulaService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T20:51:45.398Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T20:51:45.398Z"
             },
             {
               "$type": "Document",
@@ -246,8 +235,7 @@
               "RelativeToolTip": "src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Services\\Implements\\CursoService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T20:51:31.137Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T20:51:31.137Z"
             },
             {
               "$type": "Document",
@@ -283,8 +271,7 @@
               "RelativeToolTip": "src\\Api\\Academy\\Controllers\\GestaoConteudo\\CursoController.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAA5wEYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T20:43:10.087Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T20:43:10.087Z"
             },
             {
               "$type": "Document",
@@ -296,8 +283,7 @@
               "RelativeToolTip": "src\\Api\\Academy\\Program.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T20:42:55.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T20:42:55.774Z"
             }
           ]
         }
