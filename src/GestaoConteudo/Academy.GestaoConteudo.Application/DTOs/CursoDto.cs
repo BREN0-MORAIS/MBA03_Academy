@@ -1,6 +1,6 @@
 ﻿using Academy.GestaoConteudo.Domain.Enums;
 
-namespace Academy.GestaoConteudo.Application.Validators;
+namespace Academy.GestaoConteudo.Application.DTOs;
 
 public class CursoDto
 {

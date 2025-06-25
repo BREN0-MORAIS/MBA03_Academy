@@ -1,7 +1,7 @@
 ﻿using Academy.GestaoConteudo.Application.CQRS.Commands.AtualizarCurso;
 using Academy.GestaoConteudo.Application.CQRS.Commands.CriarCurso;
 using Academy.GestaoConteudo.Application.CQRS.Queries.ObterTodosCursos;
-using Academy.GestaoConteudo.Application.Validators;
+using Academy.GestaoConteudo.Application.DTOs;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;

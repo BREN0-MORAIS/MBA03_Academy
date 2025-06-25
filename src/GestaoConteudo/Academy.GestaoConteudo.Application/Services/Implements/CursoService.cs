@@ -1,10 +1,10 @@
-﻿using Academy.GestaoConteudo.Application.Services.Interfaces;
-using Academy.GestaoConteudo.Application.Validators;
+﻿using Academy.GestaoConteudo.Application.DTOs;
+using Academy.GestaoConteudo.Application.Services.Interfaces;
 using Academy.GestaoConteudo.Domain.Entities;
 using Academy.GestaoConteudo.Domain.Interface;
 using AutoMapper;
 
-namespace Academy.GestaoConteudo.Application.Services
+namespace Academy.GestaoConteudo.Application.Services.Implements
 {
     public class CursoService : ICursoService
     {

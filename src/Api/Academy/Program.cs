@@ -22,7 +22,7 @@ builder.Services.AddCors(options =>
 // Fluent
 builder.Services.AddFluentValidationAutoValidation();
 
-builder.Services.AddValidatorsFromAssemblyContaining<CursoDTOValidator>();
+
 
 
 builder.Services.AddEndpointsApiExplorer();

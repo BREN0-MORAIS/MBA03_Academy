@@ -1,4 +1,4 @@
-﻿using Academy.GestaoConteudo.Application.Validators;
+﻿using Academy.GestaoConteudo.Application.DTOs;
 using Academy.GestaoConteudo.Domain.Entities;
 using Academy.GestaoConteudo.Domain.ObjectValue;
 using AutoMapper;

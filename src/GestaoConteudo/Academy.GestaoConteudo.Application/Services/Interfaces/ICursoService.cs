@@ -1,5 +1,5 @@
 ﻿using Academy.GestaoConteudo.Application.CQRS.Commands;
-using Academy.GestaoConteudo.Application.Validators;
+using Academy.GestaoConteudo.Application.DTOs;
 using System.Threading.Tasks;
 
 namespace Academy.GestaoConteudo.Application.Services.Interfaces;

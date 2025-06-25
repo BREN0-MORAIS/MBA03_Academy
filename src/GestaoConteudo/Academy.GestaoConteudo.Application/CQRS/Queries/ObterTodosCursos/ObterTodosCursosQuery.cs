@@ -1,4 +1,4 @@
-﻿using Academy.GestaoConteudo.Application.Validators;
+﻿using Academy.GestaoConteudo.Application.DTOs;
 using MediatR;
 using System;
 using System.Collections.Generic;

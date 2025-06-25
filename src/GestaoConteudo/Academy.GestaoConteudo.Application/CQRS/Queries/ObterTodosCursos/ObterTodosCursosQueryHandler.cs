@@ -1,5 +1,5 @@
-﻿using Academy.GestaoConteudo.Application.Services.Interfaces;
-using Academy.GestaoConteudo.Application.Validators;
+﻿using Academy.GestaoConteudo.Application.DTOs;
+using Academy.GestaoConteudo.Application.Services.Interfaces;
 using MediatR;
 using System;
 using System.Collections.Generic;
