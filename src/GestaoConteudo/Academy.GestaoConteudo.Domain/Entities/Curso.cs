@@ -8,7 +8,7 @@ namespace Academy.GestaoConteudo.Domain.Entities
 {
     public class Curso : EntidadeBase, IAggregateRoot
     {
-        public string  Titulo { get; private set; }
+        public string Titulo { get; private set; }
         public string Descricao { get; private set; }
         public CursoStatus Status { get; private set; }
         public Decimal Valor { get; private set; }
@@ -16,7 +16,7 @@ namespace Academy.GestaoConteudo.Domain.Entities
         private readonly List<Aula> _aulas = [];
         public IReadOnlyCollection<Aula> Aulas => _aulas.AsReadOnly();
 
-        public Curso() {}
+        public Curso() { }
 
         public Curso(string titulo, string descricao, CursoStatus status, decimal valor, ConteudoProgramatico conteudoProgramatico)
         {
@@ -45,10 +45,20 @@ namespace Academy.GestaoConteudo.Domain.Entities
 
             Validacoes.ValidarSeNulo(ConteudoProgramatico, "O Conteúdo programatico não poder esta vazio");
         }
+        public void AtualizarDados( string titulo,   string descricao,   CursoStatus status,   decimal valor,   string objetivo,    string preRequisitos)
+        {
+            Titulo = titulo;
+            Descricao = descricao;
+            Status = status;
+            Valor = valor;
+            ConteudoProgramatico = new ConteudoProgramatico(objetivo, preRequisitos);
+
+            Validar();
+        }
 
         public void AdicionarAula(Aula aula)
         {
-           _aulas.Add(aula);
+            _aulas.Add(aula);
         }
     }
 }

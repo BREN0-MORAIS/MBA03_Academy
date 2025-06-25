@@ -169,4 +169,11 @@ D:\Fontes\Lab\MBA03_Academy\src\Api\Academy\bin\Debug\net9.0\ru\Microsoft.CodeAn
 D:\Fontes\Lab\MBA03_Academy\src\Api\Academy\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 D:\Fontes\Lab\MBA03_Academy\src\Api\Academy\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 D:\Fontes\Lab\MBA03_Academy\src\Api\Academy\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\Fontes\Lab\MBA03_Academy\src\Api\Academy\obj\Debug\net9.0\Academy..2DAACC3B.Up2Date
+D:\Fontes\Lab\MBA03_Academy\src\Api\Academy\bin\Debug\net9.0\AutoMapper.dll
+D:\Fontes\Lab\MBA03_Academy\src\Api\Academy\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Fontes\Lab\MBA03_Academy\src\Api\Academy\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Fontes\Lab\MBA03_Academy\src\Api\Academy\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Fontes\Lab\MBA03_Academy\src\Api\Academy\obj\Debug\net9.0\Academy..17AEA4DA.Up2Date
+D:\Fontes\Lab\MBA03_Academy\src\Api\Academy\bin\Debug\net9.0\FluentValidation.dll
+D:\Fontes\Lab\MBA03_Academy\src\Api\Academy\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\Fontes\Lab\MBA03_Academy\src\Api\Academy\bin\Debug\net9.0\FluentValidation.AspNetCore.dll

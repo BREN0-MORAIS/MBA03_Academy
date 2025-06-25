@@ -1,8 +1,9 @@
 ﻿using Academy.Core.DomainObjects.Validations;
 using Academy.Core.Entities;
+using Academy.Core.Interfaces;
 namespace Academy.GestaoConteudo.Domain.Entities;
 
-public class Aula: EntidadeBase
+public class Aula: EntidadeBase, IAggregateRoot
 {
 
     public string Titulo { get; private set; }
