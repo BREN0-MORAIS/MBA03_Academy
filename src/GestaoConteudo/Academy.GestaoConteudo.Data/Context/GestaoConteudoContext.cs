@@ -20,6 +20,22 @@ public class GestaoConteudoContext : DbContext, IUnitOfWork
 
         modelBuilder.ApplyConfigurationsFromAssembly(typeof(GestaoConteudoContext).Assembly);
     }
+    public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+    {
+        foreach (var entry in ChangeTracker.Entries()
+                    .Where(entry => entry.Entity.GetType().GetProperty("DataCadastro") != null))
+        {
+            if (entry.State == EntityState.Added)
+                entry.Property("DataCadastro").CurrentValue = DateTime.Now;
+
+            if (entry.State == EntityState.Modified)
+            {
+                entry.Property("DataCadastro").IsModified = false;
+                entry.Property("DataAtualizacao").CurrentValue = DateTime.Now;
+            }
+        }
+        return base.SaveChangesAsync(cancellationToken);
+    }
     public async Task<bool> Commit()
     {
         foreach (var entry in ChangeTracker.Entries().Where(entry => entry.Entity.GetType().GetProperty("DataCadastro") != null))

@@ -6,6 +6,6 @@ namespace Academy.GestaoConteudo.Application.Services.Interfaces
     {
         Task<Guid> Criar(AulaDto cursoDto);
         Task<IEnumerable<AulaDto>> ObterTodos();
-        Task<Guid> Atualizar(Guid AulaId, AulaDto cursoDto);
+        Task<Guid> Atualizar(Guid AulaId, AulaDto aulaDto);
     }
 }

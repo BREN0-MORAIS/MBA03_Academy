@@ -17,6 +17,7 @@ public class GestaoConteudoMap : Profile
               new ConteudoProgramatico(dto.Objetivo, dto.PreRequisitos)
             ));
 
+        CreateMap<Aula, AulaDto>();
 
         CreateMap<Curso, CursoDto>()
             .ForMember(dest => dest.Titulo, opt => opt.MapFrom(src => src.Titulo))
@@ -24,6 +25,20 @@ public class GestaoConteudoMap : Profile
             .ForMember(dest => dest.Status, opt => opt.MapFrom(src => src.Status))
             .ForMember(dest => dest.Valor, opt => opt.MapFrom(src => src.Valor))
             .ForMember(dest => dest.Objetivo, opt => opt.MapFrom(src => src.ConteudoProgramatico.Objetivo))
-            .ForMember(dest => dest.PreRequisitos, opt => opt.MapFrom(src => src.ConteudoProgramatico.PreRequisitos));
+            .ForMember(dest => dest.PreRequisitos, opt => opt.MapFrom(src => src.ConteudoProgramatico.PreRequisitos))
+            .ForMember(dest => dest.Aulas, opt => opt.MapFrom(src => src.Aulas))
+            ;
+
+
+
+        CreateMap<AulaDto, Aula>().ConstructUsing(dto => new Aula(
+            dto.Titulo,
+            dto.Descricao,
+            dto.VideoUrl,
+            dto.Duracao,
+            dto.Ordem,
+            dto.CursoId
+            )).ReverseMap();
+
     }
 }

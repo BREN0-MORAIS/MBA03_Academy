@@ -3,6 +3,7 @@ using Academy.GestaoConteudo.Application.Services.Interfaces;
 using Academy.GestaoConteudo.Domain.Entities;
 using Academy.GestaoConteudo.Domain.Interface;
 using AutoMapper;
+using System.Linq.Expressions;
 
 namespace Academy.GestaoConteudo.Application.Services.Implements
 {
@@ -30,6 +31,7 @@ namespace Academy.GestaoConteudo.Application.Services.Implements
         public async Task<IEnumerable<CursoDto>> ObterTodos()
         {
             var cursos = await _cursoRepository.ObterTodos();
+
             return _mapper.Map<IEnumerable<CursoDto>>(cursos);
         }
 
@@ -51,6 +53,20 @@ namespace Academy.GestaoConteudo.Application.Services.Implements
             _cursoRepository.Atualizar(curso); 
 
             return curso.Id;
+        }
+
+        public async Task<IEnumerable<CursoDto>> ObterTodos(params Expression<Func<Curso, object>>[] includes)
+        {
+              var cursos = await _cursoRepository.ObterTodos(includes);
+
+            return _mapper.Map<IEnumerable<CursoDto>>(cursos);
+        }
+
+        public async Task<CursoDto> ObterPorId(Guid id, params Expression<Func<Curso, object>>[] includes)
+        {
+            var cursos = await _cursoRepository.ObterPorId(id, includes);
+
+            return _mapper.Map<CursoDto>(cursos);
         }
 
     }

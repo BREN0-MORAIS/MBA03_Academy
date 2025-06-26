@@ -6,7 +6,8 @@ public abstract class EntidadeBase
 {
 
     public Guid Id { get; internal set; }
-
+    public DateTime DataCadastro { get; set; }
+    public DateTime DataAtualizacao { get; set; }
     protected EntidadeBase()
     {
         Id = Guid.NewGuid();

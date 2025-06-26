@@ -3,36 +3,24 @@
   "WorkspaceRootPath": "D:\\Fontes\\Lab\\MBA03_Academy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8C81F251-855C-4F90-9FCB-33ED50727125}|src\\Core\\Academy.Core\\Academy.Core.csproj|d:\\fontes\\lab\\mba03_academy\\src\\core\\academy.core\\entities\\entidadebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C81F251-855C-4F90-9FCB-33ED50727125}|src\\Core\\Academy.Core\\Academy.Core.csproj|solutionrelative:src\\core\\academy.core\\entities\\entidadebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C45C380A-6A31-4E5F-BA61-CDB4461D0661}|src\\Api\\Academy\\Academy.Api.csproj|d:\\fontes\\lab\\mba03_academy\\src\\api\\academy\\controllers\\autenticacao\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C45C380A-6A31-4E5F-BA61-CDB4461D0661}|src\\Api\\Academy\\Academy.Api.csproj|solutionrelative:src\\api\\academy\\controllers\\autenticacao\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C81F251-855C-4F90-9FCB-33ED50727125}|src\\Core\\Academy.Core\\Academy.Core.csproj|d:\\fontes\\lab\\mba03_academy\\src\\core\\academy.core\\data\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C81F251-855C-4F90-9FCB-33ED50727125}|src\\Core\\Academy.Core\\Academy.Core.csproj|solutionrelative:src\\core\\academy.core\\data\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C45C380A-6A31-4E5F-BA61-CDB4461D0661}|src\\Api\\Academy\\Academy.Api.csproj|d:\\fontes\\lab\\mba03_academy\\src\\api\\academy\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C45C380A-6A31-4E5F-BA61-CDB4461D0661}|src\\Api\\Academy\\Academy.Api.csproj|solutionrelative:src\\api\\academy\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C45C380A-6A31-4E5F-BA61-CDB4461D0661}|src\\Api\\Academy\\Academy.Api.csproj|d:\\fontes\\lab\\mba03_academy\\src\\api\\academy\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C45C380A-6A31-4E5F-BA61-CDB4461D0661}|src\\Api\\Academy\\Academy.Api.csproj|solutionrelative:src\\api\\academy\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C45C380A-6A31-4E5F-BA61-CDB4461D0661}|src\\Api\\Academy\\Academy.Api.csproj|d:\\fontes\\lab\\mba03_academy\\src\\api\\academy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C45C380A-6A31-4E5F-BA61-CDB4461D0661}|src\\Api\\Academy\\Academy.Api.csproj|solutionrelative:src\\api\\academy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C45C380A-6A31-4E5F-BA61-CDB4461D0661}|src\\Api\\Academy\\Academy.Api.csproj|d:\\fontes\\lab\\mba03_academy\\src\\api\\academy\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{C45C380A-6A31-4E5F-BA61-CDB4461D0661}|src\\Api\\Academy\\Academy.Api.csproj|solutionrelative:src\\api\\academy\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C81F251-855C-4F90-9FCB-33ED50727125}|src\\Core\\Academy.Core\\Academy.Core.csproj|d:\\fontes\\lab\\mba03_academy\\src\\core\\academy.core\\events\\messages\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C81F251-855C-4F90-9FCB-33ED50727125}|src\\Core\\Academy.Core\\Academy.Core.csproj|solutionrelative:src\\core\\academy.core\\events\\messages\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C81F251-855C-4F90-9FCB-33ED50727125}|src\\Core\\Academy.Core\\Academy.Core.csproj|d:\\fontes\\lab\\mba03_academy\\src\\core\\academy.core\\events\\messages\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C81F251-855C-4F90-9FCB-33ED50727125}|src\\Core\\Academy.Core\\Academy.Core.csproj|solutionrelative:src\\core\\academy.core\\events\\messages\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C81F251-855C-4F90-9FCB-33ED50727125}|src\\Core\\Academy.Core\\Academy.Core.csproj|d:\\fontes\\lab\\mba03_academy\\src\\core\\academy.core\\bus\\mediatrhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C81F251-855C-4F90-9FCB-33ED50727125}|src\\Core\\Academy.Core\\Academy.Core.csproj|solutionrelative:src\\core\\academy.core\\bus\\mediatrhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C81F251-855C-4F90-9FCB-33ED50727125}|src\\Core\\Academy.Core\\Academy.Core.csproj|d:\\fontes\\lab\\mba03_academy\\src\\core\\academy.core\\bus\\imediatrhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C81F251-855C-4F90-9FCB-33ED50727125}|src\\Core\\Academy.Core\\Academy.Core.csproj|solutionrelative:src\\core\\academy.core\\bus\\imediatrhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C45C380A-6A31-4E5F-BA61-CDB4461D0661}|src\\Api\\Academy\\Academy.Api.csproj|d:\\fontes\\lab\\mba03_academy\\src\\api\\academy\\controllers\\gestaoconteudo\\cursocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C45C380A-6A31-4E5F-BA61-CDB4461D0661}|src\\Api\\Academy\\Academy.Api.csproj|solutionrelative:src\\api\\academy\\controllers\\gestaoconteudo\\cursocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,105 +35,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EntidadeBase.cs",
-              "DocumentMoniker": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Core\\Academy.Core\\Entities\\EntidadeBase.cs",
-              "RelativeDocumentMoniker": "src\\Core\\Academy.Core\\Entities\\EntidadeBase.cs",
-              "ToolTip": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Core\\Academy.Core\\Entities\\EntidadeBase.cs",
-              "RelativeToolTip": "src\\Core\\Academy.Core\\Entities\\EntidadeBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Api\\Academy\\Controllers\\Autenticacao\\AuthController.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Academy\\Controllers\\Autenticacao\\AuthController.cs",
+              "ToolTip": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Api\\Academy\\Controllers\\Autenticacao\\AuthController.cs",
+              "RelativeToolTip": "src\\Api\\Academy\\Controllers\\Autenticacao\\AuthController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T21:45:19.142Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Core\\Academy.Core\\Data\\Repository\\Repository.cs",
-              "RelativeDocumentMoniker": "src\\Core\\Academy.Core\\Data\\Repository\\Repository.cs",
-              "ToolTip": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Core\\Academy.Core\\Data\\Repository\\Repository.cs",
-              "RelativeToolTip": "src\\Core\\Academy.Core\\Data\\Repository\\Repository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T21:45:05.159Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Api\\Academy\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\Api\\Academy\\appsettings.json",
-              "ToolTip": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Api\\Academy\\appsettings.json",
-              "RelativeToolTip": "src\\Api\\Academy\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-25T21:44:28.762Z",
+              "WhenOpened": "2025-06-26T20:33:18.395Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Message.cs",
-              "DocumentMoniker": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Core\\Academy.Core\\Events\\Messages\\Message.cs",
-              "RelativeDocumentMoniker": "src\\Core\\Academy.Core\\Events\\Messages\\Message.cs",
-              "ToolTip": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Core\\Academy.Core\\Events\\Messages\\Message.cs",
-              "RelativeToolTip": "src\\Core\\Academy.Core\\Events\\Messages\\Message.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Api\\Academy\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Academy\\Program.cs",
+              "ToolTip": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Api\\Academy\\Program.cs",
+              "RelativeToolTip": "src\\Api\\Academy\\Program.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAgwFUAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T21:42:12.863Z",
+              "WhenOpened": "2025-06-26T20:32:08.589Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Event.cs",
-              "DocumentMoniker": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Core\\Academy.Core\\Events\\Messages\\Event.cs",
-              "RelativeDocumentMoniker": "src\\Core\\Academy.Core\\Events\\Messages\\Event.cs",
-              "ToolTip": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Core\\Academy.Core\\Events\\Messages\\Event.cs",
-              "RelativeToolTip": "src\\Core\\Academy.Core\\Events\\Messages\\Event.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T21:34:56.052Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Api\\Academy\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\Api\\Academy\\appsettings.json",
+              "ToolTip": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Api\\Academy\\appsettings.json",
+              "RelativeToolTip": "src\\Api\\Academy\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-26T20:31:33.019Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MediatrHandler.cs",
-              "DocumentMoniker": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Core\\Academy.Core\\Bus\\MediatrHandler.cs",
-              "RelativeDocumentMoniker": "src\\Core\\Academy.Core\\Bus\\MediatrHandler.cs",
-              "ToolTip": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Core\\Academy.Core\\Bus\\MediatrHandler.cs",
-              "RelativeToolTip": "src\\Core\\Academy.Core\\Bus\\MediatrHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Api\\Academy\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Academy\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Api\\Academy\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "src\\Api\\Academy\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T21:35:59.278Z",
+              "WhenOpened": "2025-06-26T20:30:18.33Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IMediatrHandler.cs",
-              "DocumentMoniker": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Core\\Academy.Core\\Bus\\IMediatrHandler.cs",
-              "RelativeDocumentMoniker": "src\\Core\\Academy.Core\\Bus\\IMediatrHandler.cs",
-              "ToolTip": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Core\\Academy.Core\\Bus\\IMediatrHandler.cs",
-              "RelativeToolTip": "src\\Core\\Academy.Core\\Bus\\IMediatrHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Api\\Academy\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Academy\\Models\\ApplicationUser.cs",
+              "ToolTip": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Api\\Academy\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "src\\Api\\Academy\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T21:35:58.596Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CursoController.cs",
-              "DocumentMoniker": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Api\\Academy\\Controllers\\GestaoConteudo\\CursoController.cs",
-              "RelativeDocumentMoniker": "src\\Api\\Academy\\Controllers\\GestaoConteudo\\CursoController.cs",
-              "ToolTip": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Api\\Academy\\Controllers\\GestaoConteudo\\CursoController.cs",
-              "RelativeToolTip": "src\\Api\\Academy\\Controllers\\GestaoConteudo\\CursoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T21:35:17.803Z",
+              "WhenOpened": "2025-06-26T20:30:01.56Z",
               "EditorCaption": ""
             }
           ]

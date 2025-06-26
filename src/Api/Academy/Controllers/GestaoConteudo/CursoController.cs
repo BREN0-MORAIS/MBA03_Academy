@@ -1,5 +1,6 @@
 ﻿using Academy.GestaoConteudo.Application.CQRS.Commands.AtualizarCurso;
 using Academy.GestaoConteudo.Application.CQRS.Commands.CriarCurso;
+using Academy.GestaoConteudo.Application.CQRS.Queries.ObterCursoPorId;
 using Academy.GestaoConteudo.Application.CQRS.Queries.ObterTodosCursos;
 using Academy.GestaoConteudo.Application.DTOs;
 using MediatR;
@@ -19,7 +20,7 @@ namespace Academy.Api.Controllers.GestaoConteudo
             _mediator = mediator;
         }
 
-        [HttpPost(Name = "CriarCurso")]
+        [HttpPost("CriarCurso")]
         [ProducesResponseType(typeof(CriarCursoCommand), StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> CriarCurso([FromBody] CursoDto cursoDto)
@@ -40,7 +41,7 @@ namespace Academy.Api.Controllers.GestaoConteudo
                 new { id = await _mediator.Send(command) }
             );
         }
-        [HttpPut("{id:guid}", Name = "AtualizarCurso")]
+        [HttpPut("AtualizarCurso/{id:guid}", Name = "AtualizarCurso")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -62,10 +63,17 @@ namespace Academy.Api.Controllers.GestaoConteudo
             return NoContent();
         }
 
-        [HttpGet(Name = "ObterTodosCursos")]
+        [HttpGet("ObterTodosCursos")]
         public async Task<IActionResult> ObterTodosCursos()
         {
             var cursos = await _mediator.Send(new ObterTodosCursosQuery());
+            return Ok(cursos);
+        }
+
+        [HttpGet("ObterCursoPorId/{id:guid}")]
+        public async Task<IActionResult> ObterCursoPorId(Guid id)
+        {
+            var cursos = await _mediator.Send(new ObterCursoPorIdQuery { Id = id });
             return Ok(cursos);
         }
     }

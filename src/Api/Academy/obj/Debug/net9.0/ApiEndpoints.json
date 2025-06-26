@@ -1,15 +1,61 @@
 [
   {
-    "ContainingType": "Academy.Api.Controllers.GestaoConteudo.CursoController",
-    "Method": "CriarCurso",
-    "RelativePath": "api/Curso",
+    "ContainingType": "Academy.Api.Controllers.GestaoConteudo.AulaController",
+    "Method": "AtualizarAula",
+    "RelativePath": "api/Aula/AtualizarAula/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "aulaDto",
+        "Type": "Academy.GestaoConteudo.Application.DTOs.AulaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "EndpointName": "AtualizarAula"
+  },
+  {
+    "ContainingType": "Academy.Api.Controllers.GestaoConteudo.AulaController",
+    "Method": "CriarAula",
+    "RelativePath": "api/Aula/CriarAula",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "cursoDto",
-        "Type": "Academy.GestaoConteudo.Application.Validators.CursoDto",
+        "Name": "aulaDto",
+        "Type": "Academy.GestaoConteudo.Application.DTOs.AulaDto",
         "IsRequired": true
       }
     ],
@@ -32,24 +78,12 @@
         ],
         "StatusCode": 400
       }
-    ],
-    "EndpointName": "CriarCurso"
-  },
-  {
-    "ContainingType": "Academy.Api.Controllers.GestaoConteudo.CursoController",
-    "Method": "ObterTodosCursos",
-    "RelativePath": "api/Curso",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [],
-    "EndpointName": "ObterTodosCursos"
+    ]
   },
   {
     "ContainingType": "Academy.Api.Controllers.GestaoConteudo.CursoController",
     "Method": "AtualizarCurso",
-    "RelativePath": "api/Curso/{id}",
+    "RelativePath": "api/Curso/AtualizarCurso/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -61,7 +95,7 @@
       },
       {
         "Name": "cursoDto",
-        "Type": "Academy.GestaoConteudo.Application.Validators.CursoDto",
+        "Type": "Academy.GestaoConteudo.Application.DTOs.CursoDto",
         "IsRequired": true
       }
     ],
@@ -91,5 +125,66 @@
       }
     ],
     "EndpointName": "AtualizarCurso"
+  },
+  {
+    "ContainingType": "Academy.Api.Controllers.GestaoConteudo.CursoController",
+    "Method": "CriarCurso",
+    "RelativePath": "api/Curso/CriarCurso",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cursoDto",
+        "Type": "Academy.GestaoConteudo.Application.DTOs.CursoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Academy.GestaoConteudo.Application.CQRS.Commands.CriarCurso.CriarCursoCommand",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ]
+  },
+  {
+    "ContainingType": "Academy.Api.Controllers.GestaoConteudo.CursoController",
+    "Method": "ObterCursoPorId",
+    "RelativePath": "api/Curso/ObterCursoPorId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Academy.Api.Controllers.GestaoConteudo.CursoController",
+    "Method": "ObterTodosCursos",
+    "RelativePath": "api/Curso/ObterTodosCursos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

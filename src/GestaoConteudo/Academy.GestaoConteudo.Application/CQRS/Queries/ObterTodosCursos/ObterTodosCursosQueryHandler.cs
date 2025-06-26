@@ -1,4 +1,5 @@
-﻿using Academy.GestaoConteudo.Application.DTOs;
+﻿using Academy.Core.Data.Repository;
+using Academy.GestaoConteudo.Application.DTOs;
 using Academy.GestaoConteudo.Application.Services.Interfaces;
 using MediatR;
 using System;
@@ -20,6 +21,8 @@ namespace Academy.GestaoConteudo.Application.CQRS.Queries.ObterTodosCursos
 
         public async Task<IEnumerable<CursoDto>> Handle(ObterTodosCursosQuery request, CancellationToken cancellationToken)
         {
+            var cursos = await _cursoService.ObterTodos( c => c.Aulas);
+
             return await _cursoService.ObterTodos();
         }
     }

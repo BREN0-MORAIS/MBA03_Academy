@@ -10,4 +10,5 @@ public class CursoDto
     public decimal Valor { get;  set; }
     public string Objetivo { get;  set; }
     public string PreRequisitos { get;  set; }
+    public IEnumerable<AulaDto> Aulas { get; set; }
 }

@@ -1,7 +1,5 @@
-﻿using Academy.GestaoConteudo.Application.CQRS.Commands.CriarCurso;
-using Academy.GestaoConteudo.Application.DTOs;
+﻿using Academy.GestaoConteudo.Application.DTOs;
 using Academy.GestaoConteudo.Application.Services.Interfaces;
-using Academy.GestaoConteudo.Domain.Interface;
 using MediatR;
 
 namespace Academy.GestaoConteudo.Application.CQRS.Commands.AtualizarCurso;

@@ -31,6 +31,12 @@ namespace Academy.GestaoConteudo.Data.Migrations
                     b.Property<Guid>("CursoId")
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<DateTime>("DataAtualizacao")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DataCadastro")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Descricao")
                         .IsRequired()
                         .HasColumnType("Varchar(500)");
@@ -61,6 +67,12 @@ namespace Academy.GestaoConteudo.Data.Migrations
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("DataAtualizacao")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DataCadastro")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Descricao")
                         .IsRequired()

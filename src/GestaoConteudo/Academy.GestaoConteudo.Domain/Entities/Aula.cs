@@ -28,6 +28,18 @@ public class Aula: EntidadeBase, IAggregateRoot
         Validar();
     }
 
+    public void AtualizarDados(string titulo, string descricao, string videoUrl, TimeSpan duracao, int ordem, Guid cursoId)
+    {
+        Titulo = titulo;
+        Descricao = descricao;
+        VideoUrl = videoUrl;
+        Duracao = duracao;
+        Ordem = ordem;
+        CursoId = cursoId;
+
+        Validar();
+    }
+
     public void Validar()
     {
         Validacoes.ValidarSeVazio(Titulo, "O campo titulo não pode ser vazio.");
