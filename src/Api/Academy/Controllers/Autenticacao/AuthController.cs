@@ -40,7 +40,7 @@ public class AuthController : ControllerBase
         var result = await _userManager.CreateAsync(user, password);
         if (!result.Succeeded) return BadRequest(result.Errors);
 
-        await _userManager.AddToRoleAsync(user, "Aluno"); // ou "Administrador"
+        await _userManager.AddToRoleAsync(user, "Aluno"); 
 
         return Ok("Usuário registrado com sucesso.");
     }
