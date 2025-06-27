@@ -4,6 +4,7 @@ using Academy.GestaoConteudo.Application.CQRS.Queries.ObterCursoPorId;
 using Academy.GestaoConteudo.Application.CQRS.Queries.ObterTodosCursos;
 using Academy.GestaoConteudo.Application.DTOs;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -20,6 +21,7 @@ namespace Academy.Api.Controllers.GestaoConteudo
             _mediator = mediator;
         }
 
+        [Authorize(Roles = "Administrador")]
         [HttpPost("CriarCurso")]
         [ProducesResponseType(typeof(CriarCursoCommand), StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -41,6 +43,7 @@ namespace Academy.Api.Controllers.GestaoConteudo
                 new { id = await _mediator.Send(command) }
             );
         }
+        [Authorize(Roles = "Administrador")]
         [HttpPut("AtualizarCurso/{id:guid}", Name = "AtualizarCurso")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -63,6 +66,7 @@ namespace Academy.Api.Controllers.GestaoConteudo
             return NoContent();
         }
 
+        [Authorize(Roles = "Administrador")]
         [HttpGet("ObterTodosCursos")]
         public async Task<IActionResult> ObterTodosCursos()
         {
@@ -70,6 +74,7 @@ namespace Academy.Api.Controllers.GestaoConteudo
             return Ok(cursos);
         }
 
+        [Authorize(Roles = "Administrador")]
         [HttpGet("ObterCursoPorId/{id:guid}")]
         public async Task<IActionResult> ObterCursoPorId(Guid id)
         {

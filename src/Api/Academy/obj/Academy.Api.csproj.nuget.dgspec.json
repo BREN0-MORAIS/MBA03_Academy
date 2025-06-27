@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Api\\Academy\\Academy.Api.csproj": {}
+    "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Api\\Academy\\Academy.Api.csproj": {}
   },
   "projects": {
-    "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Api\\Academy\\Academy.Api.csproj": {
+    "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Api\\Academy\\Academy.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Api\\Academy\\Academy.Api.csproj",
+        "projectUniqueName": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Api\\Academy\\Academy.Api.csproj",
         "projectName": "Academy.Api",
-        "projectPath": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Api\\Academy\\Academy.Api.csproj",
-        "packagesPath": "C:\\Users\\breno\\.nuget\\packages\\",
-        "outputPath": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Api\\Academy\\obj\\",
+        "projectPath": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Api\\Academy\\Academy.Api.csproj",
+        "packagesPath": "C:\\Users\\49607\\.nuget\\packages\\",
+        "outputPath": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Api\\Academy\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\breno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\49607\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,15 +26,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj": {
-                "projectPath": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj"
+              "D:\\Fontes\\Lab\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj": {
+                "projectPath": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj"
               }
             }
           }
@@ -109,20 +108,20 @@
         }
       }
     },
-    "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Core\\Academy.Core\\Academy.Core.csproj": {
+    "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Core\\Academy.Core\\Academy.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Core\\Academy.Core\\Academy.Core.csproj",
+        "projectUniqueName": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Core\\Academy.Core\\Academy.Core.csproj",
         "projectName": "Academy.Core",
-        "projectPath": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Core\\Academy.Core\\Academy.Core.csproj",
-        "packagesPath": "C:\\Users\\breno\\.nuget\\packages\\",
-        "outputPath": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Core\\Academy.Core\\obj\\",
+        "projectPath": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Core\\Academy.Core\\Academy.Core.csproj",
+        "packagesPath": "C:\\Users\\49607\\.nuget\\packages\\",
+        "outputPath": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Core\\Academy.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\breno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\49607\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -131,7 +130,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -185,20 +183,20 @@
         }
       }
     },
-    "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj": {
+    "D:\\Fontes\\Lab\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj",
+        "projectUniqueName": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj",
         "projectName": "Academy.GestaoConteudo.Application",
-        "projectPath": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj",
-        "packagesPath": "C:\\Users\\breno\\.nuget\\packages\\",
-        "outputPath": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\obj\\",
+        "projectPath": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj",
+        "packagesPath": "C:\\Users\\49607\\.nuget\\packages\\",
+        "outputPath": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\breno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\49607\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -207,18 +205,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Data\\Academy.GestaoConteudo.Data.csproj": {
-                "projectPath": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Data\\Academy.GestaoConteudo.Data.csproj"
+              "D:\\Fontes\\Lab\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Data\\Academy.GestaoConteudo.Data.csproj": {
+                "projectPath": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Data\\Academy.GestaoConteudo.Data.csproj"
               },
-              "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Domain\\Academy.GestaoConteudo.Domain.csproj": {
-                "projectPath": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Domain\\Academy.GestaoConteudo.Domain.csproj"
+              "D:\\Fontes\\Lab\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Domain\\Academy.GestaoConteudo.Domain.csproj": {
+                "projectPath": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Domain\\Academy.GestaoConteudo.Domain.csproj"
               }
             }
           }
@@ -276,20 +273,20 @@
         }
       }
     },
-    "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Data\\Academy.GestaoConteudo.Data.csproj": {
+    "D:\\Fontes\\Lab\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Data\\Academy.GestaoConteudo.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Data\\Academy.GestaoConteudo.Data.csproj",
+        "projectUniqueName": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Data\\Academy.GestaoConteudo.Data.csproj",
         "projectName": "Academy.GestaoConteudo.Data",
-        "projectPath": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Data\\Academy.GestaoConteudo.Data.csproj",
-        "packagesPath": "C:\\Users\\breno\\.nuget\\packages\\",
-        "outputPath": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Data\\obj\\",
+        "projectPath": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Data\\Academy.GestaoConteudo.Data.csproj",
+        "packagesPath": "C:\\Users\\49607\\.nuget\\packages\\",
+        "outputPath": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\breno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\49607\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -298,18 +295,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Core\\Academy.Core\\Academy.Core.csproj": {
-                "projectPath": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Core\\Academy.Core\\Academy.Core.csproj"
+              "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Core\\Academy.Core\\Academy.Core.csproj": {
+                "projectPath": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Core\\Academy.Core\\Academy.Core.csproj"
               },
-              "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Domain\\Academy.GestaoConteudo.Domain.csproj": {
-                "projectPath": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Domain\\Academy.GestaoConteudo.Domain.csproj"
+              "D:\\Fontes\\Lab\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Domain\\Academy.GestaoConteudo.Domain.csproj": {
+                "projectPath": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Domain\\Academy.GestaoConteudo.Domain.csproj"
               }
             }
           }
@@ -371,20 +367,20 @@
         }
       }
     },
-    "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Domain\\Academy.GestaoConteudo.Domain.csproj": {
+    "D:\\Fontes\\Lab\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Domain\\Academy.GestaoConteudo.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Domain\\Academy.GestaoConteudo.Domain.csproj",
+        "projectUniqueName": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Domain\\Academy.GestaoConteudo.Domain.csproj",
         "projectName": "Academy.GestaoConteudo.Domain",
-        "projectPath": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Domain\\Academy.GestaoConteudo.Domain.csproj",
-        "packagesPath": "C:\\Users\\breno\\.nuget\\packages\\",
-        "outputPath": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Domain\\obj\\",
+        "projectPath": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Domain\\Academy.GestaoConteudo.Domain.csproj",
+        "packagesPath": "C:\\Users\\49607\\.nuget\\packages\\",
+        "outputPath": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\breno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\49607\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -393,15 +389,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Core\\Academy.Core\\Academy.Core.csproj": {
-                "projectPath": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Core\\Academy.Core\\Academy.Core.csproj"
+              "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Core\\Academy.Core\\Academy.Core.csproj": {
+                "projectPath": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Core\\Academy.Core\\Academy.Core.csproj"
               }
             }
           }

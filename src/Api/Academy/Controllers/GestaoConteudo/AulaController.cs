@@ -5,6 +5,7 @@ using Academy.GestaoConteudo.Application.CQRS.Commands.CriarCurso;
 using Academy.GestaoConteudo.Application.CQRS.Queries.ObterTodosCursos;
 using Academy.GestaoConteudo.Application.DTOs;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Academy.Api.Controllers.GestaoConteudo
@@ -20,6 +21,8 @@ namespace Academy.Api.Controllers.GestaoConteudo
             _mediator = mediator;
         }
 
+
+        [Authorize(Roles = "Administrador")]
         [HttpPost("CriarAula")]
         [ProducesResponseType(typeof(CriarCursoCommand), StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -43,7 +46,7 @@ namespace Academy.Api.Controllers.GestaoConteudo
             );
         }
 
-
+        [Authorize(Roles = "Administrador")]
         [HttpPut("AtualizarAula/{id:guid}", Name = "AtualizarAula")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]

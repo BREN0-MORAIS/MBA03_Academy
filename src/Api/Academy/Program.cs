@@ -3,9 +3,8 @@ using Academy.Api.Data;
 using Academy.Api.Models;
 using Academy.GestaoConteudo.Application.AutorMapper;
 using Academy.GestaoConteudo.Application.CQRS.Commands.CriarCurso;
-using Academy.GestaoConteudo.Application.Validators;
+using Academy.GestaoConteudo.Application.Seed;
 using Academy.GestaoConteudo.Data.Context;
-using FluentValidation;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -32,7 +31,37 @@ builder.Services.AddFluentValidationAutoValidation();
 
 
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Academy API", Version = "v1" });
+
+
+    c.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+    {
+        Name = "Authorization",
+        Type = Microsoft.OpenApi.Models.SecuritySchemeType.Http,
+        Scheme = "Bearer",
+        BearerFormat = "JWT",
+        In = Microsoft.OpenApi.Models.ParameterLocation.Header,
+        Description = "Insira o token JWT desta forma: Bearer {seu_token}"
+    });
+
+    c.AddSecurityRequirement(new Microsoft.OpenApi.Models.OpenApiSecurityRequirement
+    {
+        {
+            new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+            {
+                Reference = new Microsoft.OpenApi.Models.OpenApiReference
+                {
+                    Type = Microsoft.OpenApi.Models.ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            new string[] {}
+        }
+    });
+});
 
 builder.Services.ConfigureDependencyInjection();
 builder.Services.AddAutoMapper(typeof(GestaoConteudoMap).Assembly);
@@ -52,18 +81,22 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
 var configuration = builder.Configuration;
 
 
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-    .AddJwtBearer(options =>
+
+builder.Services.AddAuthentication("Bearer")
+    .AddJwtBearer("Bearer", options =>
     {
-        var key = Encoding.UTF8.GetBytes(configuration["JwtSettings:Secret"]);
         options.TokenValidationParameters = new TokenValidationParameters
         {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
             ValidateIssuerSigningKey = true,
-            IssuerSigningKey = new SymmetricSecurityKey(key),
-            ValidateIssuer = false,
-            ValidateAudience = false
+            ValidIssuer = "BFMTECh",
+            ValidAudience = "BFMTECh2",
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["JwtSettings:Secret"]))
         };
     });
+
 
 builder.Services.AddAuthorization();
 #endregion
@@ -80,6 +113,16 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+}
+
+
+//Seed
+
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    var context = services.GetRequiredService<GestaoConteudoContext>();
+    await GestaoConteudoSeed.InitializeAsync(context);
 }
 
 // Configure the HTTP request pipeline.

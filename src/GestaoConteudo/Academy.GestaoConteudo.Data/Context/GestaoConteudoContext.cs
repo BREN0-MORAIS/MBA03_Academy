@@ -1,5 +1,6 @@
 ﻿using Academy.Core.Events.Messages;
 using Academy.Core.Interfaces;
+using Academy.GestaoConteudo.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Academy.GestaoConteudo.Data.Context;
@@ -9,6 +10,8 @@ public class GestaoConteudoContext : DbContext, IUnitOfWork
     public GestaoConteudoContext(DbContextOptions<GestaoConteudoContext> options)
          : base(options) { }
 
+    public DbSet<Curso> Cursos { get; set; }
+    public DbSet<Aula> Aulas { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

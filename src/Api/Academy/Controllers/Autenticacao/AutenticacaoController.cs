@@ -11,13 +11,13 @@ namespace AuthServer.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-public class AuthController : ControllerBase
+public class AutenticacaoController : ControllerBase
 {
     private readonly UserManager<ApplicationUser> _userManager;
     private readonly SignInManager<ApplicationUser> _signInManager;
     private readonly IConfiguration _configuration;
 
-    public AuthController(UserManager<ApplicationUser> userManager,
+    public AutenticacaoController(UserManager<ApplicationUser> userManager,
                           SignInManager<ApplicationUser> signInManager,
                           IConfiguration configuration)
     {
@@ -26,9 +26,10 @@ public class AuthController : ControllerBase
         _configuration = configuration;
     }
 
+
     [Authorize(Roles = "Administrador")]
-    [HttpPost("register")]
-    public async Task<IActionResult> Register(string email, string password, string nomeCompleto)
+    [HttpPost("CadastrarNovoUsuario")]
+    public async Task<IActionResult> CadastrarNovoUsuario(string email, string password, string nomeCompleto)
     {
         var user = new ApplicationUser
         {
