@@ -1,4 +1,5 @@
-﻿using Academy.Api.Models;
+﻿using Academy.Api.Data.Const;
+using Academy.Api.Data.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -27,7 +28,7 @@ public class AutenticacaoController : ControllerBase
     }
 
 
-    [Authorize(Roles = "Administrador")]
+    [Authorize(Roles = RoleNames.Administrador)]
     [HttpPost("CadastrarNovoUsuario")]
     public async Task<IActionResult> CadastrarNovoUsuario(string email, string password, string nomeCompleto)
     {
@@ -41,7 +42,7 @@ public class AutenticacaoController : ControllerBase
         var result = await _userManager.CreateAsync(user, password);
         if (!result.Succeeded) return BadRequest(result.Errors);
 
-        await _userManager.AddToRoleAsync(user, "Aluno"); 
+        await _userManager.AddToRoleAsync(user, RoleNames.Aluno); 
 
         return Ok("Usuário registrado com sucesso.");
     }
@@ -58,22 +59,26 @@ public class AutenticacaoController : ControllerBase
         var roles = await _userManager.GetRolesAsync(user);
 
         var claims = new List<Claim>
-        {
-            new Claim(JwtRegisteredClaimNames.Sub, user.Id),
-            new Claim(ClaimTypes.Name, user.UserName),
-            new Claim(ClaimTypes.Email, user.Email),
-        };
+    {
+        new Claim(JwtRegisteredClaimNames.Sub, user.Id),
+        new Claim(ClaimTypes.Name, user.UserName),
+        new Claim(ClaimTypes.Email, user.Email)
+    };
 
         claims.AddRange(roles.Select(role => new Claim(ClaimTypes.Role, role)));
 
-        var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JwtSettings:Secret"]));
+        var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["AppSettings:SecretKey"]));
         var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
         var token = new JwtSecurityToken(
+            issuer: "academy-auth",                  
+            audience: "academy-api",                 
             claims: claims,
             expires: DateTime.UtcNow.AddHours(2),
-            signingCredentials: creds);
+            signingCredentials: creds
+        );
 
-        return Ok(new { token = new JwtSecurityTokenHandler().WriteToken(token) });
+        var jwt = new JwtSecurityTokenHandler().WriteToken(token);
+        return Ok(new { token = jwt });
     }
 }

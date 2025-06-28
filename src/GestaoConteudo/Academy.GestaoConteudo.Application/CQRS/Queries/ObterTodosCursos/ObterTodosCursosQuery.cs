@@ -1,4 +1,5 @@
-﻿using Academy.GestaoConteudo.Application.DTOs;
+﻿using Academy.GestaoConteudo.Application.Dtos;
+using Academy.GestaoConteudo.Domain.Enums;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -10,5 +11,7 @@ namespace Academy.GestaoConteudo.Application.CQRS.Queries.ObterTodosCursos
 {
     public class ObterTodosCursosQuery : IRequest<IEnumerable<CursoDto>>
     {
+        public int Status { get; set; } 
+
     }
 }

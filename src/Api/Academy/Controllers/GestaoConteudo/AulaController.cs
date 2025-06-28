@@ -1,9 +1,8 @@
-﻿using Academy.GestaoConteudo.Application.CQRS.Commands.AtualizarAula;
-using Academy.GestaoConteudo.Application.CQRS.Commands.AtualizarCurso;
+﻿using Academy.Api.Data.Const;
+using Academy.GestaoConteudo.Application.CQRS.Commands.AtualizarAula;
 using Academy.GestaoConteudo.Application.CQRS.Commands.CriarAula;
 using Academy.GestaoConteudo.Application.CQRS.Commands.CriarCurso;
-using Academy.GestaoConteudo.Application.CQRS.Queries.ObterTodosCursos;
-using Academy.GestaoConteudo.Application.DTOs;
+using Academy.GestaoConteudo.Application.Dtos;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -22,7 +21,7 @@ namespace Academy.Api.Controllers.GestaoConteudo
         }
 
 
-        [Authorize(Roles = "Administrador")]
+        [Authorize(Roles = RoleNames.Administrador)]
         [HttpPost("CriarAula")]
         [ProducesResponseType(typeof(CriarCursoCommand), StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -46,7 +45,7 @@ namespace Academy.Api.Controllers.GestaoConteudo
             );
         }
 
-        [Authorize(Roles = "Administrador")]
+        [Authorize(Roles = RoleNames.Administrador)]
         [HttpPut("AtualizarAula/{id:guid}", Name = "AtualizarAula")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]

@@ -14,7 +14,7 @@
       },
       {
         "Name": "aulaDto",
-        "Type": "Academy.GestaoConteudo.Application.DTOs.AulaDto",
+        "Type": "Academy.GestaoConteudo.Application.Dtos.AulaDto",
         "IsRequired": true
       }
     ],
@@ -55,7 +55,7 @@
     "Parameters": [
       {
         "Name": "aulaDto",
-        "Type": "Academy.GestaoConteudo.Application.DTOs.AulaDto",
+        "Type": "Academy.GestaoConteudo.Application.Dtos.AulaDto",
         "IsRequired": true
       }
     ],
@@ -142,7 +142,7 @@
       },
       {
         "Name": "cursoDto",
-        "Type": "Academy.GestaoConteudo.Application.DTOs.CursoDto",
+        "Type": "Academy.GestaoConteudo.Application.Dtos.CursoDto",
         "IsRequired": true
       }
     ],
@@ -183,7 +183,7 @@
     "Parameters": [
       {
         "Name": "cursoDto",
-        "Type": "Academy.GestaoConteudo.Application.DTOs.CursoDto",
+        "Type": "Academy.GestaoConteudo.Application.Dtos.CursoDto",
         "IsRequired": true
       }
     ],
@@ -210,6 +210,22 @@
   },
   {
     "ContainingType": "Academy.Api.Controllers.GestaoConteudo.CursoController",
+    "Method": "ObterCursoAtivoPorId",
+    "RelativePath": "api/Curso/ObterCursoAtivoPorId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Academy.Api.Controllers.GestaoConteudo.CursoController",
     "Method": "ObterCursoPorId",
     "RelativePath": "api/Curso/ObterCursoPorId/{id}",
     "HttpMethod": "GET",
@@ -233,5 +249,50 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Academy.Api.Controllers.GestaoConteudo.CursoController",
+    "Method": "ObterTodosCursosAtivo",
+    "RelativePath": "api/Curso/ObterTodosCursosAtivo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Academy.Api.Controllers.GestaoAlunos.MatriculaController",
+    "Method": "CriarMatricula",
+    "RelativePath": "api/Matricula/CriarMatricula",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "matricula",
+        "Type": "Academy.GestaoAlunos.Application.Dtos.CriarMatriculaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Academy.GestaoConteudo.Application.CQRS.Commands.CriarCurso.CriarCursoCommand",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ]
   }
 ]

@@ -1,6 +1,6 @@
 ﻿using Academy.GestaoConteudo.Domain.Entities;
 
-namespace Academy.GestaoConteudo.Application.DTOs;
+namespace Academy.GestaoConteudo.Application.Dtos;
 
 public class AulaDto
 {

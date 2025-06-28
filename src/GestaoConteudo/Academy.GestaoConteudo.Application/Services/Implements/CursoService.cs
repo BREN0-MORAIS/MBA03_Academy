@@ -1,8 +1,10 @@
-﻿using Academy.GestaoConteudo.Application.DTOs;
+﻿using Academy.GestaoConteudo.Application.Dtos;
 using Academy.GestaoConteudo.Application.Services.Interfaces;
 using Academy.GestaoConteudo.Domain.Entities;
+using Academy.GestaoConteudo.Domain.Enums;
 using Academy.GestaoConteudo.Domain.Interface;
 using AutoMapper;
+using System.Linq;
 using System.Linq.Expressions;
 
 namespace Academy.GestaoConteudo.Application.Services.Implements
@@ -55,11 +57,18 @@ namespace Academy.GestaoConteudo.Application.Services.Implements
             return curso.Id;
         }
 
-        public async Task<IEnumerable<CursoDto>> ObterTodos(params Expression<Func<Curso, object>>[] includes)
+        public async Task<IEnumerable<CursoDto>> ObterTodos(CursoStatus status = CursoStatus.Todos,params Expression<Func<Curso, object>>[] includes)
         {
-              var cursos = await _cursoRepository.ObterTodos(includes);
+            var cursos = await _cursoRepository.ObterTodos(includes);
 
-            return _mapper.Map<IEnumerable<CursoDto>>(cursos);
+            if (status != CursoStatus.Todos)
+            {
+                cursos = cursos.Where(c => c.Status == status);
+            }
+
+            var cursoRetorno = _mapper.Map<IEnumerable<CursoDto>>(cursos);
+
+            return cursoRetorno;
         }
 
         public async Task<CursoDto> ObterPorId(Guid id, params Expression<Func<Curso, object>>[] includes)

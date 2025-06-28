@@ -1,5 +1,5 @@
 ﻿using Academy.GestaoConteudo.Application.CQRS.Queries.ObterTodosCursos;
-using Academy.GestaoConteudo.Application.DTOs;
+using Academy.GestaoConteudo.Application.Dtos;
 using Academy.GestaoConteudo.Application.Services.Interfaces;
 using MediatR;
 

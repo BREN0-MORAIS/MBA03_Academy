@@ -1,6 +1,10 @@
-using Academy.Api.Configurations;
+﻿using Academy.Api.Configurations;
 using Academy.Api.Data;
-using Academy.Api.Models;
+using Academy.Api.Data.Models;
+using Academy.Api.Data.Seed;
+using Academy.GestaoAlunos.Application.AutorMapper;
+using Academy.GestaoAlunos.Application.CQRS.Commands.CriarMatricula;
+using Academy.GestaoAlunos.Data.Context;
 using Academy.GestaoConteudo.Application.AutorMapper;
 using Academy.GestaoConteudo.Application.CQRS.Commands.CriarCurso;
 using Academy.GestaoConteudo.Application.Seed;
@@ -10,10 +14,12 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// 1️⃣ CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
@@ -24,119 +30,142 @@ builder.Services.AddCors(options =>
     });
 });
 
-// Fluent
+// 2️⃣ FluentValidation
 builder.Services.AddFluentValidationAutoValidation();
 
-
-
-
+// 3️⃣ Swagger com suporte ao Bearer Token
 builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Academy API", Version = "v1" });
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Academy API", Version = "v1" });
 
-
-    c.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
+        Description = "JWT Authorization header usando o esquema Bearer. Ex: 'Bearer {seu_token}'",
         Name = "Authorization",
-        Type = Microsoft.OpenApi.Models.SecuritySchemeType.Http,
-        Scheme = "Bearer",
-        BearerFormat = "JWT",
-        In = Microsoft.OpenApi.Models.ParameterLocation.Header,
-        Description = "Insira o token JWT desta forma: Bearer {seu_token}"
+        In = ParameterLocation.Header,
+        Type = SecuritySchemeType.ApiKey,
+        Scheme = "Bearer"
     });
 
-    c.AddSecurityRequirement(new Microsoft.OpenApi.Models.OpenApiSecurityRequirement
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement
     {
         {
-            new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+            new OpenApiSecurityScheme
             {
-                Reference = new Microsoft.OpenApi.Models.OpenApiReference
+                Reference = new OpenApiReference
                 {
-                    Type = Microsoft.OpenApi.Models.ReferenceType.SecurityScheme,
+                    Type = ReferenceType.SecurityScheme,
                     Id = "Bearer"
                 }
             },
-            new string[] {}
+            Array.Empty<string>()
         }
     });
 });
 
+// 4️⃣ DI, AutoMapper, MediatR
 builder.Services.ConfigureDependencyInjection();
+
 builder.Services.AddAutoMapper(typeof(GestaoConteudoMap).Assembly);
+builder.Services.AddAutoMapper(typeof(GestaoAlunoMap).Assembly);
 
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(CriarCursoCommand).Assembly));
 
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(CriarMatriculaCommand).Assembly));
+
+// 5️⃣ DB Contexts
 builder.Services.AddDbContext<GestaoConteudoContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-#region Identity
+builder.Services.AddDbContext<GestaoAlunosContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+// 6️⃣ Identity
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
-    .AddEntityFrameworkStores<ApplicationDbContext>();
+    .AddEntityFrameworkStores<ApplicationDbContext>()
+    .AddDefaultTokenProviders();
 
-var configuration = builder.Configuration;
+// 7️⃣ JWT Authentication
+var secret = builder.Configuration["JwtSettings:Secret"];
+var appSettingsSection = builder.Configuration.GetSection("AppSettings");
+builder.Services.Configure<JwtSettings>(appSettingsSection);
 
+var appSettings = appSettingsSection.Get<JwtSettings>();
+builder.Services.AddSingleton(appSettings);
 
+var key = Encoding.ASCII.GetBytes(appSettings.SecretKey);
 
-builder.Services.AddAuthentication("Bearer")
-    .AddJwtBearer("Bearer", options =>
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+}
+)
+    .AddJwtBearer(options =>
     {
+        options.RequireHttpsMetadata = true;
+        options.SaveToken = true;
         options.TokenValidationParameters = new TokenValidationParameters
         {
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = new SymmetricSecurityKey(key),
             ValidateIssuer = true,
             ValidateAudience = true,
-            ValidateLifetime = true,
-            ValidateIssuerSigningKey = true,
-            ValidIssuer = "BFMTECh",
-            ValidAudience = "BFMTECh2",
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["JwtSettings:Secret"]))
+            ValidAudience = appSettings.Audience,
+            ValidIssuer = appSettings.Issuer
         };
     });
 
-
 builder.Services.AddAuthorization();
-#endregion
-
 builder.Services.AddControllers();
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
 
-
-
+// 8️⃣ Build app
 var app = builder.Build();
-app.UseCors("AllowAll"); 
+
+// 9️⃣ Pipeline
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
-}
-
-
-//Seed
-
-using (var scope = app.Services.CreateScope())
-{
-    var services = scope.ServiceProvider;
-    var context = services.GetRequiredService<GestaoConteudoContext>();
-    await GestaoConteudoSeed.InitializeAsync(context);
-}
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
     app.MapOpenApi();
 }
 
+// Debug do header Authorization
+app.Use(async (context, next) =>
+{
+    var auth = context.Request.Headers["Authorization"].ToString();
+    Console.WriteLine($"🔐 Authorization Header: {auth}");
+    await next();
+});
+
+//  🔟 Seed dos dados (Roles e Usuários)
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+
+    var context = services.GetRequiredService<GestaoConteudoContext>();
+    await GestaoConteudoSeed.InitializeAsync(context);
+
+    var seeder = new IdentityDataSeeder(
+        services.GetRequiredService<UserManager<ApplicationUser>>(),
+        services.GetRequiredService<RoleManager<IdentityRole>>());
+
+    await seeder.SeedAsync();
+}
+
+// 🔁 Middleware
 app.UseHttpsRedirection();
 
+app.UseRouting();
+app.UseCors("AllowAll");
 app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
 
 app.Run();
-

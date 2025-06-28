@@ -1,6 +1,6 @@
 ﻿using Academy.GestaoConteudo.Domain.Enums;
 
-namespace Academy.GestaoConteudo.Application.DTOs;
+namespace Academy.GestaoConteudo.Application.Dtos;
 
 public class CursoDto
 {

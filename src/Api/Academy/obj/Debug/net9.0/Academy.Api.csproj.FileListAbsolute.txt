@@ -368,3 +368,9 @@ C:\Lab\Fontes\MBA03_Academy\src\Api\Academy\obj\Debug\net9.0\refint\Academy.Api.
 C:\Lab\Fontes\MBA03_Academy\src\Api\Academy\obj\Debug\net9.0\Academy.Api.pdb
 C:\Lab\Fontes\MBA03_Academy\src\Api\Academy\obj\Debug\net9.0\Academy.Api.genruntimeconfig.cache
 C:\Lab\Fontes\MBA03_Academy\src\Api\Academy\obj\Debug\net9.0\ref\Academy.Api.dll
+C:\Lab\Fontes\MBA03_Academy\src\Api\Academy\bin\Debug\net9.0\Academy.GestaoAlunos.Data.dll
+C:\Lab\Fontes\MBA03_Academy\src\Api\Academy\bin\Debug\net9.0\Academy.GestaoAlunos.Domain.dll
+C:\Lab\Fontes\MBA03_Academy\src\Api\Academy\bin\Debug\net9.0\Academy.GestaoAlunos.Data.pdb
+C:\Lab\Fontes\MBA03_Academy\src\Api\Academy\bin\Debug\net9.0\Academy.GestaoAlunos.Domain.pdb
+C:\Lab\Fontes\MBA03_Academy\src\Api\Academy\bin\Debug\net9.0\Academy.GestaoAlunos.Application.dll
+C:\Lab\Fontes\MBA03_Academy\src\Api\Academy\bin\Debug\net9.0\Academy.GestaoAlunos.Application.pdb

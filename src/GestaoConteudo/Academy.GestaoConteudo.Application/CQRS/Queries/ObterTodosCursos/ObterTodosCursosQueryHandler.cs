@@ -1,5 +1,6 @@
-﻿using Academy.GestaoConteudo.Application.DTOs;
+﻿using Academy.GestaoConteudo.Application.Dtos;
 using Academy.GestaoConteudo.Application.Services.Interfaces;
+using Academy.GestaoConteudo.Domain.Enums;
 using MediatR;
 
 namespace Academy.GestaoConteudo.Application.CQRS.Queries.ObterTodosCursos
@@ -15,7 +16,11 @@ namespace Academy.GestaoConteudo.Application.CQRS.Queries.ObterTodosCursos
 
         public async Task<IEnumerable<CursoDto>> Handle(ObterTodosCursosQuery request, CancellationToken cancellationToken)
         {
-            var cursos = await _cursoService.ObterTodos( c => c.Aulas);
+            if (request.Status == (int)CursoStatus.Ativo)
+                return await _cursoService.ObterTodos(status: CursoStatus.Ativo);
+
+            if (request.Status == (int)CursoStatus.Inatvo)
+                return await _cursoService.ObterTodos(status: CursoStatus.Inatvo);
 
             return await _cursoService.ObterTodos();
         }

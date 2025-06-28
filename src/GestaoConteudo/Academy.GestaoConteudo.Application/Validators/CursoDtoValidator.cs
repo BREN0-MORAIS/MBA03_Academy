@@ -1,4 +1,4 @@
-﻿using Academy.GestaoConteudo.Application.DTOs;
+﻿using Academy.GestaoConteudo.Application.Dtos;
 using FluentValidation;
 using System;
 using System.Collections.Generic;

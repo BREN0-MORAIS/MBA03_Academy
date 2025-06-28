@@ -1,4 +1,4 @@
-﻿using Academy.GestaoConteudo.Application.DTOs;
+﻿using Academy.GestaoConteudo.Application.Dtos;
 
 namespace Academy.GestaoConteudo.Application.Services.Interfaces
 {

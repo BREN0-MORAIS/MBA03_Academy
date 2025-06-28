@@ -204,6 +204,39 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Http.Abstractions/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.3.0",
+          "System.Text.Encodings.Web": "8.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore/9.0.6": {
         "type": "package",
         "dependencies": {
@@ -1753,26 +1786,23 @@
           }
         }
       },
-      "System.Text.Encodings.Web/6.0.0": {
+      "System.Text.Encodings.Web/8.0.0": {
         "type": "package",
-        "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
-        },
         "compile": {
-          "lib/net6.0/System.Text.Encodings.Web.dll": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/System.Text.Encodings.Web.dll": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
             "related": ".xml"
           }
         },
         "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
+          "buildTransitive/net6.0/_._": {}
         },
         "runtimeTargets": {
-          "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll": {
+          "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll": {
             "assetType": "runtime",
             "rid": "browser"
           }
@@ -1853,6 +1883,54 @@
         },
         "runtime": {
           "bin/placeholder/Academy.Core.dll": {}
+        }
+      },
+      "Academy.GestaoAlunos.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Academy.GestaoAlunos.Data": "1.0.0",
+          "Academy.GestaoAlunos.Domain": "1.0.0",
+          "AutoMapper": "14.0.0",
+          "FluentValidation": "12.0.0",
+          "FluentValidation.DependencyInjectionExtensions": "12.0.0",
+          "MediatR": "12.5.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.3.0"
+        },
+        "compile": {
+          "bin/placeholder/Academy.GestaoAlunos.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Academy.GestaoAlunos.Application.dll": {}
+        }
+      },
+      "Academy.GestaoAlunos.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Academy.Core": "1.0.0",
+          "Academy.GestaoAlunos.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "9.0.6",
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.6"
+        },
+        "compile": {
+          "bin/placeholder/Academy.GestaoAlunos.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Academy.GestaoAlunos.Data.dll": {}
+        }
+      },
+      "Academy.GestaoAlunos.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Academy.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Academy.GestaoAlunos.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Academy.GestaoAlunos.Domain.dll": {}
         }
       },
       "Academy.GestaoConteudo.Application/1.0.0": {
@@ -2109,6 +2187,32 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.xml",
         "microsoft.aspnetcore.cryptography.keyderivation.9.0.6.nupkg.sha512",
         "microsoft.aspnetcore.cryptography.keyderivation.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Abstractions/2.3.0": {
+      "sha512": "39r9PPrjA6s0blyFv5qarckjNkaHRA5B+3b53ybuGGNTXEj1/DStQJ4NWjFL6QTRQpL9zt7nDyKxZdJOlcnq+Q==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.abstractions/2.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.xml",
+        "microsoft.aspnetcore.http.abstractions.2.3.0.nupkg.sha512",
+        "microsoft.aspnetcore.http.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Features/2.3.0": {
+      "sha512": "f10WUgcsKqrkmnz6gt8HeZ7kyKjYN30PO7cSic1lPtH7paPtnQqXPOveul/SIPI43PhRD4trttg4ywnrEmmJpA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.features/2.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.xml",
+        "microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512",
+        "microsoft.aspnetcore.http.features.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Identity.EntityFrameworkCore/9.0.6": {
@@ -4899,29 +5003,37 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Text.Encodings.Web/6.0.0": {
-      "sha512": "Vg8eB5Tawm1IFqj4TVK1czJX89rhFxJo9ELqc/Eiq0eXy13RK00eubyU6TJE6y+GQXjyV5gSfiewDUZjQgSE0w==",
+    "System.Text.Encodings.Web/8.0.0": {
+      "sha512": "yev/k9GHAEGx2Rg3/tU6MQh4HGBXJs70y7j1LaM1i/ER9po+6nnQ6RRqTJn1E7Xu0fbIFK80Nh5EoODxrbxwBQ==",
       "type": "package",
-      "path": "system.text.encodings.web/6.0.0",
+      "path": "system.text.encodings.web/8.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Text.Encodings.Web.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
         "buildTransitive/netcoreapp2.0/System.Text.Encodings.Web.targets",
-        "buildTransitive/netcoreapp3.1/_._",
-        "lib/net461/System.Text.Encodings.Web.dll",
-        "lib/net461/System.Text.Encodings.Web.xml",
+        "lib/net462/System.Text.Encodings.Web.dll",
+        "lib/net462/System.Text.Encodings.Web.xml",
         "lib/net6.0/System.Text.Encodings.Web.dll",
         "lib/net6.0/System.Text.Encodings.Web.xml",
-        "lib/netcoreapp3.1/System.Text.Encodings.Web.dll",
-        "lib/netcoreapp3.1/System.Text.Encodings.Web.xml",
+        "lib/net7.0/System.Text.Encodings.Web.dll",
+        "lib/net7.0/System.Text.Encodings.Web.xml",
+        "lib/net8.0/System.Text.Encodings.Web.dll",
+        "lib/net8.0/System.Text.Encodings.Web.xml",
         "lib/netstandard2.0/System.Text.Encodings.Web.dll",
         "lib/netstandard2.0/System.Text.Encodings.Web.xml",
         "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll",
         "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.xml",
-        "system.text.encodings.web.6.0.0.nupkg.sha512",
+        "runtimes/browser/lib/net7.0/System.Text.Encodings.Web.dll",
+        "runtimes/browser/lib/net7.0/System.Text.Encodings.Web.xml",
+        "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll",
+        "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.xml",
+        "system.text.encodings.web.8.0.0.nupkg.sha512",
         "system.text.encodings.web.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -5091,6 +5203,21 @@
       "path": "../../Core/Academy.Core/Academy.Core.csproj",
       "msbuildProject": "../../Core/Academy.Core/Academy.Core.csproj"
     },
+    "Academy.GestaoAlunos.Application/1.0.0": {
+      "type": "project",
+      "path": "../../GestaoAluno/Academy.GestaoAlunos.Application/Academy.GestaoAlunos.Application.csproj",
+      "msbuildProject": "../../GestaoAluno/Academy.GestaoAlunos.Application/Academy.GestaoAlunos.Application.csproj"
+    },
+    "Academy.GestaoAlunos.Data/1.0.0": {
+      "type": "project",
+      "path": "../../GestaoAluno/Academy.GestaoAlunos.Data/Academy.GestaoAlunos.Data.csproj",
+      "msbuildProject": "../../GestaoAluno/Academy.GestaoAlunos.Data/Academy.GestaoAlunos.Data.csproj"
+    },
+    "Academy.GestaoAlunos.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../GestaoAluno/Academy.GestaoAlunos.Domain/Academy.GestaoAlunos.Domain.csproj",
+      "msbuildProject": "../../GestaoAluno/Academy.GestaoAlunos.Domain/Academy.GestaoAlunos.Domain.csproj"
+    },
     "Academy.GestaoConteudo.Application/1.0.0": {
       "type": "project",
       "path": "../../GestaoConteudo/Academy.GestaoConteudo.Application/Academy.GestaoConteudo.Application.csproj",
@@ -5109,6 +5236,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "Academy.GestaoAlunos.Application >= 1.0.0",
       "Academy.GestaoConteudo.Application >= 1.0.0",
       "FluentValidation.AspNetCore >= 11.3.1",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 9.0.6",
@@ -5120,23 +5248,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\49607\\.nuget\\packages\\": {},
+    "C:\\Users\\breno\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Api\\Academy\\Academy.Api.csproj",
+      "projectUniqueName": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Api\\Academy\\Academy.Api.csproj",
       "projectName": "Academy.Api",
-      "projectPath": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Api\\Academy\\Academy.Api.csproj",
-      "packagesPath": "C:\\Users\\49607\\.nuget\\packages\\",
-      "outputPath": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\Api\\Academy\\obj\\",
+      "projectPath": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Api\\Academy\\Academy.Api.csproj",
+      "packagesPath": "C:\\Users\\breno\\.nuget\\packages\\",
+      "outputPath": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Api\\Academy\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\49607\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\breno\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5145,14 +5273,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\Fontes\\Lab\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj": {
-              "projectPath": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj"
+            "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Academy.GestaoAlunos.Application.csproj": {
+              "projectPath": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Academy.GestaoAlunos.Application.csproj"
+            },
+            "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj": {
+              "projectPath": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj"
             }
           }
         }
