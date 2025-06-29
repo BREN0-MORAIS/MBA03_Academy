@@ -1,13 +1,6 @@
-﻿using Academy.Core.Events.Messages;
-using Academy.GestaoAlunos.Domain.Entities;
-using Academy.PagamentoFaturamento.Domain.Entities;
+﻿using Academy.PagamentoFaturamento.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Academy.PagamentoFaturamento.Data.Context
 {
@@ -23,7 +16,7 @@ namespace Academy.PagamentoFaturamento.Data.Context
             //    e => e.GetProperties().Where(p => p.ClrType == typeof(string))))
             //    property.Relational().ColumnType = "varchar(100)";
 
-            modelBuilder.Ignore<Event>();
+            //modelBuilder.Ignore<Event>();
 
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(PagamentoFaturamentoContext).Assembly);
         }

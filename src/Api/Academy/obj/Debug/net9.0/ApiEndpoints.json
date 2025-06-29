@@ -250,7 +250,7 @@
     "Parameters": [
       {
         "Name": "cursoDto",
-        "Type": "Academy.GestaoConteudo.Application.Dtos.CursoDto",
+        "Type": "Academy.GestaoConteudo.Application.Dtos.CriarCursoDto",
         "IsRequired": true
       }
     ],
@@ -371,8 +371,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "matriculaId",
-        "Type": "System.Guid",
+        "Name": "matricula",
+        "Type": "Academy.Api.Controllers.GestaoAlunos.FinalizarCursoRequest",
         "IsRequired": true
       }
     ],
@@ -412,5 +412,40 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Academy.Api.Controllers.PagamentoFaturamento.PagamentoController",
+    "Method": "RealizarPagamento",
+    "RelativePath": "api/Pagamento/RealizarPagamento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pagamentoDto",
+        "Type": "Academy.PagamentoFaturamento.Application.Dto.PagamentoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Academy.GestaoConteudo.Application.CQRS.Commands.CriarCurso.CriarCursoCommand",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ]
   }
 ]

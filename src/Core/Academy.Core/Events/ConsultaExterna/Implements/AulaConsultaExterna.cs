@@ -1,8 +1,7 @@
-﻿using Academy.GestaoAlunos.Application.Services.Interfaces;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Http;
 using System.Net.Http.Headers;
 
-namespace Academy.GestaoAlunos.Application.Services.Implements;
+
 
 public class AulaConsultaExterna : IAulaConsultaExterna
 {

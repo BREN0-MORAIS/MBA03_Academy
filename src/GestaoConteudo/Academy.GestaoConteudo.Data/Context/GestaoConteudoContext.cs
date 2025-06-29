@@ -1,5 +1,4 @@
-﻿using Academy.Core.Events.Messages;
-using Academy.Core.Interfaces;
+﻿using Academy.Core.Interfaces;
 using Academy.GestaoConteudo.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
@@ -19,7 +18,7 @@ public class GestaoConteudoContext : DbContext, IUnitOfWork
         //    e => e.GetProperties().Where(p => p.ClrType == typeof(string))))
         //    property.Relational().ColumnType = "varchar(100)";
 
-        modelBuilder.Ignore<Event>();
+        //modelBuilder.Ignore<Event>();
 
         modelBuilder.ApplyConfigurationsFromAssembly(typeof(GestaoConteudoContext).Assembly);
     }

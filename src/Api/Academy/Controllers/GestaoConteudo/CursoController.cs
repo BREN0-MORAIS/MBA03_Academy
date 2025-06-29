@@ -26,7 +26,7 @@ namespace Academy.Api.Controllers.GestaoConteudo
         [HttpPost("CriarCurso")]
         [ProducesResponseType(typeof(CriarCursoCommand), StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> CriarCurso([FromBody] CursoDto cursoDto)
+        public async Task<IActionResult> CriarCurso([FromBody] CriarCursoDto cursoDto)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);

@@ -27,9 +27,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Core\Academy.Core\Academy.Core.csproj" />
     <ProjectReference Include="..\..\GestaoAluno\Academy.GestaoAlunos.Application\Academy.GestaoAlunos.Application.csproj" />
     <ProjectReference Include="..\..\GestaoConteudo\Academy.GestaoConteudo.Application\Academy.GestaoConteudo.Application.csproj" />
-    <ProjectReference Include="..\..\PagamentoFaturamento\Academy.PagamentoFaturamento.Data\Academy.PagamentoFaturamento.Data.csproj" />
+    <ProjectReference Include="..\..\PagamentoFaturamento\Academy.PagamentoFaturamento.Application\Academy.PagamentoFaturamento.Application.csproj" />
   </ItemGroup>
 
 </Project>

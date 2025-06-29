@@ -1,4 +1,10 @@
-﻿namespace Academy.GestaoAlunos.Application.Dtos;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Academy.PagamentoFaturamento.Application.Dtos;
 
 public class CursoRespostaDto
 {
@@ -8,5 +14,4 @@ public class CursoRespostaDto
     public decimal Valor { get; set; }
     public string Objetivo { get; set; }
     public string PreRequisitos { get; set; }
-    public List<AulaRespostaDto> Aulas { get; set; }
 }

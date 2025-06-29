@@ -7,12 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Events\Handlers\" />
+    <Compile Remove="Events\Handlers\**" />
+    <EmbeddedResource Remove="Events\Handlers\**" />
+    <None Remove="Events\Handlers\**" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="mediatr" Version="12.5.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.6" />
+	  <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.0" />
+
+	  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.6" />
   </ItemGroup>
 
 </Project>

@@ -50,12 +50,12 @@ public class MatriculaController : ControllerBase
     [ProducesResponseType(StatusCodes.Status204NoContent)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
-    public async Task<IActionResult> FinalizarCurso([FromBody] Guid matriculaId)
+    public async Task<IActionResult> FinalizarCurso([FromBody] FinalizarCursoRequest matricula)
     {
         var userIdentityId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
         if (!ModelState.IsValid)
             return BadRequest(ModelState);
-        var command = new FinalizarCursoCommand( matriculaId,  userIdentityId);
+        var command = new FinalizarCursoCommand(matricula.MatriculaId,  userIdentityId);
         return CreatedAtAction(
             nameof(CriarMatricula),
             new { id = await _mediator.Send(command) }

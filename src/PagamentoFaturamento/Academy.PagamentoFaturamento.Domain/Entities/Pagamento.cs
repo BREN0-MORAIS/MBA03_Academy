@@ -13,6 +13,7 @@ public class Pagamento : EntidadeBase, IAggregateRoot
     public StatusPagamento StatusPagamento { get; private set; }
     public MeioPagamento MeioPagamento { get; private set; }
     public Guid TransacaoId { get; private set; }
+    public string NomeTitular { get; set; }
     public string CartaoFinal { get; private set; }     
     public string Bandeira { get; private set; }       
     public DateTime DataPagamento { get; private set; }
@@ -21,12 +22,16 @@ public class Pagamento : EntidadeBase, IAggregateRoot
     public Pagamento() { }
 
     public Pagamento(
+        string nomeTitular,
         Guid matriculaId,
         decimal valor,
         MeioPagamento meioPagamento,
         DadosCartao dadosCartao,
         Guid transacaoId,
-        string mensagemGateway)
+        string mensagemGateway,
+        string bandeira
+        
+        )
     {
    
         Validacoes.ValidarSeIgual(matriculaId, Guid.Empty, "Matrícula inválida.");
@@ -44,7 +49,8 @@ public class Pagamento : EntidadeBase, IAggregateRoot
         CartaoFinal = dadosCartao.Ultimos4Digitos; 
         TransacaoId = transacaoId;
         MensagemGateway = mensagemGateway;
-
+        NomeTitular = nomeTitular;
+        Bandeira = bandeira;
         StatusPagamento = StatusPagamento.Pendente;
         DataPagamento = DateTime.UtcNow;
     }

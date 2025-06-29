@@ -1,26 +1,16 @@
-﻿using Academy.PagamentoFaturamento.Domain.ValueObjects;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Academy.Core.Exceptions;
+using Academy.PagamentoFaturamento.Domain.ValueObjects;
 
 namespace Academy.PagamentoFaturamento.Domain.Geteway;
 
 public class GatewayPagamentoSimulado : IGatewayPagamento
 {
-    public Task<PagamentoResultado> ProcessarPagamento(Guid pedidoId, decimal valor, DadosCartao cartao)
+    public Task<PagamentoResultado> ProcessarPagamento(Guid matriculaId, decimal valorPago, decimal valorCurso, DadosCartao cartao)
     {
-        //// Simula aprovação ou rejeição aleatória
-        //var random = new Random();
-        ////var aprovado = random.NextDouble() >= 0.2; // 80% chance de sucesso
-
-        //if (aprovado)
-        //{
-        //    var transacaoId = Guid.NewGuid().ToString().ToUpper();
-        //    return Task.FromResult(PagamentoResultado.SucessoResult(transacaoId));
-        //}
-
-        return Task.FromResult(PagamentoResultado.Falha("Pagamento recusado pelo banco emissor."));
+        if (valorPago < 0) throw new DomainException("O valor não pode ser menor que 0");
+        if (valorPago != valorCurso) return Task.FromResult(PagamentoResultado.Falha("Pagamento recusado pelo banco emissor."));
+        if (cartao is null) return Task.FromResult(PagamentoResultado.Falha("Dados do cartão estão invalidos"));
+        var transacaoId = Guid.NewGuid();
+        return Task.FromResult(PagamentoResultado.SucessoResult(transacaoId));
     }
 }

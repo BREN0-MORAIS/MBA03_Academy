@@ -8,6 +8,8 @@ using Academy.GestaoConteudo.Application.Services.Interfaces;
 using Academy.GestaoConteudo.Data.Repositories;
 using Academy.GestaoConteudo.Data.Repository;
 using Academy.GestaoConteudo.Domain.Interface;
+using Academy.PagamentoFaturamento.Application.Services.Implements;
+using Academy.PagamentoFaturamento.Application.Services.Interfaces;
 using Academy.PagamentoFaturamento.Data.Repository;
 using Academy.PagamentoFaturamento.Domain.Geteway;
 using Academy.PagamentoFaturamento.Domain.Repository;
@@ -41,6 +43,7 @@ public static class DependencyInjectionConfigure
         });
 
 
+
         services.AddHttpClient<IAulaConsultaExterna, AulaConsultaExterna>(client =>
          {
              client.BaseAddress = new Uri(uri);
@@ -69,5 +72,6 @@ public static class DependencyInjectionConfigure
     {
         services.AddScoped<IGatewayPagamento, GatewayPagamentoSimulado>();
         services.AddScoped<IPagamentoRepository, PagamentoRepository>();
+        services.AddScoped<IPagamentoService, PagamentoService>();
     }
 }

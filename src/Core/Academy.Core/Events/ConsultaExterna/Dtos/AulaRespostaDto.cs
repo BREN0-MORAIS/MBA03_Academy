@@ -1,4 +1,4 @@
-﻿namespace Academy.GestaoAlunos.Application.Dtos;
+﻿
 public class AulaRespostaDto
 {
     public Guid Id { get; set; }

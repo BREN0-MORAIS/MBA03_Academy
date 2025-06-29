@@ -342,17 +342,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/CursoDto"
+                "$ref": "#/components/schemas/CriarCursoDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/CursoDto"
+                "$ref": "#/components/schemas/CriarCursoDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/CursoDto"
+                "$ref": "#/components/schemas/CriarCursoDto"
               }
             }
           }
@@ -632,20 +632,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "type": "string",
-                "format": "uuid"
+                "$ref": "#/components/schemas/FinalizarCursoRequest"
               }
             },
             "text/json": {
               "schema": {
-                "type": "string",
-                "format": "uuid"
+                "$ref": "#/components/schemas/FinalizarCursoRequest"
               }
             },
             "application/*+json": {
               "schema": {
-                "type": "string",
-                "format": "uuid"
+                "$ref": "#/components/schemas/FinalizarCursoRequest"
               }
             }
           }
@@ -705,6 +702,74 @@
         "responses": {
           "200": {
             "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Pagamento/RealizarPagamento": {
+      "post": {
+        "tags": [
+          "Pagamento"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PagamentoDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PagamentoDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PagamentoDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Created",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CriarCursoCommand"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CriarCursoCommand"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CriarCursoCommand"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
           }
         }
       }
@@ -789,6 +854,35 @@
         },
         "additionalProperties": false
       },
+      "CriarCursoDto": {
+        "type": "object",
+        "properties": {
+          "titulo": {
+            "type": "string",
+            "nullable": true
+          },
+          "descricao": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "$ref": "#/components/schemas/CursoStatus"
+          },
+          "valor": {
+            "type": "number",
+            "format": "double"
+          },
+          "objetivo": {
+            "type": "string",
+            "nullable": true
+          },
+          "preRequisitos": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "CriarMatriculaDto": {
         "type": "object",
         "properties": {
@@ -843,6 +937,64 @@
         ],
         "type": "integer",
         "format": "int32"
+      },
+      "FinalizarCursoRequest": {
+        "type": "object",
+        "properties": {
+          "matriculaId": {
+            "type": "string",
+            "format": "uuid"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MeioPagamento": {
+        "enum": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "PagamentoDto": {
+        "type": "object",
+        "properties": {
+          "matriculaId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "valor": {
+            "type": "number",
+            "format": "double"
+          },
+          "nomeTitular": {
+            "type": "string",
+            "nullable": true
+          },
+          "numeroCartaoCompleto": {
+            "type": "string",
+            "nullable": true
+          },
+          "expiracao": {
+            "type": "string",
+            "nullable": true
+          },
+          "cvv": {
+            "type": "string",
+            "nullable": true
+          },
+          "bandeira": {
+            "type": "string",
+            "nullable": true
+          },
+          "meioPagamento": {
+            "$ref": "#/components/schemas/MeioPagamento"
+          }
+        },
+        "additionalProperties": false
       },
       "ProblemDetails": {
         "type": "object",

@@ -55,6 +55,10 @@ namespace Academy.PagamentoFaturamento.Data.Migrations
                         .IsRequired()
                         .HasColumnType("varchar(200)");
 
+                    b.Property<string>("NomeTitular")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("StatusPagamento")
                         .HasColumnType("int");
 

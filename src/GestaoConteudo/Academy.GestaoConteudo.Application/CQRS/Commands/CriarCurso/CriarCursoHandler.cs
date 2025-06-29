@@ -23,9 +23,9 @@ public class CriarCursoHandler : IRequestHandler<CriarCursoCommand, Guid>
         return cursoId;
     }
 
-    public CursoDto Mapear(CriarCursoCommand request)
+    public CriarCursoDto Mapear(CriarCursoCommand request)
     {
-        var cursoDto = new CursoDto
+        var cursoDto = new CriarCursoDto
         {
             Titulo = request.Titulo,
             Descricao = request.Descricao,

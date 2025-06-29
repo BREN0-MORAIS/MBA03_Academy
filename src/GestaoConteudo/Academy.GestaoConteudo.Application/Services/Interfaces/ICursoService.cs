@@ -7,7 +7,7 @@ namespace Academy.GestaoConteudo.Application.Services.Interfaces;
 
 public interface ICursoService
 {
-    Task<Guid> Criar(CursoDto cursoDto);
+    Task<Guid> Criar(CriarCursoDto cursoDto);
     Task<IEnumerable<CursoDto>> ObterTodos();
     Task<CursoDto> ObterPorId(Guid id, params Expression<Func<Curso, object>>[] includes);
     Task<IEnumerable<CursoDto>> ObterTodos(CursoStatus status = CursoStatus.Todos, params Expression<Func<Curso, object>>[] includes);

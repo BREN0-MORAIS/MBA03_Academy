@@ -9,6 +9,8 @@ using Academy.GestaoConteudo.Application.AutorMapper;
 using Academy.GestaoConteudo.Application.CQRS.Commands.CriarCurso;
 using Academy.GestaoConteudo.Application.Seed;
 using Academy.GestaoConteudo.Data.Context;
+using Academy.PagamentoFaturamento.Application.AutoMapper;
+using Academy.PagamentoFaturamento.Application.CQRS.Commands.RealizarPagamento;
 using Academy.PagamentoFaturamento.Data.Context;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -71,10 +73,12 @@ builder.Services.ConfigureDependencyInjection();
 
 builder.Services.AddAutoMapper(typeof(GestaoConteudoMap).Assembly);
 builder.Services.AddAutoMapper(typeof(GestaoAlunoMap).Assembly);
+builder.Services.AddAutoMapper(typeof(PagamentoFaturamentoMap).Assembly);
 
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(CriarCursoCommand).Assembly));
 
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(CriarMatriculaCommand).Assembly));
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(RealizarPagamentoCommand).Assembly));
 
 // Contexts
 builder.Services.AddDbContext<GestaoConteudoContext>(options =>

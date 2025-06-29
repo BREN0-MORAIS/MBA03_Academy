@@ -3,6 +3,7 @@ using Academy.GestaoConteudo.Application.Services.Interfaces;
 using Academy.GestaoConteudo.Domain.Entities;
 using Academy.GestaoConteudo.Domain.Enums;
 using Academy.GestaoConteudo.Domain.Interface;
+using Academy.GestaoConteudo.Domain.ObjectValue;
 using AutoMapper;
 using System.Linq;
 using System.Linq.Expressions;
@@ -20,15 +21,22 @@ namespace Academy.GestaoConteudo.Application.Services.Implements
             _mapper = mapper;
         }
 
-        public async Task<Guid> Criar(CursoDto cursoDto)
+        public async Task<Guid> Criar(CriarCursoDto cursoDto)
         {
             var cursoExiste = await _cursoRepository.ObterEntidadePorFiltro(c => c.Titulo.Equals(cursoDto.Titulo));
             if (cursoExiste is not null) throw new ArgumentException($"Ja existe um curso com este nome {cursoDto.Titulo}");
 
-            var curso = _mapper.Map<Curso>(cursoDto);
+            var curso = new Curso(
+                        cursoDto.Titulo,
+                        cursoDto.Descricao,
+                        cursoDto.Status,
+                        cursoDto.Valor,
+                        new ConteudoProgramatico(cursoDto.Objetivo, cursoDto.PreRequisitos)
+                );
+
 
             await _cursoRepository.Adicionar(curso);
-            return Guid.NewGuid();
+            return curso.Id;
         }
         public async Task<IEnumerable<CursoDto>> ObterTodos()
         {
@@ -37,7 +45,7 @@ namespace Academy.GestaoConteudo.Application.Services.Implements
             return _mapper.Map<IEnumerable<CursoDto>>(cursos);
         }
 
-        public async Task<Guid> Atualizar(Guid CursoId,CursoDto cursoDto)
+        public async Task<Guid> Atualizar(Guid CursoId, CursoDto cursoDto)
         {
             var curso = await _cursoRepository.ObterEntidadePorFiltro(c => c.Id.Equals(CursoId));
             if (curso is null)
@@ -52,12 +60,12 @@ namespace Academy.GestaoConteudo.Application.Services.Implements
                 preRequisitos: cursoDto.PreRequisitos
             );
 
-            _cursoRepository.Atualizar(curso); 
+            _cursoRepository.Atualizar(curso);
 
             return curso.Id;
         }
 
-        public async Task<IEnumerable<CursoDto>> ObterTodos(CursoStatus status = CursoStatus.Todos,params Expression<Func<Curso, object>>[] includes)
+        public async Task<IEnumerable<CursoDto>> ObterTodos(CursoStatus status = CursoStatus.Todos, params Expression<Func<Curso, object>>[] includes)
         {
             var cursos = await _cursoRepository.ObterTodos(includes);
 

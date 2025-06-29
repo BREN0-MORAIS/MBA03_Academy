@@ -18,6 +18,12 @@ D:\Fontes\Lab\MBA03_Academy\src\GestaoConteudo\Academy.GestaoConteudo.Applicatio
 D:\Fontes\Lab\MBA03_Academy\src\GestaoConteudo\Academy.GestaoConteudo.Application\obj\Debug\net9.0\refint\Academy.GestaoConteudo.Application.dll
 D:\Fontes\Lab\MBA03_Academy\src\GestaoConteudo\Academy.GestaoConteudo.Application\obj\Debug\net9.0\Academy.GestaoConteudo.Application.pdb
 D:\Fontes\Lab\MBA03_Academy\src\GestaoConteudo\Academy.GestaoConteudo.Application\obj\Debug\net9.0\ref\Academy.GestaoConteudo.Application.dll
+C:\Lab\Fontes\MBA03_Academy\src\GestaoConteudo\Academy.GestaoConteudo.Application\obj\Debug\net9.0\Academy.GestaoConteudo.Application.csproj.AssemblyReference.cache
+C:\Lab\Fontes\MBA03_Academy\src\GestaoConteudo\Academy.GestaoConteudo.Application\obj\Debug\net9.0\Academy.GestaoConteudo.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Lab\Fontes\MBA03_Academy\src\GestaoConteudo\Academy.GestaoConteudo.Application\obj\Debug\net9.0\Academy.GestaoConteudo.Application.AssemblyInfoInputs.cache
+C:\Lab\Fontes\MBA03_Academy\src\GestaoConteudo\Academy.GestaoConteudo.Application\obj\Debug\net9.0\Academy.GestaoConteudo.Application.AssemblyInfo.cs
+C:\Lab\Fontes\MBA03_Academy\src\GestaoConteudo\Academy.GestaoConteudo.Application\obj\Debug\net9.0\Academy.GestaoConteudo.Application.csproj.CoreCompileInputs.cache
+C:\Lab\Fontes\MBA03_Academy\src\GestaoConteudo\Academy.GestaoConteudo.Application\obj\Debug\net9.0\Academy.GestaoConteudo.Application.sourcelink.json
 C:\Lab\Fontes\MBA03_Academy\src\GestaoConteudo\Academy.GestaoConteudo.Application\bin\Debug\net9.0\Academy.GestaoConteudo.Application.deps.json
 C:\Lab\Fontes\MBA03_Academy\src\GestaoConteudo\Academy.GestaoConteudo.Application\bin\Debug\net9.0\Academy.GestaoConteudo.Application.dll
 C:\Lab\Fontes\MBA03_Academy\src\GestaoConteudo\Academy.GestaoConteudo.Application\bin\Debug\net9.0\Academy.GestaoConteudo.Application.pdb
@@ -27,12 +33,6 @@ C:\Lab\Fontes\MBA03_Academy\src\GestaoConteudo\Academy.GestaoConteudo.Applicatio
 C:\Lab\Fontes\MBA03_Academy\src\GestaoConteudo\Academy.GestaoConteudo.Application\bin\Debug\net9.0\Academy.GestaoConteudo.Data.pdb
 C:\Lab\Fontes\MBA03_Academy\src\GestaoConteudo\Academy.GestaoConteudo.Application\bin\Debug\net9.0\Academy.GestaoConteudo.Domain.pdb
 C:\Lab\Fontes\MBA03_Academy\src\GestaoConteudo\Academy.GestaoConteudo.Application\bin\Debug\net9.0\Academy.Core.pdb
-C:\Lab\Fontes\MBA03_Academy\src\GestaoConteudo\Academy.GestaoConteudo.Application\obj\Debug\net9.0\Academy.GestaoConteudo.Application.csproj.AssemblyReference.cache
-C:\Lab\Fontes\MBA03_Academy\src\GestaoConteudo\Academy.GestaoConteudo.Application\obj\Debug\net9.0\Academy.GestaoConteudo.Application.GeneratedMSBuildEditorConfig.editorconfig
-C:\Lab\Fontes\MBA03_Academy\src\GestaoConteudo\Academy.GestaoConteudo.Application\obj\Debug\net9.0\Academy.GestaoConteudo.Application.AssemblyInfoInputs.cache
-C:\Lab\Fontes\MBA03_Academy\src\GestaoConteudo\Academy.GestaoConteudo.Application\obj\Debug\net9.0\Academy.GestaoConteudo.Application.AssemblyInfo.cs
-C:\Lab\Fontes\MBA03_Academy\src\GestaoConteudo\Academy.GestaoConteudo.Application\obj\Debug\net9.0\Academy.GestaoConteudo.Application.csproj.CoreCompileInputs.cache
-C:\Lab\Fontes\MBA03_Academy\src\GestaoConteudo\Academy.GestaoConteudo.Application\obj\Debug\net9.0\Academy.GestaoConteudo.Application.sourcelink.json
 C:\Lab\Fontes\MBA03_Academy\src\GestaoConteudo\Academy.GestaoConteudo.Application\obj\Debug\net9.0\Academy..1E57A862.Up2Date
 C:\Lab\Fontes\MBA03_Academy\src\GestaoConteudo\Academy.GestaoConteudo.Application\obj\Debug\net9.0\Academy.GestaoConteudo.Application.dll
 C:\Lab\Fontes\MBA03_Academy\src\GestaoConteudo\Academy.GestaoConteudo.Application\obj\Debug\net9.0\refint\Academy.GestaoConteudo.Application.dll

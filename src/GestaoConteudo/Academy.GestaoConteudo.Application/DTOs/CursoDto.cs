@@ -12,3 +12,4 @@ public class CursoDto
     public string PreRequisitos { get;  set; }
     public IEnumerable<AulaDto> Aulas { get; set; }
 }
+

@@ -1,10 +1,7 @@
-﻿using Academy.GestaoAlunos.Application.Dtos;
-using Academy.GestaoAlunos.Application.Services.Interfaces;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Http;
 using System.Net.Http.Headers;
 using System.Text.Json;
 
-namespace Academy.GestaoAlunos.Application.Services.Implements;
 
 public class CursoConsultaExterna : ICursoConsultaExterna
 {
