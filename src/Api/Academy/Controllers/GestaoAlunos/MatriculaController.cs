@@ -1,6 +1,8 @@
 ﻿using Academy.Api.Data.Const;
 using Academy.Api.Enums.GestaoConteudo;
 using Academy.GestaoAlunos.Application.CQRS.Commands.CriarMatricula;
+using Academy.GestaoAlunos.Application.CQRS.Commands.FinalizarCurso;
+using Academy.GestaoAlunos.Application.CQRS.Queries.ObterTodasMinhasMatriculas;
 using Academy.GestaoAlunos.Application.Dtos;
 using Academy.GestaoConteudo.Application.CQRS.Commands.AtualizarCurso;
 using Academy.GestaoConteudo.Application.CQRS.Commands.CriarCurso;
@@ -31,7 +33,6 @@ public class MatriculaController : ControllerBase
     public async Task<IActionResult> CriarMatricula([FromBody] CriarMatriculaDto matricula)
     {
         var userIdentityId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
-
         if (!ModelState.IsValid)
             return BadRequest(ModelState);
 
@@ -42,52 +43,80 @@ public class MatriculaController : ControllerBase
             new { id = await _mediator.Send(command) }
         );
     }
-   
-    
-//    [Authorize(Roles = RoleNames.Administrador)]
-//    [HttpPut("AtualizarCurso/{id:guid}", Name = "AtualizarCurso")]
-//    [ProducesResponseType(StatusCodes.Status204NoContent)]
-//    [ProducesResponseType(StatusCodes.Status404NotFound)]
-//    [ProducesResponseType(StatusCodes.Status400BadRequest)]
-//    public async Task<IActionResult> AtualizarCurso(Guid id, [FromBody] CursoDto cursoDto)
-//    {
-//        if (!ModelState.IsValid)
-//            return BadRequest(ModelState);
 
-//        var command = new AtualizarCursoCommand(
-//            id,
-//            cursoDto.Titulo,
-//            cursoDto.Descricao,
-//            cursoDto.Status,
-//            cursoDto.Valor,
-//            cursoDto.Objetivo,
-//            cursoDto.PreRequisitos);
 
-//        await _mediator.Send(command);
-//        return NoContent();
-//    }
+    [Authorize(Roles = RoleNames.Aluno)]
+    [HttpPut("FinalizarCurso", Name = "FinalizarCurso")]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    public async Task<IActionResult> FinalizarCurso([FromBody] Guid matriculaId)
+    {
+        var userIdentityId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+        if (!ModelState.IsValid)
+            return BadRequest(ModelState);
+        var command = new FinalizarCursoCommand( matriculaId,  userIdentityId);
+        return CreatedAtAction(
+            nameof(CriarMatricula),
+            new { id = await _mediator.Send(command) }
+        );
+    }
 
-//    [Authorize(Roles = RoleNames.Aluno)]
-//    [HttpGet("ObterTodosCursosAtivo")]
-//    public async Task<IActionResult> ObterTodosCursosAtivo()
-//    {
-//        var cursos = await _mediator.Send(new ObterTodosCursosQuery { Status = (int)ObterCursoPorStatus.Ativo });
-//        return Ok(cursos);
-//    }
+    [Authorize]
+    [HttpGet("ObterTodasMinhasMatriculas")]
+    public async Task<IActionResult> ObterTodasMinhasMatriculas()
+    {
+        var userIdentityId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+        if (!ModelState.IsValid)
+        return BadRequest(ModelState);
+        var matriculas = await _mediator.Send(new ObterTodasMinhasMatriculasQuery(userIdentityId));
+        return Ok(matriculas);
+    }
 
-//    [Authorize(Roles = RoleNames.Administrador)]
-//    [HttpGet("ObterTodosCursos")]
-//    public async Task<IActionResult> ObterTodosCursos()
-//    {
-//        var cursos = await _mediator.Send(new ObterTodosCursosQuery { Status = (int)ObterCursoPorStatus.Todos });
-//        return Ok(cursos);
-//    }
+    //    [Authorize(Roles = RoleNames.Administrador)]
+    //    [HttpPut("AtualizarCurso/{id:guid}", Name = "AtualizarCurso")]
+    //    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    //    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    //    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    //    public async Task<IActionResult> AtualizarCurso(Guid id, [FromBody] CursoDto cursoDto)
+    //    {
+    //        if (!ModelState.IsValid)
+    //            return BadRequest(ModelState);
 
-//    [Authorize(Roles = RoleNames.Administrador)]
-//    [HttpGet("ObterCursoPorId/{id:guid}")]
-//    public async Task<IActionResult> ObterCursoPorId(Guid id)
-//    {
-//        var cursos = await _mediator.Send(new ObterCursoPorIdQuery { Id = id });
-//        return Ok(cursos);
-//    }
+    //        var command = new AtualizarCursoCommand(
+    //            id,
+    //            cursoDto.Titulo,
+    //            cursoDto.Descricao,
+    //            cursoDto.Status,
+    //            cursoDto.Valor,
+    //            cursoDto.Objetivo,
+    //            cursoDto.PreRequisitos);
+
+    //        await _mediator.Send(command);
+    //        return NoContent();
+    //    }
+
+    //    [Authorize(Roles = RoleNames.Aluno)]
+    //    [HttpGet("ObterTodosCursosAtivo")]
+    //    public async Task<IActionResult> ObterTodosCursosAtivo()
+    //    {
+    //        var cursos = await _mediator.Send(new ObterTodosCursosQuery { Status = (int)ObterCursoPorStatus.Ativo });
+    //        return Ok(cursos);
+    //    }
+
+    //    [Authorize(Roles = RoleNames.Administrador)]
+    //    [HttpGet("ObterTodosCursos")]
+    //    public async Task<IActionResult> ObterTodosCursos()
+    //    {
+    //        var cursos = await _mediator.Send(new ObterTodosCursosQuery { Status = (int)ObterCursoPorStatus.Todos });
+    //        return Ok(cursos);
+    //    }
+
+    //    [Authorize(Roles = RoleNames.Administrador)]
+    //    [HttpGet("ObterCursoPorId/{id:guid}")]
+    //    public async Task<IActionResult> ObterCursoPorId(Guid id)
+    //    {
+    //        var cursos = await _mediator.Send(new ObterCursoPorIdQuery { Id = id });
+    //        return Ok(cursos);
+    //    }
 }

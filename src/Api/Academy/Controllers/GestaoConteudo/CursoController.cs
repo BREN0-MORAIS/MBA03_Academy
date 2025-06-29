@@ -91,7 +91,7 @@ namespace Academy.Api.Controllers.GestaoConteudo
             return Ok(cursos);
         }
 
-        [Authorize(Roles = RoleNames.Aluno)]
+        [Authorize]
         [HttpGet("ObterCursoAtivoPorId/{id:guid}")]
         public async Task<IActionResult> ObterCursoAtivoPorId(Guid id)
         {

@@ -9,6 +9,7 @@ using Academy.GestaoConteudo.Application.AutorMapper;
 using Academy.GestaoConteudo.Application.CQRS.Commands.CriarCurso;
 using Academy.GestaoConteudo.Application.Seed;
 using Academy.GestaoConteudo.Data.Context;
+using Academy.PagamentoFaturamento.Data.Context;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -65,7 +66,7 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
-// 4️⃣ DI, AutoMapper, MediatR
+// AutoMapper, MediatR
 builder.Services.ConfigureDependencyInjection();
 
 builder.Services.AddAutoMapper(typeof(GestaoConteudoMap).Assembly);
@@ -75,7 +76,7 @@ builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Criar
 
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(CriarMatriculaCommand).Assembly));
 
-// 5️⃣ DB Contexts
+// Contexts
 builder.Services.AddDbContext<GestaoConteudoContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
@@ -85,12 +86,15 @@ builder.Services.AddDbContext<GestaoAlunosContext>(options =>
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// 6️⃣ Identity
+builder.Services.AddDbContext<PagamentoFaturamentoContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+//  Identity
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
 
-// 7️⃣ JWT Authentication
+// JWT Authentication
 var secret = builder.Configuration["JwtSettings:Secret"];
 var appSettingsSection = builder.Configuration.GetSection("AppSettings");
 builder.Services.Configure<JwtSettings>(appSettingsSection);
@@ -143,7 +147,7 @@ app.Use(async (context, next) =>
     await next();
 });
 
-//  🔟 Seed dos dados (Roles e Usuários)
+//   Seed dos dados (Roles e Usuários)
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
@@ -158,7 +162,7 @@ using (var scope = app.Services.CreateScope())
     await seeder.SeedAsync();
 }
 
-// 🔁 Middleware
+//  Middleware
 app.UseHttpsRedirection();
 
 app.UseRouting();

@@ -7,3 +7,9 @@ public class AulaRealizadaDto
     public Guid AulaId { get;  set; }
     public MatriculaDto Matricula { get;  set; }
 }
+
+public class AulaRealizadaAdicionarDto
+{
+    public Guid MatriculaId { get; set; }
+    public Guid AulaId { get; set; }
+}

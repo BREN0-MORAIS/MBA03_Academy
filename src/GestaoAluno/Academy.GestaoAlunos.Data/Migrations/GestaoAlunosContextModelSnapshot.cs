@@ -155,6 +155,9 @@ namespace Academy.GestaoAlunos.Data.Migrations
                     b.Property<DateTime>("DataCadastro")
                         .HasColumnType("datetime2");
 
+                    b.Property<Guid>("MatriculaId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<decimal>("Progresso")
                         .HasColumnType("decimal(18,2)");
 
@@ -163,6 +166,8 @@ namespace Academy.GestaoAlunos.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("MatriculaId");
 
                     b.ToTable("ProgressoAlunoCursos", (string)null);
                 });
@@ -203,6 +208,17 @@ namespace Academy.GestaoAlunos.Data.Migrations
 
                     b.Navigation("HistoricoAprendizado")
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("Academy.GestaoAlunos.Domain.Entities.ProgressoAlunoCurso", b =>
+                {
+                    b.HasOne("Academy.GestaoAlunos.Domain.Entities.Matricula", "Matricula")
+                        .WithMany()
+                        .HasForeignKey("MatriculaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Matricula");
                 });
 
             modelBuilder.Entity("Academy.GestaoAlunos.Domain.Entities.Matricula", b =>

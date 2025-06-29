@@ -16,6 +16,16 @@ public class GestaoAlunoMap : Profile
              .ForMember(dest => dest.AulasRealizadas, opt => opt.Ignore());
 
 
+        CreateMap<AulaRealizadaDto, AulaRealizada>()
+          .ConstructUsing(dto => new AulaRealizada(dto.CursoId, dto.AulaId))
+          .ForMember(dest => dest.DataCadastro, opt => opt.Ignore())
+          .ForMember(dest => dest.CursoId, opt => opt.Ignore());
+
+        CreateMap<Matricula, MinhasMatriculaDto>()
+          .ForMember(dest => dest.MatriculaId, opt => opt.MapFrom(src => src.Id))
+          .ForMember(dest => dest.CursoId, opt => opt.MapFrom(src => src.CursoId))
+          .ForMember(dest => dest.Status, opt => opt.MapFrom(src => src.Status.GetDisplayName()));
+
         // CreateMap<CursoDto, Curso>().ConstructUsing(dto => new Curso(
         //  dto.Titulo,
         //  dto.Descricao,

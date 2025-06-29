@@ -23,6 +23,7 @@ public class Matricula : EntidadeBase, IAggregateRoot
     }
     public void ConcluirCurso()
     {
+        Status = MatriculaStatus.Concluido;
         DataConclusao = DateTime.Now;
     }
     public void AtivarMatricula()

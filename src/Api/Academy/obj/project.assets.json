@@ -1980,6 +1980,36 @@
         "runtime": {
           "bin/placeholder/Academy.GestaoConteudo.Domain.dll": {}
         }
+      },
+      "Academy.PagamentoFaturamento.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Academy.Core": "1.0.0",
+          "Academy.GestaoAlunos.Domain": "1.0.0",
+          "Academy.PagamentoFaturamento.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "9.0.6",
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.6"
+        },
+        "compile": {
+          "bin/placeholder/Academy.PagamentoFaturamento.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Academy.PagamentoFaturamento.Data.dll": {}
+        }
+      },
+      "Academy.PagamentoFaturamento.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Academy.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Academy.PagamentoFaturamento.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Academy.PagamentoFaturamento.Domain.dll": {}
+        }
       }
     }
   },
@@ -5232,12 +5262,23 @@
       "type": "project",
       "path": "../../GestaoConteudo/Academy.GestaoConteudo.Domain/Academy.GestaoConteudo.Domain.csproj",
       "msbuildProject": "../../GestaoConteudo/Academy.GestaoConteudo.Domain/Academy.GestaoConteudo.Domain.csproj"
+    },
+    "Academy.PagamentoFaturamento.Data/1.0.0": {
+      "type": "project",
+      "path": "../../PagamentoFaturamento/Academy.PagamentoFaturamento.Data/Academy.PagamentoFaturamento.Data.csproj",
+      "msbuildProject": "../../PagamentoFaturamento/Academy.PagamentoFaturamento.Data/Academy.PagamentoFaturamento.Data.csproj"
+    },
+    "Academy.PagamentoFaturamento.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../PagamentoFaturamento/Academy.PagamentoFaturamento.Domain/Academy.PagamentoFaturamento.Domain.csproj",
+      "msbuildProject": "../../PagamentoFaturamento/Academy.PagamentoFaturamento.Domain/Academy.PagamentoFaturamento.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
       "Academy.GestaoAlunos.Application >= 1.0.0",
       "Academy.GestaoConteudo.Application >= 1.0.0",
+      "Academy.PagamentoFaturamento.Data >= 1.0.0",
       "FluentValidation.AspNetCore >= 11.3.1",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 9.0.6",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 9.0.6",
@@ -5285,6 +5326,9 @@
             },
             "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj": {
               "projectPath": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj"
+            },
+            "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Data\\Academy.PagamentoFaturamento.Data.csproj": {
+              "projectPath": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Data\\Academy.PagamentoFaturamento.Data.csproj"
             }
           }
         }

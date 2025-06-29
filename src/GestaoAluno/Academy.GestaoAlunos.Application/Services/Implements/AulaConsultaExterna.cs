@@ -1,21 +1,21 @@
-﻿using System.Net.Http.Headers;
-using Academy.GestaoAlunos.Application.Services.Implements;
+﻿using Academy.GestaoAlunos.Application.Services.Interfaces;
 using Microsoft.AspNetCore.Http;
+using System.Net.Http.Headers;
 
-namespace Academy.GestaoAlunos.Application.Services.Interfaces;
+namespace Academy.GestaoAlunos.Application.Services.Implements;
 
-public class CursoConsultaExterna : ICursoConsultaExterna
+public class AulaConsultaExterna : IAulaConsultaExterna
 {
     private readonly HttpClient _httpClient;
     private readonly IHttpContextAccessor _httpContextAccessor;
 
-    public CursoConsultaExterna(HttpClient httpClient, IHttpContextAccessor httpContextAccessor)
+    public AulaConsultaExterna(HttpClient httpClient, IHttpContextAccessor httpContextAccessor)
     {
         _httpClient = httpClient;
         _httpContextAccessor = httpContextAccessor;
     }
 
-    public async Task<bool> CursoExisteAsync(Guid cursoId)
+    public async Task<bool> AulaExisteAsync(Guid aulaId)
     {
         var token = _httpContextAccessor.HttpContext?
             .Request
@@ -29,7 +29,7 @@ public class CursoConsultaExterna : ICursoConsultaExterna
         _httpClient.DefaultRequestHeaders.Authorization =
             new AuthenticationHeaderValue("Bearer", token);
 
-        var response = await _httpClient.GetAsync($"/api/Curso/ObterCursoAtivoPorId/{cursoId}");
+        var response = await _httpClient.GetAsync($"/api/Aula/ObterAulaAtivaPorId/{aulaId}");
 
         var content = await response.Content.ReadAsStringAsync();
         if (string.IsNullOrEmpty(content))

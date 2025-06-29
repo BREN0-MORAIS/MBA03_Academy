@@ -13,6 +13,6 @@ public class MatriculaDtoValidator :  AbstractValidator<MatriculaDto>
 
         RuleFor(x => x.UserId)
        .NotEmpty()
-       .WithMessage("O campo CursoId é obrigatório.");    
+       .WithMessage("O campo UserId é obrigatório.");    
     }
 }

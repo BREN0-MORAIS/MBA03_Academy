@@ -17,11 +17,6 @@
 
 
 	<ItemGroup>
-	  <Folder Include="CQRS\Queries\" />
-	</ItemGroup>
-
-
-	<ItemGroup>
 	  <ProjectReference Include="..\Academy.GestaoAlunos.Data\Academy.GestaoAlunos.Data.csproj" />
 	  <ProjectReference Include="..\Academy.GestaoAlunos.Domain\Academy.GestaoAlunos.Domain.csproj" />
 	</ItemGroup>

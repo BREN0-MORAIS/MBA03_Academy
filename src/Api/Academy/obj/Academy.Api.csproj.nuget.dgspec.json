@@ -38,6 +38,9 @@
               },
               "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj": {
                 "projectPath": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj"
+              },
+              "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Data\\Academy.PagamentoFaturamento.Data.csproj": {
+                "projectPath": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Data\\Academy.PagamentoFaturamento.Data.csproj"
               }
             }
           }
@@ -690,6 +693,168 @@
               "version": "[12.5.0, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Data\\Academy.PagamentoFaturamento.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Data\\Academy.PagamentoFaturamento.Data.csproj",
+        "projectName": "Academy.PagamentoFaturamento.Data",
+        "projectPath": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Data\\Academy.PagamentoFaturamento.Data.csproj",
+        "packagesPath": "C:\\Users\\breno\\.nuget\\packages\\",
+        "outputPath": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\breno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Core\\Academy.Core\\Academy.Core.csproj": {
+                "projectPath": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Core\\Academy.Core\\Academy.Core.csproj"
+              },
+              "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Academy.GestaoAlunos.Domain.csproj": {
+                "projectPath": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Academy.GestaoAlunos.Domain.csproj"
+              },
+              "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Domain\\Academy.PagamentoFaturamento.Domain.csproj": {
+                "projectPath": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Domain\\Academy.PagamentoFaturamento.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Domain\\Academy.PagamentoFaturamento.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Domain\\Academy.PagamentoFaturamento.Domain.csproj",
+        "projectName": "Academy.PagamentoFaturamento.Domain",
+        "projectPath": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Domain\\Academy.PagamentoFaturamento.Domain.csproj",
+        "packagesPath": "C:\\Users\\breno\\.nuget\\packages\\",
+        "outputPath": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\breno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Core\\Academy.Core\\Academy.Core.csproj": {
+                "projectPath": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Core\\Academy.Core\\Academy.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
           "imports": [
             "net461",
             "net462",

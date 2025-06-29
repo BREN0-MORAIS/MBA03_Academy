@@ -3,148 +3,36 @@
   "WorkspaceRootPath": "C:\\Lab\\Fontes\\MBA03_Academy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5CC95DBA-8280-400A-A86A-7BEDD8E08B88}|src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Academy.GestaoAlunos.Application.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoaluno\\academy.gestaoalunos.application\\services\\implements\\matriculaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CC95DBA-8280-400A-A86A-7BEDD8E08B88}|src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Academy.GestaoAlunos.Application.csproj|solutionrelative:src\\gestaoaluno\\academy.gestaoalunos.application\\services\\implements\\matriculaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CC95DBA-8280-400A-A86A-7BEDD8E08B88}|src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Academy.GestaoAlunos.Application.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoaluno\\academy.gestaoalunos.application\\services\\interfaces\\cursoconsultaexterna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CC95DBA-8280-400A-A86A-7BEDD8E08B88}|src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Academy.GestaoAlunos.Application.csproj|solutionrelative:src\\gestaoaluno\\academy.gestaoalunos.application\\services\\interfaces\\cursoconsultaexterna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C81F251-855C-4F90-9FCB-33ED50727125}|src\\Core\\Academy.Core\\Academy.Core.csproj|c:\\lab\\fontes\\mba03_academy\\src\\core\\academy.core\\data\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C81F251-855C-4F90-9FCB-33ED50727125}|src\\Core\\Academy.Core\\Academy.Core.csproj|solutionrelative:src\\core\\academy.core\\data\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C45C380A-6A31-4E5F-BA61-CDB4461D0661}|src\\Api\\Academy\\Academy.Api.csproj|c:\\lab\\fontes\\mba03_academy\\src\\api\\academy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C45C380A-6A31-4E5F-BA61-CDB4461D0661}|src\\Api\\Academy\\Academy.Api.csproj|solutionrelative:src\\api\\academy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C45C380A-6A31-4E5F-BA61-CDB4461D0661}|src\\Api\\Academy\\Academy.Api.csproj|c:\\lab\\fontes\\mba03_academy\\src\\api\\academy\\controllers\\gestaoconteudo\\cursocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C45C380A-6A31-4E5F-BA61-CDB4461D0661}|src\\Api\\Academy\\Academy.Api.csproj|solutionrelative:src\\api\\academy\\controllers\\gestaoconteudo\\cursocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A90DD042-FBB9-DEF0-FEB4-E2ADCC379306}|src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoconteudo\\academy.gestaoconteudo.application\\cqrs\\queries\\obtercursoporid\\obtercursoporidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A90DD042-FBB9-DEF0-FEB4-E2ADCC379306}|src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj|solutionrelative:src\\gestaoconteudo\\academy.gestaoconteudo.application\\cqrs\\queries\\obtercursoporid\\obtercursoporidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A90DD042-FBB9-DEF0-FEB4-E2ADCC379306}|src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoconteudo\\academy.gestaoconteudo.application\\services\\implements\\cursoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A90DD042-FBB9-DEF0-FEB4-E2ADCC379306}|src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj|solutionrelative:src\\gestaoconteudo\\academy.gestaoconteudo.application\\services\\implements\\cursoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CC95DBA-8280-400A-A86A-7BEDD8E08B88}|src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Academy.GestaoAlunos.Application.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoaluno\\academy.gestaoalunos.application\\autormapper\\gestaoalunomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CC95DBA-8280-400A-A86A-7BEDD8E08B88}|src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Academy.GestaoAlunos.Application.csproj|solutionrelative:src\\gestaoaluno\\academy.gestaoalunos.application\\autormapper\\gestaoalunomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFDE5A58-1092-4659-8324-4AAFE3F10BE3}|src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Academy.GestaoAlunos.Domain.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoaluno\\academy.gestaoalunos.domain\\entities\\matricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDE5A58-1092-4659-8324-4AAFE3F10BE3}|src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Academy.GestaoAlunos.Domain.csproj|solutionrelative:src\\gestaoaluno\\academy.gestaoalunos.domain\\entities\\matricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CC95DBA-8280-400A-A86A-7BEDD8E08B88}|src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Academy.GestaoAlunos.Application.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoaluno\\academy.gestaoalunos.application\\dtos\\matriculadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CC95DBA-8280-400A-A86A-7BEDD8E08B88}|src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Academy.GestaoAlunos.Application.csproj|solutionrelative:src\\gestaoaluno\\academy.gestaoalunos.application\\dtos\\matriculadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Data\\Migrations\\20250628061702_initial2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\GestaoAluno\\Academy.GestaoAlunos.Data\\Migrations\\20250628061702_initial2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFDE5A58-1092-4659-8324-4AAFE3F10BE3}|src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Academy.GestaoAlunos.Domain.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoaluno\\academy.gestaoalunos.domain\\entities\\progressoaluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDE5A58-1092-4659-8324-4AAFE3F10BE3}|src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Academy.GestaoAlunos.Domain.csproj|solutionrelative:src\\gestaoaluno\\academy.gestaoalunos.domain\\entities\\progressoaluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFDE5A58-1092-4659-8324-4AAFE3F10BE3}|src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Academy.GestaoAlunos.Domain.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoaluno\\academy.gestaoalunos.domain\\objectvalue\\historicoaprendizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDE5A58-1092-4659-8324-4AAFE3F10BE3}|src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Academy.GestaoAlunos.Domain.csproj|solutionrelative:src\\gestaoaluno\\academy.gestaoalunos.domain\\objectvalue\\historicoaprendizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFDE5A58-1092-4659-8324-4AAFE3F10BE3}|src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Academy.GestaoAlunos.Domain.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoaluno\\academy.gestaoalunos.domain\\entities\\progressocurso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDE5A58-1092-4659-8324-4AAFE3F10BE3}|src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Academy.GestaoAlunos.Domain.csproj|solutionrelative:src\\gestaoaluno\\academy.gestaoalunos.domain\\entities\\progressocurso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFDE5A58-1092-4659-8324-4AAFE3F10BE3}|src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Academy.GestaoAlunos.Domain.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoaluno\\academy.gestaoalunos.domain\\entities\\certificado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDE5A58-1092-4659-8324-4AAFE3F10BE3}|src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Academy.GestaoAlunos.Domain.csproj|solutionrelative:src\\gestaoaluno\\academy.gestaoalunos.domain\\entities\\certificado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFDE5A58-1092-4659-8324-4AAFE3F10BE3}|src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Academy.GestaoAlunos.Domain.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoaluno\\academy.gestaoalunos.domain\\entities\\aularealizada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDE5A58-1092-4659-8324-4AAFE3F10BE3}|src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Academy.GestaoAlunos.Domain.csproj|solutionrelative:src\\gestaoaluno\\academy.gestaoalunos.domain\\entities\\aularealizada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CC95DBA-8280-400A-A86A-7BEDD8E08B88}|src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Academy.GestaoAlunos.Application.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoaluno\\academy.gestaoalunos.application\\cqrs\\commands\\criarmatricula\\criarmatriculahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CC95DBA-8280-400A-A86A-7BEDD8E08B88}|src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Academy.GestaoAlunos.Application.csproj|solutionrelative:src\\gestaoaluno\\academy.gestaoalunos.application\\cqrs\\commands\\criarmatricula\\criarmatriculahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CC95DBA-8280-400A-A86A-7BEDD8E08B88}|src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Academy.GestaoAlunos.Application.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoaluno\\academy.gestaoalunos.application\\services\\interfaces\\imatriculaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CC95DBA-8280-400A-A86A-7BEDD8E08B88}|src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Academy.GestaoAlunos.Application.csproj|solutionrelative:src\\gestaoaluno\\academy.gestaoalunos.application\\services\\interfaces\\imatriculaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CC95DBA-8280-400A-A86A-7BEDD8E08B88}|src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Academy.GestaoAlunos.Application.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoaluno\\academy.gestaoalunos.application\\cqrs\\commands\\criarmatricula\\criarmatriculacommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CC95DBA-8280-400A-A86A-7BEDD8E08B88}|src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Academy.GestaoAlunos.Application.csproj|solutionrelative:src\\gestaoaluno\\academy.gestaoalunos.application\\cqrs\\commands\\criarmatricula\\criarmatriculacommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C45C380A-6A31-4E5F-BA61-CDB4461D0661}|src\\Api\\Academy\\Academy.Api.csproj|c:\\lab\\fontes\\mba03_academy\\src\\api\\academy\\controllers\\gestaoalunos\\matriculacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C45C380A-6A31-4E5F-BA61-CDB4461D0661}|src\\Api\\Academy\\Academy.Api.csproj|solutionrelative:src\\api\\academy\\controllers\\gestaoalunos\\matriculacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CC95DBA-8280-400A-A86A-7BEDD8E08B88}|src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Academy.GestaoAlunos.Application.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoaluno\\academy.gestaoalunos.application\\dtos\\criarmatriculadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CC95DBA-8280-400A-A86A-7BEDD8E08B88}|src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Academy.GestaoAlunos.Application.csproj|solutionrelative:src\\gestaoaluno\\academy.gestaoalunos.application\\dtos\\criarmatriculadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A90DD042-FBB9-DEF0-FEB4-E2ADCC379306}|src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoconteudo\\academy.gestaoconteudo.application\\autormapper\\gestaoconteudomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A90DD042-FBB9-DEF0-FEB4-E2ADCC379306}|src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj|solutionrelative:src\\gestaoconteudo\\academy.gestaoconteudo.application\\autormapper\\gestaoconteudomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C45C380A-6A31-4E5F-BA61-CDB4461D0661}|src\\Api\\Academy\\Academy.Api.csproj|c:\\lab\\fontes\\mba03_academy\\src\\api\\academy\\controllers\\autenticacao\\autenticacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C45C380A-6A31-4E5F-BA61-CDB4461D0661}|src\\Api\\Academy\\Academy.Api.csproj|solutionrelative:src\\api\\academy\\controllers\\autenticacao\\autenticacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A90DD042-FBB9-DEF0-FEB4-E2ADCC379306}|src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoconteudo\\academy.gestaoconteudo.application\\cqrs\\commands\\criaraula\\criaraulacommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A90DD042-FBB9-DEF0-FEB4-E2ADCC379306}|src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj|solutionrelative:src\\gestaoconteudo\\academy.gestaoconteudo.application\\cqrs\\commands\\criaraula\\criaraulacommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A90DD042-FBB9-DEF0-FEB4-E2ADCC379306}|src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoconteudo\\academy.gestaoconteudo.application\\cqrs\\commands\\criaraula\\criaraulahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A90DD042-FBB9-DEF0-FEB4-E2ADCC379306}|src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj|solutionrelative:src\\gestaoconteudo\\academy.gestaoconteudo.application\\cqrs\\commands\\criaraula\\criaraulahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CC95DBA-8280-400A-A86A-7BEDD8E08B88}|src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Academy.GestaoAlunos.Application.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoaluno\\academy.gestaoalunos.application\\services\\implements\\icursoconsultaexterna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CC95DBA-8280-400A-A86A-7BEDD8E08B88}|src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Academy.GestaoAlunos.Application.csproj|solutionrelative:src\\gestaoaluno\\academy.gestaoalunos.application\\services\\implements\\icursoconsultaexterna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C45C380A-6A31-4E5F-BA61-CDB4461D0661}|src\\Api\\Academy\\Academy.Api.csproj|c:\\lab\\fontes\\mba03_academy\\src\\api\\academy\\configurations\\dependencyinjectionconfigure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C45C380A-6A31-4E5F-BA61-CDB4461D0661}|src\\Api\\Academy\\Academy.Api.csproj|solutionrelative:src\\api\\academy\\configurations\\dependencyinjectionconfigure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C45C380A-6A31-4E5F-BA61-CDB4461D0661}|src\\Api\\Academy\\Academy.Api.csproj|c:\\lab\\fontes\\mba03_academy\\src\\api\\academy\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C45C380A-6A31-4E5F-BA61-CDB4461D0661}|src\\Api\\Academy\\Academy.Api.csproj|solutionrelative:src\\api\\academy\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CC95DBA-8280-400A-A86A-7BEDD8E08B88}|src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Academy.GestaoAlunos.Application.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoaluno\\academy.gestaoalunos.application\\validators\\aularealizadadtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CC95DBA-8280-400A-A86A-7BEDD8E08B88}|src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Academy.GestaoAlunos.Application.csproj|solutionrelative:src\\gestaoaluno\\academy.gestaoalunos.application\\validators\\aularealizadadtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5CC95DBA-8280-400A-A86A-7BEDD8E08B88}|src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Academy.GestaoAlunos.Application.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoaluno\\academy.gestaoalunos.application\\validators\\matriculadtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CC95DBA-8280-400A-A86A-7BEDD8E08B88}|src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Academy.GestaoAlunos.Application.csproj|solutionrelative:src\\gestaoaluno\\academy.gestaoalunos.application\\validators\\matriculadtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A90DD042-FBB9-DEF0-FEB4-E2ADCC379306}|src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoconteudo\\academy.gestaoconteudo.application\\validators\\cursodtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A90DD042-FBB9-DEF0-FEB4-E2ADCC379306}|src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj|solutionrelative:src\\gestaoconteudo\\academy.gestaoconteudo.application\\validators\\cursodtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C45C380A-6A31-4E5F-BA61-CDB4461D0661}|src\\Api\\Academy\\Academy.Api.csproj|c:\\lab\\fontes\\mba03_academy\\src\\api\\academy\\controllers\\gestaoalunos\\matriculacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C45C380A-6A31-4E5F-BA61-CDB4461D0661}|src\\Api\\Academy\\Academy.Api.csproj|solutionrelative:src\\api\\academy\\controllers\\gestaoalunos\\matriculacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A90DD042-FBB9-DEF0-FEB4-E2ADCC379306}|src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoconteudo\\academy.gestaoconteudo.application\\validators\\auladtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A90DD042-FBB9-DEF0-FEB4-E2ADCC379306}|src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj|solutionrelative:src\\gestaoconteudo\\academy.gestaoconteudo.application\\validators\\auladtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A60B43C-8B7C-4E87-91A9-3553CF1B76D3}|src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Data\\Academy.PagamentoFaturamento.Data.csproj|c:\\lab\\fontes\\mba03_academy\\src\\pagamentofaturamento\\academy.pagamentofaturamento.data\\getewaypagamento\\gatewaypagamentosimulado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A60B43C-8B7C-4E87-91A9-3553CF1B76D3}|src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Data\\Academy.PagamentoFaturamento.Data.csproj|solutionrelative:src\\pagamentofaturamento\\academy.pagamentofaturamento.data\\getewaypagamento\\gatewaypagamentosimulado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A90DD042-FBB9-DEF0-FEB4-E2ADCC379306}|src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoconteudo\\academy.gestaoconteudo.application\\services\\interfaces\\icursoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A90DD042-FBB9-DEF0-FEB4-E2ADCC379306}|src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj|solutionrelative:src\\gestaoconteudo\\academy.gestaoconteudo.application\\services\\interfaces\\icursoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A60B43C-8B7C-4E87-91A9-3553CF1B76D3}|src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Data\\Academy.PagamentoFaturamento.Data.csproj|c:\\lab\\fontes\\mba03_academy\\src\\pagamentofaturamento\\academy.pagamentofaturamento.data\\repository\\pagamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A60B43C-8B7C-4E87-91A9-3553CF1B76D3}|src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Data\\Academy.PagamentoFaturamento.Data.csproj|solutionrelative:src\\pagamentofaturamento\\academy.pagamentofaturamento.data\\repository\\pagamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CC95DBA-8280-400A-A86A-7BEDD8E08B88}|src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Academy.GestaoAlunos.Application.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoaluno\\academy.gestaoalunos.application\\dtos\\progressocursodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CC95DBA-8280-400A-A86A-7BEDD8E08B88}|src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Academy.GestaoAlunos.Application.csproj|solutionrelative:src\\gestaoaluno\\academy.gestaoalunos.application\\dtos\\progressocursodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CC95DBA-8280-400A-A86A-7BEDD8E08B88}|src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Academy.GestaoAlunos.Application.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoaluno\\academy.gestaoalunos.application\\dtos\\progressoalunodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CC95DBA-8280-400A-A86A-7BEDD8E08B88}|src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Academy.GestaoAlunos.Application.csproj|solutionrelative:src\\gestaoaluno\\academy.gestaoalunos.application\\dtos\\progressoalunodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CC95DBA-8280-400A-A86A-7BEDD8E08B88}|src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Academy.GestaoAlunos.Application.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoaluno\\academy.gestaoalunos.application\\dtos\\certificadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CC95DBA-8280-400A-A86A-7BEDD8E08B88}|src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Academy.GestaoAlunos.Application.csproj|solutionrelative:src\\gestaoaluno\\academy.gestaoalunos.application\\dtos\\certificadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CC95DBA-8280-400A-A86A-7BEDD8E08B88}|src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Academy.GestaoAlunos.Application.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoaluno\\academy.gestaoalunos.application\\dtos\\aularealizadadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CC95DBA-8280-400A-A86A-7BEDD8E08B88}|src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Academy.GestaoAlunos.Application.csproj|solutionrelative:src\\gestaoaluno\\academy.gestaoalunos.application\\dtos\\aularealizadadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A90DD042-FBB9-DEF0-FEB4-E2ADCC379306}|src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoconteudo\\academy.gestaoconteudo.application\\dtos\\cursodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A90DD042-FBB9-DEF0-FEB4-E2ADCC379306}|src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj|solutionrelative:src\\gestaoconteudo\\academy.gestaoconteudo.application\\dtos\\cursodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{235D12E5-6AD9-4260-A58B-C1FEB9BF386E}|src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Domain\\Academy.PagamentoFaturamento.Domain.csproj|c:\\lab\\fontes\\mba03_academy\\src\\pagamentofaturamento\\academy.pagamentofaturamento.domain\\entities\\pagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{235D12E5-6AD9-4260-A58B-C1FEB9BF386E}|src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Domain\\Academy.PagamentoFaturamento.Domain.csproj|solutionrelative:src\\pagamentofaturamento\\academy.pagamentofaturamento.domain\\entities\\pagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -154,474 +42,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MatriculaService.cs",
-              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Services\\Implements\\MatriculaService.cs",
-              "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Services\\Implements\\MatriculaService.cs",
-              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Services\\Implements\\MatriculaService.cs",
-              "RelativeToolTip": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Services\\Implements\\MatriculaService.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAQwCoAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T04:52:08.546Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "HistoricoAprendizado.cs",
-              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\ObjectValue\\HistoricoAprendizado.cs",
-              "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\ObjectValue\\HistoricoAprendizado.cs",
-              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\ObjectValue\\HistoricoAprendizado.cs",
-              "RelativeToolTip": "src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\ObjectValue\\HistoricoAprendizado.cs",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Api\\Academy\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Academy\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Api\\Academy\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "src\\Api\\Academy\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T06:16:07.104Z",
+              "WhenOpened": "2025-06-29T17:36:19.885Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Api\\Academy\\Program.cs",
-              "RelativeDocumentMoniker": "src\\Api\\Academy\\Program.cs",
-              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Api\\Academy\\Program.cs",
-              "RelativeToolTip": "src\\Api\\Academy\\Program.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAiwI8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T04:44:24.643Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CursoConsultaExterna.cs",
-              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Services\\Interfaces\\CursoConsultaExterna.cs",
-              "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Services\\Interfaces\\CursoConsultaExterna.cs",
-              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Services\\Interfaces\\CursoConsultaExterna.cs",
-              "RelativeToolTip": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Services\\Interfaces\\CursoConsultaExterna.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAqwCIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T05:01:09.264Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Core\\Academy.Core\\Data\\Repository\\Repository.cs",
-              "RelativeDocumentMoniker": "src\\Core\\Academy.Core\\Data\\Repository\\Repository.cs",
-              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Core\\Academy.Core\\Data\\Repository\\Repository.cs",
-              "RelativeToolTip": "src\\Core\\Academy.Core\\Data\\Repository\\Repository.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAYwFIAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T05:22:19.68Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CursoService.cs",
-              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Services\\Implements\\CursoService.cs",
-              "RelativeDocumentMoniker": "src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Services\\Implements\\CursoService.cs",
-              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Services\\Implements\\CursoService.cs",
-              "RelativeToolTip": "src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Services\\Implements\\CursoService.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAADwv04AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T04:52:34.55Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ObterCursoPorIdHandler.cs",
-              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\CQRS\\Queries\\ObterCursoPorId\\ObterCursoPorIdHandler.cs",
-              "RelativeDocumentMoniker": "src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\CQRS\\Queries\\ObterCursoPorId\\ObterCursoPorIdHandler.cs",
-              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\CQRS\\Queries\\ObterCursoPorId\\ObterCursoPorIdHandler.cs",
-              "RelativeToolTip": "src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\CQRS\\Queries\\ObterCursoPorId\\ObterCursoPorIdHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T05:02:42.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CursoController.cs",
-              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Api\\Academy\\Controllers\\GestaoConteudo\\CursoController.cs",
-              "RelativeDocumentMoniker": "src\\Api\\Academy\\Controllers\\GestaoConteudo\\CursoController.cs",
-              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Api\\Academy\\Controllers\\GestaoConteudo\\CursoController.cs",
-              "RelativeToolTip": "src\\Api\\Academy\\Controllers\\GestaoConteudo\\CursoController.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAIwGMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T05:02:42.881Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GestaoAlunoMap.cs",
-              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\AutorMapper\\GestaoAlunoMap.cs",
-              "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\AutorMapper\\GestaoAlunoMap.cs",
-              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\AutorMapper\\GestaoAlunoMap.cs",
-              "RelativeToolTip": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\AutorMapper\\GestaoAlunoMap.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBMAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T05:52:23.979Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ProgressoAluno.cs",
-              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Entities\\ProgressoAluno.cs",
-              "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Entities\\ProgressoAluno.cs",
-              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Entities\\ProgressoAluno.cs",
-              "RelativeToolTip": "src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Entities\\ProgressoAluno.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAmwA8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T04:38:17.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Certificado.cs",
-              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Entities\\Certificado.cs",
-              "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Entities\\Certificado.cs",
-              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Entities\\Certificado.cs",
-              "RelativeToolTip": "src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Entities\\Certificado.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBIAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T04:35:42.613Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Matricula.cs",
-              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Entities\\Matricula.cs",
-              "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Entities\\Matricula.cs",
-              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Entities\\Matricula.cs",
-              "RelativeToolTip": "src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Entities\\Matricula.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T04:33:21.779Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IMatriculaService.cs",
-              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Services\\Interfaces\\IMatriculaService.cs",
-              "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Services\\Interfaces\\IMatriculaService.cs",
-              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Services\\Interfaces\\IMatriculaService.cs",
-              "RelativeToolTip": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Services\\Interfaces\\IMatriculaService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T04:48:29.781Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CriarMatriculaHandler.cs",
-              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\CQRS\\Commands\\CriarMatricula\\CriarMatriculaHandler.cs",
-              "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\CQRS\\Commands\\CriarMatricula\\CriarMatriculaHandler.cs",
-              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\CQRS\\Commands\\CriarMatricula\\CriarMatriculaHandler.cs",
-              "RelativeToolTip": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\CQRS\\Commands\\CriarMatricula\\CriarMatriculaHandler.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA8wBEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T04:46:14.84Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MatriculaDto.cs",
-              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Dtos\\MatriculaDto.cs",
-              "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Dtos\\MatriculaDto.cs",
-              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Dtos\\MatriculaDto.cs",
-              "RelativeToolTip": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Dtos\\MatriculaDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T04:32:33.988Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "20250628061702_initial2.cs",
-              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Data\\Migrations\\20250628061702_initial2.cs",
-              "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Data\\Migrations\\20250628061702_initial2.cs",
-              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Data\\Migrations\\20250628061702_initial2.cs",
-              "RelativeToolTip": "src\\GestaoAluno\\Academy.GestaoAlunos.Data\\Migrations\\20250628061702_initial2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T06:17:02.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ProgressoCurso.cs",
-              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Entities\\ProgressoCurso.cs",
-              "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Entities\\ProgressoCurso.cs",
-              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Entities\\ProgressoCurso.cs",
-              "RelativeToolTip": "src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Entities\\ProgressoCurso.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T04:40:45.976Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AulaRealizada.cs",
-              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Entities\\AulaRealizada.cs",
-              "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Entities\\AulaRealizada.cs",
-              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Entities\\AulaRealizada.cs",
-              "RelativeToolTip": "src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Entities\\AulaRealizada.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T04:36:46.79Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "CriarMatriculaCommand.cs",
-              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\CQRS\\Commands\\CriarMatricula\\CriarMatriculaCommand.cs",
-              "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\CQRS\\Commands\\CriarMatricula\\CriarMatriculaCommand.cs",
-              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\CQRS\\Commands\\CriarMatricula\\CriarMatriculaCommand.cs",
-              "RelativeToolTip": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\CQRS\\Commands\\CriarMatricula\\CriarMatriculaCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T04:45:26.619Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "MatriculaController.cs",
-              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Api\\Academy\\Controllers\\GestaoAlunos\\MatriculaController.cs",
-              "RelativeDocumentMoniker": "src\\Api\\Academy\\Controllers\\GestaoAlunos\\MatriculaController.cs",
-              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Api\\Academy\\Controllers\\GestaoAlunos\\MatriculaController.cs",
-              "RelativeToolTip": "src\\Api\\Academy\\Controllers\\GestaoAlunos\\MatriculaController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T05:35:13.496Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CriarMatriculaDto.cs",
-              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Dtos\\CriarMatriculaDto.cs",
-              "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Dtos\\CriarMatriculaDto.cs",
-              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Dtos\\CriarMatriculaDto.cs",
-              "RelativeToolTip": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Dtos\\CriarMatriculaDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T05:59:16.802Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "GestaoConteudoMap.cs",
-              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\AutorMapper\\GestaoConteudoMap.cs",
-              "RelativeDocumentMoniker": "src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\AutorMapper\\GestaoConteudoMap.cs",
-              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\AutorMapper\\GestaoConteudoMap.cs",
-              "RelativeToolTip": "src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\AutorMapper\\GestaoConteudoMap.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T05:51:41.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "CriarAulaCommand.cs",
-              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\CQRS\\Commands\\CriarAula\\CriarAulaCommand.cs",
-              "RelativeDocumentMoniker": "src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\CQRS\\Commands\\CriarAula\\CriarAulaCommand.cs",
-              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\CQRS\\Commands\\CriarAula\\CriarAulaCommand.cs",
-              "RelativeToolTip": "src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\CQRS\\Commands\\CriarAula\\CriarAulaCommand.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowAoAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T04:45:49.275Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "AutenticacaoController.cs",
-              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Api\\Academy\\Controllers\\Autenticacao\\AutenticacaoController.cs",
-              "RelativeDocumentMoniker": "src\\Api\\Academy\\Controllers\\Autenticacao\\AutenticacaoController.cs",
-              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Api\\Academy\\Controllers\\Autenticacao\\AutenticacaoController.cs",
-              "RelativeToolTip": "src\\Api\\Academy\\Controllers\\Autenticacao\\AutenticacaoController.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAwwCIAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T05:39:40.555Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "CriarAulaHandler.cs",
-              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\CQRS\\Commands\\CriarAula\\CriarAulaHandler.cs",
-              "RelativeDocumentMoniker": "src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\CQRS\\Commands\\CriarAula\\CriarAulaHandler.cs",
-              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\CQRS\\Commands\\CriarAula\\CriarAulaHandler.cs",
-              "RelativeToolTip": "src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\CQRS\\Commands\\CriarAula\\CriarAulaHandler.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowBkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T04:45:50.98Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
               "Title": "MatriculaDtoValidator.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Validators\\MatriculaDtoValidator.cs",
               "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Validators\\MatriculaDtoValidator.cs",
               "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Validators\\MatriculaDtoValidator.cs",
               "RelativeToolTip": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Validators\\MatriculaDtoValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T04:54:30.679Z",
+              "WhenOpened": "2025-06-29T17:36:06.14Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 2,
+              "Title": "AulaRealizadaDtoValidator.cs",
+              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Validators\\AulaRealizadaDtoValidator.cs",
+              "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Validators\\AulaRealizadaDtoValidator.cs",
+              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Validators\\AulaRealizadaDtoValidator.cs",
+              "RelativeToolTip": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Validators\\AulaRealizadaDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T17:36:04.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "DependencyInjectionConfigure.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Api\\Academy\\Configurations\\DependencyInjectionConfigure.cs",
               "RelativeDocumentMoniker": "src\\Api\\Academy\\Configurations\\DependencyInjectionConfigure.cs",
               "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Api\\Academy\\Configurations\\DependencyInjectionConfigure.cs",
               "RelativeToolTip": "src\\Api\\Academy\\Configurations\\DependencyInjectionConfigure.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAgwCAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAxwB4AAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T05:01:57.801Z",
+              "WhenOpened": "2025-06-29T17:32:45.28Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ICursoConsultaExterna.cs",
-              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Services\\Implements\\ICursoConsultaExterna.cs",
-              "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Services\\Implements\\ICursoConsultaExterna.cs",
-              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Services\\Implements\\ICursoConsultaExterna.cs",
-              "RelativeToolTip": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Services\\Implements\\ICursoConsultaExterna.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAawAoAAAATAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "MatriculaController.cs",
+              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Api\\Academy\\Controllers\\GestaoAlunos\\MatriculaController.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Academy\\Controllers\\GestaoAlunos\\MatriculaController.cs",
+              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Api\\Academy\\Controllers\\GestaoAlunos\\MatriculaController.cs",
+              "RelativeToolTip": "src\\Api\\Academy\\Controllers\\GestaoAlunos\\MatriculaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T05:00:49.24Z",
+              "WhenOpened": "2025-06-29T17:32:42.043Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "ICursoService.cs",
-              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Services\\Interfaces\\ICursoService.cs",
-              "RelativeDocumentMoniker": "src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Services\\Interfaces\\ICursoService.cs",
-              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Services\\Interfaces\\ICursoService.cs",
-              "RelativeToolTip": "src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Services\\Interfaces\\ICursoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "GatewayPagamentoSimulado.cs",
+              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Data\\GetewayPagamento\\GatewayPagamentoSimulado.cs",
+              "RelativeDocumentMoniker": "src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Data\\GetewayPagamento\\GatewayPagamentoSimulado.cs",
+              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Data\\GetewayPagamento\\GatewayPagamentoSimulado.cs",
+              "RelativeToolTip": "src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Data\\GetewayPagamento\\GatewayPagamentoSimulado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T04:49:00.636Z",
+              "WhenOpened": "2025-06-29T17:32:25.984Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "AulaDtoValidator.cs",
-              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Validators\\AulaDtoValidator.cs",
-              "RelativeDocumentMoniker": "src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Validators\\AulaDtoValidator.cs",
-              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Validators\\AulaDtoValidator.cs",
-              "RelativeToolTip": "src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Validators\\AulaDtoValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Pagamento.cs",
+              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Domain\\Entities\\Pagamento.cs",
+              "RelativeDocumentMoniker": "src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Domain\\Entities\\Pagamento.cs",
+              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Domain\\Entities\\Pagamento.cs",
+              "RelativeToolTip": "src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Domain\\Entities\\Pagamento.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T04:53:59.214Z",
+              "WhenOpened": "2025-06-29T17:32:03.218Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "CursoDtoValidator.cs",
-              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Validators\\CursoDtoValidator.cs",
-              "RelativeDocumentMoniker": "src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Validators\\CursoDtoValidator.cs",
-              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Validators\\CursoDtoValidator.cs",
-              "RelativeToolTip": "src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Validators\\CursoDtoValidator.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAgwAwAAAAPAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "PagamentoRepository.cs",
+              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Data\\Repository\\PagamentoRepository.cs",
+              "RelativeDocumentMoniker": "src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Data\\Repository\\PagamentoRepository.cs",
+              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Data\\Repository\\PagamentoRepository.cs",
+              "RelativeToolTip": "src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Data\\Repository\\PagamentoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T04:54:56.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ProgressoCursoDto.cs",
-              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Dtos\\ProgressoCursoDto.cs",
-              "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Dtos\\ProgressoCursoDto.cs",
-              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Dtos\\ProgressoCursoDto.cs",
-              "RelativeToolTip": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Dtos\\ProgressoCursoDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T04:41:01.326Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "CursoDto.cs",
-              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Dtos\\CursoDto.cs",
-              "RelativeDocumentMoniker": "src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Dtos\\CursoDto.cs",
-              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Dtos\\CursoDto.cs",
-              "RelativeToolTip": "src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Dtos\\CursoDto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T04:39:29.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "ProgressoAlunoDto.cs",
-              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Dtos\\ProgressoAlunoDto.cs",
-              "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Dtos\\ProgressoAlunoDto.cs",
-              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Dtos\\ProgressoAlunoDto.cs",
-              "RelativeToolTip": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Dtos\\ProgressoAlunoDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T04:38:06.287Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "AulaRealizadaDto.cs",
-              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Dtos\\AulaRealizadaDto.cs",
-              "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Dtos\\AulaRealizadaDto.cs",
-              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Dtos\\AulaRealizadaDto.cs",
-              "RelativeToolTip": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Dtos\\AulaRealizadaDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T04:36:36.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "CertificadoDto.cs",
-              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Dtos\\CertificadoDto.cs",
-              "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Dtos\\CertificadoDto.cs",
-              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Dtos\\CertificadoDto.cs",
-              "RelativeToolTip": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Dtos\\CertificadoDto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T04:35:33.592Z",
+              "WhenOpened": "2025-06-29T17:31:09.884Z",
               "EditorCaption": ""
             }
           ]

@@ -10,6 +10,7 @@
         "dependencies": {
           "Academy.GestaoAlunos.Application": "1.0.0",
           "Academy.GestaoConteudo.Application": "1.0.0",
+          "Academy.PagamentoFaturamento.Data": "1.0.0",
           "FluentValidation.AspNetCore": "11.3.1",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.6",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "9.0.6",
@@ -1278,6 +1279,32 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "Academy.PagamentoFaturamento.Data/1.0.0": {
+        "dependencies": {
+          "Academy.Core": "1.0.0",
+          "Academy.GestaoAlunos.Domain": "1.0.0",
+          "Academy.PagamentoFaturamento.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "9.0.6",
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.6"
+        },
+        "runtime": {
+          "Academy.PagamentoFaturamento.Data.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Academy.PagamentoFaturamento.Domain/1.0.0": {
+        "dependencies": {
+          "Academy.Core": "1.0.0"
+        },
+        "runtime": {
+          "Academy.PagamentoFaturamento.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1976,6 +2003,16 @@
       "sha512": ""
     },
     "Academy.GestaoConteudo.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Academy.PagamentoFaturamento.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Academy.PagamentoFaturamento.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

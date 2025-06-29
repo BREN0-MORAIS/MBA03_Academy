@@ -70,4 +70,11 @@ public class AulaService : IAulaService
         if (aulaExiste is not null)
             throw new ArgumentException($"Aula já existe neste curso.");
     }
+
+    public async Task<AulaDto> ObterPorId(Guid id)
+    {
+        var aula = await _aulaRepository.ObterPorId(id);
+
+        return _mapper.Map<AulaDto>(aula);
+    }
 }

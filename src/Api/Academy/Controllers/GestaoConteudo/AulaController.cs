@@ -1,7 +1,11 @@
 ﻿using Academy.Api.Data.Const;
+using Academy.GestaoAlunos.Application.CQRS.Commands.AulaRealizada;
+using Academy.GestaoAlunos.Application.Dtos;
 using Academy.GestaoConteudo.Application.CQRS.Commands.AtualizarAula;
 using Academy.GestaoConteudo.Application.CQRS.Commands.CriarAula;
 using Academy.GestaoConteudo.Application.CQRS.Commands.CriarCurso;
+using Academy.GestaoConteudo.Application.CQRS.Queries.ObterAulaAtivaPorId;
+using Academy.GestaoConteudo.Application.CQRS.Queries.ObterAulasPorCursoId;
 using Academy.GestaoConteudo.Application.Dtos;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
@@ -18,6 +22,23 @@ namespace Academy.Api.Controllers.GestaoConteudo
         public AulaController(IMediator mediator)
         {
             _mediator = mediator;
+        }
+
+
+        [Authorize]
+        [HttpGet("ObterAulaAtivaPorId/{aulaId:guid}")]
+        public async Task<IActionResult> ObterAulaAtivaPorId(Guid aulaId)
+        {
+            var aula = await _mediator.Send(new ObterAulaAtivaPorIdQuery { AulaId = aulaId });
+            return Ok(aula);
+        }
+
+        [Authorize]
+        [HttpGet("ObterAulasPorCursoId/{cursoId:guid}")]
+        public async Task<IActionResult> ObterAulasPorCursoId(Guid cursoId)
+        {
+            var aula = await _mediator.Send(new ObterAulasPorCursoIdQuery { CursoId = cursoId });
+            return Ok(aula);
         }
 
 
@@ -44,6 +65,27 @@ namespace Academy.Api.Controllers.GestaoConteudo
                 new { id = await _mediator.Send(command) }
             );
         }
+
+        [Authorize(Roles = RoleNames.Aluno)]
+        [HttpPost("RealizarAula")]
+        [ProducesResponseType(typeof(CriarCursoCommand), StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> RealizarAula([FromBody] AulaRealizadaAdicionarDto aulaDto)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var command = new AulaRealizadaCommand(
+                  aulaDto.MatriculaId,
+                  aulaDto.AulaId
+                );
+
+            return CreatedAtAction(
+                nameof(CriarAula),
+                new { id = await _mediator.Send(command) }
+            );
+        }
+
 
         [Authorize(Roles = RoleNames.Administrador)]
         [HttpPut("AtualizarAula/{id:guid}", Name = "AtualizarAula")]

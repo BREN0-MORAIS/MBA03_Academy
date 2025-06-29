@@ -29,6 +29,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\GestaoAluno\Academy.GestaoAlunos.Application\Academy.GestaoAlunos.Application.csproj" />
     <ProjectReference Include="..\..\GestaoConteudo\Academy.GestaoConteudo.Application\Academy.GestaoConteudo.Application.csproj" />
+    <ProjectReference Include="..\..\PagamentoFaturamento\Academy.PagamentoFaturamento.Data\Academy.PagamentoFaturamento.Data.csproj" />
   </ItemGroup>
 
 </Project>
