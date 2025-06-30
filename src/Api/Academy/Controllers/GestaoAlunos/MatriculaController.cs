@@ -54,9 +54,13 @@ public class MatriculaController : ControllerBase
     public async Task<IActionResult> FinalizarCurso([FromBody] FinalizarCursoRequest matricula)
     {
         var userIdentityId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+        var userName = User.FindFirst(System.Security.Claims.ClaimTypes.Name)?.Value;
+
         if (!ModelState.IsValid)
             return BadRequest(ModelState);
-        var command = new FinalizarCursoCommand(matricula.MatriculaId,  userIdentityId);
+
+        var command = new FinalizarCursoCommand(matricula.MatriculaId, userIdentityId, userName);
+
         return CreatedAtAction(
             nameof(FinalizarCurso),
             new { id = await _mediator.Send(command) }

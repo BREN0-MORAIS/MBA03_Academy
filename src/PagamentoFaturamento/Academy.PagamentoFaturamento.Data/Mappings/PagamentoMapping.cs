@@ -44,5 +44,9 @@ public class PagamentoMapping : IEntityTypeConfiguration<Pagamento>
         builder.Property(p => p.MensagemGateway)
             .HasColumnType("varchar(200)")
             .IsRequired();
+
+        builder.Property(p => p.NomeTitular)
+        .HasColumnType("varchar(200)")
+        .IsRequired();
     }
 }

@@ -13,6 +13,7 @@ public class Matricula : EntidadeBase, IAggregateRoot
     public DateTime DataConclusao { get; private set; }
     public MatriculaStatus Status { get; private set; }
     public ICollection<AulaRealizada> AulasRealizadas { get; private set; }
+    public Certificado certificado { get; private set; }
     public Matricula(){}
     public Matricula(string userId, Guid cursoId)
     {

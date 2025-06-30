@@ -13,6 +13,12 @@ public class FinalizarCursoHandler : IRequestHandler<FinalizarCursoCommand, stri
     }
     public async Task<string> Handle(FinalizarCursoCommand request, CancellationToken cancellationToken)
     {
-       return await _matriculaService.FinalizarCurso(request.MatriculaId, request.UserId);
+        return await _matriculaService.FinalizarCurso(new Dtos.FinalizarCursoDto
+        {
+            MatriculaId = request.MatriculaId,
+            UserId = request.UserId,
+            NomeAluno = request.NomeAluno
+        }
+        );
     }
 }

@@ -968,6 +968,10 @@
       "CursoDto": {
         "type": "object",
         "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
           "titulo": {
             "type": "string",
             "nullable": true

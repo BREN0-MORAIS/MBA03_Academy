@@ -11,6 +11,7 @@ namespace Academy.GestaoConteudo.Application.CQRS.Queries.ObterTodosCursos
 {
     public class ObterTodosCursosQuery : IRequest<IEnumerable<CursoDto>>
     {
+        public Guid Id { get; set; }
         public int Status { get; set; } 
 
     }

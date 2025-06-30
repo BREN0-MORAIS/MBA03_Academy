@@ -12,6 +12,6 @@ public interface IMatriculaService
     Task<MatriculaDto> ObterPorId(Guid id, params Expression<Func<Matricula, object>>[] includes);
     //Task<IEnumerable<MatriculaDto>> ObterTodos(CursoStatus status = CursoStatus.Todos, params Expression<Func<Curso, object>>[] includes);
     Task<Guid> Atualizar(Guid matriculaId, MatriculaDto matriculaDto);
-    Task<string> FinalizarCurso(Guid matriculaId, string userid);
+    Task<string> FinalizarCurso(FinalizarCursoDto finalizarCursoDto);
     Task<string> AtivarMatricula(Guid matriculaId, string userid);
 }

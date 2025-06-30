@@ -13,17 +13,22 @@ namespace Academy.GestaoAlunos.Application.Services.Implements;
 public class MatriculaService : IMatriculaService
 {
     private readonly IMapper _mapper;
+
+
+
     private IMatriculaRepository _matriculaRepository { get; set; }
     private IProgressoAlunoCursoRepository _progressoAlunoCursoRepository { get; set; }
     private ICursoConsultaExterna _cursoConsultaExterna { get; set; }
-    public MatriculaService(IMapper mapper, IMatriculaRepository matriculaRepository, IProgressoAlunoCursoRepository progressoAlunoCursoRepository, ICursoConsultaExterna cursoConsultaExterna)
+    private ICertificadoService _certificadoService { get; set; }
+
+    public MatriculaService(IMapper mapper, IMatriculaRepository matriculaRepository, IProgressoAlunoCursoRepository progressoAlunoCursoRepository, ICursoConsultaExterna cursoConsultaExterna, ICertificadoService certificadoService)
     {
         _mapper = mapper;
         _matriculaRepository = matriculaRepository;
         _progressoAlunoCursoRepository = progressoAlunoCursoRepository;
         _cursoConsultaExterna = cursoConsultaExterna;
+        _certificadoService = certificadoService;
     }
-
 
 
     public async Task<Guid> Criar(MatriculaDto MatriculaDto)
@@ -39,7 +44,6 @@ public class MatriculaService : IMatriculaService
         if (!await _cursoConsultaExterna.CursoExisteAsync(MatriculaDto.CursoId)) throw new DomainException("O curso informado não existe.");
         var UsuarioMatriculadoNoCurso = await _matriculaRepository.ObterEntidadePorFiltro(x => x.CursoId.Equals(MatriculaDto.CursoId) && x.UserId.Equals(MatriculaDto.UserId));
         if (UsuarioMatriculadoNoCurso is not null) throw new DomainException("O Usuário ja esta Matriculado neste Curso");
-
     }
 
     public async Task<string> AtivarMatricula(Guid matriculaId, string userid)
@@ -49,30 +53,35 @@ public class MatriculaService : IMatriculaService
         matricula.AtivarMatricula();
         _matriculaRepository.Atualizar(matricula);
 
-
         return "Matricula Ativada com sucesso!";
     }
 
 
-
-    public async Task<string> FinalizarCurso(Guid matriculaId, string userid)
+    public async Task<string> FinalizarCurso(FinalizarCursoDto finalizarCursoDto)
     {
-        var  matricula = await _matriculaRepository.ObterPorId(matriculaId);
-        await  ValidarFinalizacaoCurso(matricula, userid);
+        var  matricula = await _matriculaRepository.ObterPorId(finalizarCursoDto.MatriculaId);
+        await  ValidarFinalizacaoCurso(matricula, finalizarCursoDto.UserId);
         matricula.ConcluirCurso();
-        _matriculaRepository.Atualizar(matricula);
+ 
 
-        return string.Empty;
+        // gearar cerificado
+      var msg =  await _certificadoService.GerarCertificado(matricula, finalizarCursoDto.NomeAluno);
+
+
+       _matriculaRepository.Atualizar(matricula);
+
+        return msg;
     }
     public async Task  ValidarAtivarMatricula(Matricula matricula, string userid)
     {
-        if (!matricula.UserId.Equals(userid)) throw new DomainException("Usuário não cadastrado para esta Matricula.");
         if (matricula is null) throw new DomainException("Matricula não cadastrada");
+        if (!matricula.UserId.Equals(userid)) throw new DomainException("Usuário não cadastrado para esta Matricula.");
     }
     public async Task  ValidarFinalizacaoCurso(Matricula matricula, string userid)
     {
-        if (!matricula.UserId.Equals(userid)) throw new DomainException("Usuário não cadastrado para esta Matricula.");
+
         if (matricula is null) throw new DomainException("Matricula não cadastrada");
+        if (!matricula.UserId.Equals(userid)) throw new DomainException("Usuário não cadastrado para esta Matricula.");
         if (!matricula.Status.Equals(MatriculaStatus.Ativo)) throw new DomainException("Matricula inativa ou pendente pagamento.");
         var verificarProgresso = await _progressoAlunoCursoRepository.ObterEntidadePorFiltro(x => x.MatriculaId ==  matricula.Id);
         if (verificarProgresso is  null) throw new DomainException("Aluno não tem progresso registrado");

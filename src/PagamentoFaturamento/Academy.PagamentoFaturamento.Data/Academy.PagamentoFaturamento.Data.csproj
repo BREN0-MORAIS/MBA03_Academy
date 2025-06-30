@@ -21,4 +21,8 @@
     <ProjectReference Include="..\Academy.PagamentoFaturamento.Domain\Academy.PagamentoFaturamento.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
 </Project>

@@ -4,6 +4,7 @@ namespace Academy.GestaoConteudo.Application.Dtos;
 
 public class CursoDto
 {
+    public Guid Id { get; set; }
     public string Titulo { get;  set; }
     public string Descricao { get;  set; }
     public CursoStatus Status { get;  set; }

@@ -2,6 +2,7 @@
 using Academy.Api.Data;
 using Academy.Api.Data.Models;
 using Academy.Api.Data.Seed;
+using Academy.Core.Enuns;
 using Academy.GestaoAlunos.Application.AutorMapper;
 using Academy.GestaoAlunos.Application.CQRS.Commands.CriarMatricula;
 using Academy.GestaoAlunos.Data.Context;
@@ -81,17 +82,13 @@ builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Criar
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(RealizarPagamentoCommand).Assembly));
 
 // Contexts
-builder.Services.AddDbContext<GestaoConteudoContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddDbContext<GestaoAlunosContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+var providerString = builder.Configuration["DatabaseProvider"];
+var provider = Enum.Parse<DatabaseProvider>(providerString);
 
-builder.Services.AddDbContext<PagamentoFaturamentoContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.ConfigureDatabase(builder.Configuration, provider);
+
 
 //  Identity
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
