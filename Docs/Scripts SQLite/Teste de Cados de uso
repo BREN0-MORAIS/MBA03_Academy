@@ -99,7 +99,7 @@ MatriculaID = 1b6c0984-623f-4fa2-aecd-33d54fa6bd85
 AulaRealizadas
 */
 
-SELECT * FROM cursos WHERE UPPER(id) = UPPER('b0684ac2-cbb6-4115-a0bb-154e063516ae');
+select * from cursos where UPPER(id) = UPPER('b0684ac2-cbb6-4115-a0bb-154e063516ae');
 
 select * from aulas where UPPER(cursoId)  = UPPER('b0684ac2-cbb6-4115-a0bb-154e063516ae')
 

@@ -1,4 +1,5 @@
 ﻿using Academy.Core.Interfaces;
+using Academy.GestaoConteudo.Data.Repositories;
 using Academy.GestaoConteudo.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
@@ -14,6 +15,7 @@ public class GestaoConteudoContext : DbContext, IUnitOfWork
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+
         //foreach (var property in modelBuilder.Model.GetEntityTypes().SelectMany(
         //    e => e.GetProperties().Where(p => p.ClrType == typeof(string))))
         //    property.Relational().ColumnType = "varchar(100)";
