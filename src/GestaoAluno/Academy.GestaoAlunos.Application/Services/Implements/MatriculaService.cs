@@ -42,15 +42,33 @@ public class MatriculaService : IMatriculaService
 
     }
 
+    public async Task<string> AtivarMatricula(Guid matriculaId, string userid)
+    {
+        var matricula = await _matriculaRepository.ObterPorId(matriculaId);
+        await ValidarAtivarMatricula(matricula, userid);
+        matricula.AtivarMatricula();
+        _matriculaRepository.Atualizar(matricula);
+
+
+        return "Matricula Ativada com sucesso!";
+    }
+
+
+
     public async Task<string> FinalizarCurso(Guid matriculaId, string userid)
     {
         var  matricula = await _matriculaRepository.ObterPorId(matriculaId);
         await  ValidarFinalizacaoCurso(matricula, userid);
         matricula.ConcluirCurso();
         _matriculaRepository.Atualizar(matricula);
+
         return string.Empty;
     }
-
+    public async Task  ValidarAtivarMatricula(Matricula matricula, string userid)
+    {
+        if (!matricula.UserId.Equals(userid)) throw new DomainException("Usuário não cadastrado para esta Matricula.");
+        if (matricula is null) throw new DomainException("Matricula não cadastrada");
+    }
     public async Task  ValidarFinalizacaoCurso(Matricula matricula, string userid)
     {
         if (!matricula.UserId.Equals(userid)) throw new DomainException("Usuário não cadastrado para esta Matricula.");
@@ -59,8 +77,6 @@ public class MatriculaService : IMatriculaService
         var verificarProgresso = await _progressoAlunoCursoRepository.ObterEntidadePorFiltro(x => x.MatriculaId ==  matricula.Id);
         if (verificarProgresso is  null) throw new DomainException("Aluno não tem progresso registrado");
         if (verificarProgresso.Progresso < 100) throw new DomainException("Aluno não finalizou todos as aulas");
-
-
     }
 
     public Task<Guid> Atualizar(Guid MatriculaId, MatriculaDto matriculaDto)

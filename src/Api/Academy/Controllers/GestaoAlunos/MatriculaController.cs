@@ -1,5 +1,6 @@
 ﻿using Academy.Api.Data.Const;
 using Academy.Api.Enums.GestaoConteudo;
+using Academy.GestaoAlunos.Application.CQRS.Commands.AtivarMatricula;
 using Academy.GestaoAlunos.Application.CQRS.Commands.CriarMatricula;
 using Academy.GestaoAlunos.Application.CQRS.Commands.FinalizarCurso;
 using Academy.GestaoAlunos.Application.CQRS.Queries.ObterTodasMinhasMatriculas;
@@ -57,10 +58,30 @@ public class MatriculaController : ControllerBase
             return BadRequest(ModelState);
         var command = new FinalizarCursoCommand(matricula.MatriculaId,  userIdentityId);
         return CreatedAtAction(
-            nameof(CriarMatricula),
+            nameof(FinalizarCurso),
             new { id = await _mediator.Send(command) }
         );
     }
+
+
+    [Authorize(Roles = RoleNames.Aluno)]
+    [HttpPut("AtivarMatricula", Name = "AtivarMatricula")]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    public async Task<IActionResult> AtivarMatricula([FromBody] FinalizarCursoRequest matricula)
+    {
+        var userIdentityId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+        if (!ModelState.IsValid)
+            return BadRequest(ModelState);
+        var command = new AtivarMatriculaCommand(matricula.MatriculaId, userIdentityId);
+        return CreatedAtAction(
+            nameof(AtivarMatricula),
+            new { id = await _mediator.Send(command) }
+        );
+    }
+
+
 
     [Authorize]
     [HttpGet("ObterTodasMinhasMatriculas")]

@@ -5,7 +5,6 @@ using Academy.GestaoAlunos.Domain.Interface;
 using Academy.PagamentoFaturamento.Application.Dto;
 using Academy.PagamentoFaturamento.Application.Services.Interfaces;
 using Academy.PagamentoFaturamento.Domain.Entities;
-using Academy.PagamentoFaturamento.Domain.Enums;
 using Academy.PagamentoFaturamento.Domain.Geteway;
 using Academy.PagamentoFaturamento.Domain.Repository;
 using Academy.PagamentoFaturamento.Domain.ValueObjects;
@@ -20,14 +19,16 @@ public class PagamentoService : IPagamentoService
     private IMatriculaRepository _matriculaRepository;
     private IGatewayPagamento _gatewayPagamento;
     private ICursoConsultaExterna _cursoConsultaExterna;
+    private IMatriculaConsultaExterna _matriculaConsultaExterna;
     private readonly IMapper _mapper;
 
-    public PagamentoService(IPagamentoRepository pagamentoRepository, IMatriculaRepository matriculaRepository, IGatewayPagamento gatewayPagamento, ICursoConsultaExterna cursoConsultaExterna, IMapper mapper)
+    public PagamentoService(IPagamentoRepository pagamentoRepository, IMatriculaRepository matriculaRepository, IGatewayPagamento gatewayPagamento, ICursoConsultaExterna cursoConsultaExterna, IMatriculaConsultaExterna matriculaConsultaExterna, IMapper mapper)
     {
         _pagamentoRepository = pagamentoRepository;
         _matriculaRepository = matriculaRepository;
         _gatewayPagamento = gatewayPagamento;
         _cursoConsultaExterna = cursoConsultaExterna;
+        _matriculaConsultaExterna = matriculaConsultaExterna;
         _mapper = mapper;
     }
 
@@ -43,7 +44,6 @@ public class PagamentoService : IPagamentoService
                     pagamentoDto.Expiracao,
                     pagamentoDto.Cvv,
                     pagamentoDto.Bandeira);
-
 
 
         var curso =await _cursoConsultaExterna.ObterCursoDetalhadoAsync(matricula.CursoId);
@@ -69,8 +69,12 @@ public class PagamentoService : IPagamentoService
             );
 
         pagamento.Confirmar();
+
+
+
         await _pagamentoRepository.Adicionar(pagamento);
 
+        await _matriculaConsultaExterna.AtivarMatricuala(pagamentoDto.MatriculaId);
         return processarPagamento.Mensagem;
     }
 
@@ -78,6 +82,6 @@ public class PagamentoService : IPagamentoService
     {
         if (!matricula.UserId.Equals(userId)) throw new DomainException("Usuário não cadastrado para esta Matricula.");
         if (matricula is null) throw new DomainException("Matricula não cadastrada");
-        if (matricula.Status.Equals(MatriculaStatus.Inativo)) throw new DomainException("Matricula inativa ou pendente pagamento.");
+        if (matricula.Status.Equals(MatriculaStatus.Inativo)) throw new DomainException("Matricula inativa.");
     }
 }

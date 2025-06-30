@@ -81,7 +81,7 @@ namespace Academy.Api.Controllers.GestaoConteudo
                 );
 
             return CreatedAtAction(
-                nameof(CriarAula),
+                nameof(RealizarAula),
                 new { id = await _mediator.Send(command) }
             );
         }

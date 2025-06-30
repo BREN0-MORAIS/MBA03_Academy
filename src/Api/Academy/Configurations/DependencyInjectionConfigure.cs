@@ -1,4 +1,5 @@
-﻿using Academy.GestaoAlunos.Application.Services.Implements;
+﻿using Academy.Core.Events.ConsultaExterna.Implements;
+using Academy.GestaoAlunos.Application.Services.Implements;
 using Academy.GestaoAlunos.Application.Services.Interfaces;
 using Academy.GestaoAlunos.Application.Validators;
 using Academy.GestaoAlunos.Data.Repository;
@@ -42,7 +43,10 @@ public static class DependencyInjectionConfigure
             client.BaseAddress = new Uri(uri);
         });
 
-
+        services.AddHttpClient<IMatriculaConsultaExterna, MatriculaConsultaExterna>(client =>
+        {
+            client.BaseAddress = new Uri(uri);
+        });
 
         services.AddHttpClient<IAulaConsultaExterna, AulaConsultaExterna>(client =>
          {
