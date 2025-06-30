@@ -1,0 +1,112 @@
+/*
+-------------Contexto-----------------
+update-database -context ApplicationDbContext
+update-database -context GestaoAlunosContext
+update-database -context GestaoConteudoContext
+update-database  -context PagamentoFaturamentoContext
+
+add-migration   UsuariosSqlite                  -context ApplicationDbContext
+add-migration   GestaoAlunosSqlite              -context GestaoAlunosContext
+add-migration   GestaoConteudoSqlite            -context GestaoConteudoContext
+add-migration   PagamentoFaturamentoSqlite      -context PagamentoFaturamentoContext
+
+SQLite
+add-migration GestaoAlunosSqlite -context GestaoAlunosContext
+
+-------------Usuários-----------------
+
+#Admin
+admin@domain.com
+Admin123!
+
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI4NzBlZGE1Ny0wMWM1LTRmYTEtOTJjMy0wMTE0M2Y2ZmVkNDIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtaW5AZG9tYWluLmNvbSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6ImFkbWluQGRvbWFpbi5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbmlzdHJhZG9yIiwiZXhwIjoxNzUxMjk4MzAyLCJpc3MiOiJhY2FkZW15LWF1dGgiLCJhdWQiOiJhY2FkZW15LWFwaSJ9.I9EpfX9vm0renw8sJkWjJFAZHgG0VVjeOnXPbHG9OhE
+
+
+#Aluno
+student@domain.com
+Student123!
+
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0ZGIwODYyYy0yNjI1LTRhZWItYTgxNS04ZjIxZWFmZjZiMTkiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoic3R1ZGVudEBkb21haW4uY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZW1haWxhZGRyZXNzIjoic3R1ZGVudEBkb21haW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWx1bm8iLCJleHAiOjE3NTEzMTI1NTIsImlzcyI6ImFjYWRlbXktYXV0aCIsImF1ZCI6ImFjYWRlbXktYXBpIn0.IBroG7dDJktufTvkwWXv-EwdazV4Z4XBPI1zpYuJjWs
+
+CartaoValido
+
+
+Dados de teste de caso de uso
+------------------------------
+
+- Administrador cadastra o curso e conteudo programatico
+
+{
+  "titulo": "Curso pra validar Caso de Uso",
+  "descricao": "curso 11111",
+  "status": 1,
+  "valor": 100.00,
+  "objetivo": "O objetvo é testar o caso de uso",
+  "preRequisitos": "Ter feito o curso"
+}
+
+CursoId = 227b4a5c-42b0-41ea-a9f8-6bcddeb95340
+
+
+- Administrador cadastra a aula para o curso existente
+
+{
+  "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "titulo": "Aula para testar o caso de uso 1",
+  "descricao": "Descricao para testar o caso de uso",
+  "videoUrl": "https://localhost:7179/swagger/index.html",
+  "duracao": "0:00",
+  "ordem": 1,
+  "cursoId": "227b4a5c-42b0-41ea-a9f8-6bcddeb95340"
+}
+
+
+4 Aulas cadastradas para o CursoId = 227b4a5c-42b0-41ea-a9f8-6bcddeb95340
+
+
+- Aluno faz a matricula do curso ativo  (Matricula cadastrada com status 3 de PendentePagamento)
+
+    # Status da Matricula
+
+    [Display(Name = "Inativo")]
+    Inativo = 0,
+    [Display(Name = "Ativo")]
+    Ativo = 1,
+    [Display(Name = "Pendente de Pagamento")]
+    PendentePagamento = 3,
+    [Display(Name = "Concluído")]
+    Concluido = 4,
+{
+  "cursoId": "227b4a5c-42b0-41ea-a9f8-6bcddeb95340"
+}
+
+MatriculaID = 1b6c0984-623f-4fa2-aecd-33d54fa6bd85
+
+
+- Aluno realiza o pagamento (A matricula tem que alterar o estado para 1 Ativo)  
+
+{
+  "matriculaId": "1b6c0984-623f-4fa2-aecd-33d54fa6bd85",
+  "valor": 150.75,
+  "nomeTitular": "Breno Silva",
+  "numeroCartaoCompleto": "4111111111111111",
+  "expiracao": "12/27",
+  "cvv": "123",
+  "bandeira": "Visa",
+  "meioPagamento": 1
+}
+
+AulaRealizadas
+*/
+
+SELECT * FROM cursos WHERE UPPER(id) = UPPER('b0684ac2-cbb6-4115-a0bb-154e063516ae');
+
+select * from aulas where UPPER(cursoId)  = UPPER('b0684ac2-cbb6-4115-a0bb-154e063516ae')
+
+select * from matriculas where UPPER(id)  = UPPER('1b6c0984-623f-4fa2-aecd-33d54fa6bd85')
+
+select * from AulaRealizadas  where UPPER(MatriculaId)  = UPPER('1b6c0984-623f-4fa2-aecd-33d54fa6bd85')
+
+select * from ProgressoAlunoCursos  where UPPER(MatriculaId)  = UPPER('1b6c0984-623f-4fa2-aecd-33d54fa6bd85')
+
+select * from certificados  where UPPER(id)  = UPPER('2e6adcf4-0304-4419-bbf1-1a2b2ef35d4b')
