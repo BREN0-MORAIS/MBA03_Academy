@@ -81,8 +81,6 @@ public class MatriculaController : ControllerBase
         );
     }
 
-
-
     [Authorize]
     [HttpGet("ObterTodasMinhasMatriculas")]
     public async Task<IActionResult> ObterTodasMinhasMatriculas()

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Lab\\Fontes\\MBA03_Academy\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{171CB9B7-0746-4C5D-AAE7-48CE9177D6E9}|src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Application\\Academy.PagamentoFaturamento.Application.csproj|c:\\lab\\fontes\\mba03_academy\\src\\pagamentofaturamento\\academy.pagamentofaturamento.application\\validators\\pagamentodtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{171CB9B7-0746-4C5D-AAE7-48CE9177D6E9}|src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Application\\Academy.PagamentoFaturamento.Application.csproj|solutionrelative:src\\pagamentofaturamento\\academy.pagamentofaturamento.application\\validators\\pagamentodtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C45C380A-6A31-4E5F-BA61-CDB4461D0661}|src\\Api\\Academy\\Academy.Api.csproj|c:\\lab\\fontes\\mba03_academy\\src\\api\\academy\\controllers\\gestaoalunos\\matriculacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C45C380A-6A31-4E5F-BA61-CDB4461D0661}|src\\Api\\Academy\\Academy.Api.csproj|solutionrelative:src\\api\\academy\\controllers\\gestaoalunos\\matriculacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -243,10 +247,6 @@
       "RelativeMoniker": "D:0:0:{171CB9B7-0746-4C5D-AAE7-48CE9177D6E9}|src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Application\\Academy.PagamentoFaturamento.Application.csproj|solutionrelative:src\\pagamentofaturamento\\academy.pagamentofaturamento.application\\automapper\\pagamentofaturamentomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{171CB9B7-0746-4C5D-AAE7-48CE9177D6E9}|src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Application\\Academy.PagamentoFaturamento.Application.csproj|c:\\lab\\fontes\\mba03_academy\\src\\pagamentofaturamento\\academy.pagamentofaturamento.application\\validators\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{171CB9B7-0746-4C5D-AAE7-48CE9177D6E9}|src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Application\\Academy.PagamentoFaturamento.Application.csproj|solutionrelative:src\\pagamentofaturamento\\academy.pagamentofaturamento.application\\validators\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A90DD042-FBB9-DEF0-FEB4-E2ADCC379306}|src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoconteudo\\academy.gestaoconteudo.application\\validators\\auladtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A90DD042-FBB9-DEF0-FEB4-E2ADCC379306}|src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Academy.GestaoConteudo.Application.csproj|solutionrelative:src\\gestaoconteudo\\academy.gestaoconteudo.application\\validators\\auladtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -274,37 +274,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MatriculaConsultaExterna.cs",
-              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Core\\Academy.Core\\Events\\ConsultaExterna\\Implements\\MatriculaConsultaExterna.cs",
-              "RelativeDocumentMoniker": "src\\Core\\Academy.Core\\Events\\ConsultaExterna\\Implements\\MatriculaConsultaExterna.cs",
-              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Core\\Academy.Core\\Events\\ConsultaExterna\\Implements\\MatriculaConsultaExterna.cs",
-              "RelativeToolTip": "src\\Core\\Academy.Core\\Events\\ConsultaExterna\\Implements\\MatriculaConsultaExterna.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T03:03:14.351Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MatriculaController.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Api\\Academy\\Controllers\\GestaoAlunos\\MatriculaController.cs",
               "RelativeDocumentMoniker": "src\\Api\\Academy\\Controllers\\GestaoAlunos\\MatriculaController.cs",
               "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Api\\Academy\\Controllers\\GestaoAlunos\\MatriculaController.cs",
               "RelativeToolTip": "src\\Api\\Academy\\Controllers\\GestaoAlunos\\MatriculaController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAIA1wEgAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAIAxwFIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-29T17:32:42.043Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "FinalizarCursoRequest.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Api\\Academy\\Controllers\\GestaoAlunos\\FinalizarCursoRequest.cs",
               "RelativeDocumentMoniker": "src\\Api\\Academy\\Controllers\\GestaoAlunos\\FinalizarCursoRequest.cs",
@@ -317,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "AulaController.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Api\\Academy\\Controllers\\GestaoConteudo\\AulaController.cs",
               "RelativeDocumentMoniker": "src\\Api\\Academy\\Controllers\\GestaoConteudo\\AulaController.cs",
@@ -330,7 +317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "DependencyInjectionConfigure.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Api\\Academy\\Configurations\\DependencyInjectionConfigure.cs",
               "RelativeDocumentMoniker": "src\\Api\\Academy\\Configurations\\DependencyInjectionConfigure.cs",
@@ -343,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PagamentoService.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Application\\Services\\Implements\\PagamentoService.cs",
               "RelativeDocumentMoniker": "src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Application\\Services\\Implements\\PagamentoService.cs",
@@ -356,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MatriculaStatus.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Enums\\MatriculaStatus.cs",
               "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Enums\\MatriculaStatus.cs",
@@ -369,7 +356,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "PagamentoDtoValidator.cs",
+              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Application\\Validators\\PagamentoDtoValidator.cs",
+              "RelativeDocumentMoniker": "src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Application\\Validators\\PagamentoDtoValidator.cs",
+              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Application\\Validators\\PagamentoDtoValidator.cs",
+              "RelativeToolTip": "src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Application\\Validators\\PagamentoDtoValidator.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T20:08:00.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MatriculaConsultaExterna.cs",
+              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Core\\Academy.Core\\Events\\ConsultaExterna\\Implements\\MatriculaConsultaExterna.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Academy.Core\\Events\\ConsultaExterna\\Implements\\MatriculaConsultaExterna.cs",
+              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Core\\Academy.Core\\Events\\ConsultaExterna\\Implements\\MatriculaConsultaExterna.cs",
+              "RelativeToolTip": "src\\Core\\Academy.Core\\Events\\ConsultaExterna\\Implements\\MatriculaConsultaExterna.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T03:03:14.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "IMatriculaConsultaExterna.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Core\\Academy.Core\\Events\\ConsultaExterna\\Interface\\IMatriculaConsultaExterna.cs",
               "RelativeDocumentMoniker": "src\\Core\\Academy.Core\\Events\\ConsultaExterna\\Interface\\IMatriculaConsultaExterna.cs",
@@ -382,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "AtivarMatriculaCommand.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\CQRS\\Commands\\AtivarMatricula\\AtivarMatriculaCommand.cs",
               "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\CQRS\\Commands\\AtivarMatricula\\AtivarMatriculaCommand.cs",
@@ -395,7 +408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "AtivarMatriculaHandler.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\CQRS\\Commands\\AtivarMatricula\\AtivarMatriculaHandler.cs",
               "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\CQRS\\Commands\\AtivarMatricula\\AtivarMatriculaHandler.cs",
@@ -408,7 +421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CursoConsultaExterna.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Core\\Academy.Core\\Events\\ConsultaExterna\\Implements\\CursoConsultaExterna.cs",
               "RelativeDocumentMoniker": "src\\Core\\Academy.Core\\Events\\ConsultaExterna\\Implements\\CursoConsultaExterna.cs",
@@ -421,7 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "CursoController.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Api\\Academy\\Controllers\\GestaoConteudo\\CursoController.cs",
               "RelativeDocumentMoniker": "src\\Api\\Academy\\Controllers\\GestaoConteudo\\CursoController.cs",
@@ -434,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Api\\Academy\\Program.cs",
               "RelativeDocumentMoniker": "src\\Api\\Academy\\Program.cs",
@@ -447,7 +460,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "IMatriculaService.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Services\\Interfaces\\IMatriculaService.cs",
               "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Services\\Interfaces\\IMatriculaService.cs",
@@ -460,7 +473,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "PagamentoController.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Api\\Academy\\Controllers\\PagamentoFaturamento\\PagamentoController.cs",
               "RelativeDocumentMoniker": "src\\Api\\Academy\\Controllers\\PagamentoFaturamento\\PagamentoController.cs",
@@ -473,7 +486,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "CriarMatriculaHandler.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\CQRS\\Commands\\CriarMatricula\\CriarMatriculaHandler.cs",
               "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\CQRS\\Commands\\CriarMatricula\\CriarMatriculaHandler.cs",
@@ -486,7 +499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "CriarMatriculaCommand.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\CQRS\\Commands\\CriarMatricula\\CriarMatriculaCommand.cs",
               "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\CQRS\\Commands\\CriarMatricula\\CriarMatriculaCommand.cs",
@@ -499,7 +512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "FinalizarCursoCommand.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\CQRS\\Commands\\FinalizarCurso\\FinalizarCursoCommand.cs",
               "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\CQRS\\Commands\\FinalizarCurso\\FinalizarCursoCommand.cs",
@@ -512,7 +525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "FinalizarCursoHandler.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\CQRS\\Commands\\FinalizarCurso\\FinalizarCursoHandler.cs",
               "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\CQRS\\Commands\\FinalizarCurso\\FinalizarCursoHandler.cs",
@@ -525,7 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "MatriculaService.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Services\\Implements\\MatriculaService.cs",
               "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Services\\Implements\\MatriculaService.cs",
@@ -538,7 +551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "PagamentoRepository.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Data\\Repository\\PagamentoRepository.cs",
               "RelativeDocumentMoniker": "src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Data\\Repository\\PagamentoRepository.cs",
@@ -551,7 +564,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "GatewayPagamentoSimulado.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Data\\GetewayPagamento\\GatewayPagamentoSimulado.cs",
               "RelativeDocumentMoniker": "src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Data\\GetewayPagamento\\GatewayPagamentoSimulado.cs",
@@ -564,7 +577,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Pagamento.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Domain\\Entities\\Pagamento.cs",
               "RelativeDocumentMoniker": "src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Domain\\Entities\\Pagamento.cs",
@@ -577,7 +590,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "20250629215810_NomeTitular.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Data\\Migrations\\20250629215810_NomeTitular.cs",
               "RelativeDocumentMoniker": "src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Data\\Migrations\\20250629215810_NomeTitular.cs",
@@ -590,7 +603,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "PagamentoResultado.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Data\\GetewayPagamento\\PagamentoResultado.cs",
               "RelativeDocumentMoniker": "src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Data\\GetewayPagamento\\PagamentoResultado.cs",
@@ -603,7 +616,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "AulaService.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Services\\Implements\\AulaService.cs",
               "RelativeDocumentMoniker": "src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Services\\Implements\\AulaService.cs",
@@ -616,7 +629,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "CriarAulaHandler.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\CQRS\\Commands\\CriarAula\\CriarAulaHandler.cs",
               "RelativeDocumentMoniker": "src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\CQRS\\Commands\\CriarAula\\CriarAulaHandler.cs",
@@ -629,7 +642,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "CursoService.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Services\\Implements\\CursoService.cs",
               "RelativeDocumentMoniker": "src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Services\\Implements\\CursoService.cs",
@@ -642,7 +655,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "ObterTodosCursosQueryHandler.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\CQRS\\Queries\\ObterTodosCursos\\ObterTodosCursosQueryHandler.cs",
               "RelativeDocumentMoniker": "src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\CQRS\\Queries\\ObterTodosCursos\\ObterTodosCursosQueryHandler.cs",
@@ -655,7 +668,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "MediatrHandler.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Core\\Academy.Core\\Bus\\MediatrHandler.cs",
               "RelativeDocumentMoniker": "src\\Core\\Academy.Core\\Bus\\MediatrHandler.cs",
@@ -668,7 +681,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "IMediatrHandler.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Core\\Academy.Core\\Bus\\IMediatrHandler.cs",
               "RelativeDocumentMoniker": "src\\Core\\Academy.Core\\Bus\\IMediatrHandler.cs",
@@ -681,7 +694,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "CriarCursoHandler.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\CQRS\\Commands\\CriarCurso\\CriarCursoHandler.cs",
               "RelativeDocumentMoniker": "src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\CQRS\\Commands\\CriarCurso\\CriarCursoHandler.cs",
@@ -694,7 +707,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "GestaoConteudoMap.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\AutorMapper\\GestaoConteudoMap.cs",
               "RelativeDocumentMoniker": "src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\AutorMapper\\GestaoConteudoMap.cs",
@@ -707,7 +720,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "CriarCursoDto.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Dtos\\CriarCursoDto.cs",
               "RelativeDocumentMoniker": "src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Dtos\\CriarCursoDto.cs",
@@ -720,7 +733,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Curso.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Domain\\Entities\\Curso.cs",
               "RelativeDocumentMoniker": "src\\GestaoConteudo\\Academy.GestaoConteudo.Domain\\Entities\\Curso.cs",
@@ -733,7 +746,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "GestaoConteudoNovaAulaEvent.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Domain\\Events\\GestaoConteudoNovaAulaEvent.cs",
               "RelativeDocumentMoniker": "src\\GestaoConteudo\\Academy.GestaoConteudo.Domain\\Events\\GestaoConteudoNovaAulaEvent.cs",
@@ -746,7 +759,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "CriarCursoCommand.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\CQRS\\Commands\\CriarCurso\\CriarCursoCommand.cs",
               "RelativeDocumentMoniker": "src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\CQRS\\Commands\\CriarCurso\\CriarCursoCommand.cs",
@@ -759,7 +772,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "ICursoService.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Services\\Interfaces\\ICursoService.cs",
               "RelativeDocumentMoniker": "src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Services\\Interfaces\\ICursoService.cs",
@@ -772,7 +785,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "CursoDto.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Dtos\\CursoDto.cs",
               "RelativeDocumentMoniker": "src\\GestaoConteudo\\Academy.GestaoConteudo.Application\\Dtos\\CursoDto.cs",
@@ -785,7 +798,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "GestaoAlunosContext.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Data\\Context\\GestaoAlunosContext.cs",
               "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Data\\Context\\GestaoAlunosContext.cs",
@@ -798,7 +811,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "GestaoConteudoContext.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoConteudo\\Academy.GestaoConteudo.Data\\Context\\GestaoConteudoContext.cs",
               "RelativeDocumentMoniker": "src\\GestaoConteudo\\Academy.GestaoConteudo.Data\\Context\\GestaoConteudoContext.cs",
@@ -811,7 +824,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "PagamentoFaturamentoContext.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Data\\Context\\PagamentoFaturamentoContext.cs",
               "RelativeDocumentMoniker": "src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Data\\Context\\PagamentoFaturamentoContext.cs",
@@ -824,7 +837,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "AulaRespostaDto.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Core\\Academy.Core\\Events\\ConsultaExterna\\Dtos\\AulaRespostaDto.cs",
               "RelativeDocumentMoniker": "src\\Core\\Academy.Core\\Events\\ConsultaExterna\\Dtos\\AulaRespostaDto.cs",
@@ -837,7 +850,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "CursoRespostaDto.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Core\\Academy.Core\\Events\\ConsultaExterna\\Dtos\\CursoRespostaDto.cs",
               "RelativeDocumentMoniker": "src\\Core\\Academy.Core\\Events\\ConsultaExterna\\Dtos\\CursoRespostaDto.cs",
@@ -850,7 +863,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "ICursoConsultaExterna.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Core\\Academy.Core\\Events\\ConsultaExterna\\Interface\\ICursoConsultaExterna.cs",
               "RelativeDocumentMoniker": "src\\Core\\Academy.Core\\Events\\ConsultaExterna\\Interface\\ICursoConsultaExterna.cs",
@@ -863,7 +876,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "IAulaConsultaExterna.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Core\\Academy.Core\\Events\\ConsultaExterna\\Interface\\IAulaConsultaExterna.cs",
               "RelativeDocumentMoniker": "src\\Core\\Academy.Core\\Events\\ConsultaExterna\\Interface\\IAulaConsultaExterna.cs",
@@ -876,7 +889,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "AulaRealizadaService.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Services\\Implements\\AulaRealizadaService.cs",
               "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Services\\Implements\\AulaRealizadaService.cs",
@@ -889,7 +902,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "Academy.Core.csproj",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Core\\Academy.Core\\Academy.Core.csproj",
               "RelativeDocumentMoniker": "src\\Core\\Academy.Core\\Academy.Core.csproj",
@@ -902,7 +915,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "AulaConsultaExterna.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\Core\\Academy.Core\\Events\\ConsultaExterna\\Implements\\AulaConsultaExterna.cs",
               "RelativeDocumentMoniker": "src\\Core\\Academy.Core\\Events\\ConsultaExterna\\Implements\\AulaConsultaExterna.cs",
@@ -915,7 +928,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "PagamentoHandler.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Application\\CQRS\\Commands\\RealizarPagamento\\PagamentoHandler.cs",
               "RelativeDocumentMoniker": "src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Application\\CQRS\\Commands\\RealizarPagamento\\PagamentoHandler.cs",
@@ -928,7 +941,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "PagamentoCommand.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Application\\CQRS\\Commands\\RealizarPagamento\\PagamentoCommand.cs",
               "RelativeDocumentMoniker": "src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Application\\CQRS\\Commands\\RealizarPagamento\\PagamentoCommand.cs",
@@ -941,7 +954,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "Academy.GestaoAlunos.Application.csproj",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Academy.GestaoAlunos.Application.csproj",
               "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Application\\Academy.GestaoAlunos.Application.csproj",
@@ -954,7 +967,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "IGatewayPagamento.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Data\\GetewayPagamento\\IGatewayPagamento.cs",
               "RelativeDocumentMoniker": "src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Data\\GetewayPagamento\\IGatewayPagamento.cs",
@@ -967,7 +980,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "PagamentoDto.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Application\\Dtos\\PagamentoDto.cs",
               "RelativeDocumentMoniker": "src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Application\\Dtos\\PagamentoDto.cs",
@@ -980,7 +993,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "IPagamentoService.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Application\\Services\\Interfaces\\IPagamentoService.cs",
               "RelativeDocumentMoniker": "src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Application\\Services\\Interfaces\\IPagamentoService.cs",
@@ -993,7 +1006,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "DadosCartao.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Domain\\ObjectValue\\DadosCartao.cs",
               "RelativeDocumentMoniker": "src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Domain\\ObjectValue\\DadosCartao.cs",
@@ -1006,7 +1019,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "CursoRespostaDto.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Application\\Dtos\\CursoRespostaDto.cs",
               "RelativeDocumentMoniker": "src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Application\\Dtos\\CursoRespostaDto.cs",
@@ -1019,7 +1032,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "MeioPagamento.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Domain\\Enums\\MeioPagamento.cs",
               "RelativeDocumentMoniker": "src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Domain\\Enums\\MeioPagamento.cs",
@@ -1032,7 +1045,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "Academy.PagamentoFaturamento.Application.csproj",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Application\\Academy.PagamentoFaturamento.Application.csproj",
               "RelativeDocumentMoniker": "src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Application\\Academy.PagamentoFaturamento.Application.csproj",
@@ -1045,7 +1058,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "PagamentoFaturamentoMap.cs",
               "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Application\\AutoMapper\\PagamentoFaturamentoMap.cs",
               "RelativeDocumentMoniker": "src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Application\\AutoMapper\\PagamentoFaturamentoMap.cs",
@@ -1054,19 +1067,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwBYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-29T20:09:44.349Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Application\\Validators\\Class1.cs",
-              "RelativeDocumentMoniker": "src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Application\\Validators\\Class1.cs",
-              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Application\\Validators\\Class1.cs",
-              "RelativeToolTip": "src\\PagamentoFaturamento\\Academy.PagamentoFaturamento.Application\\Validators\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwCAAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T20:08:00.435Z",
               "EditorCaption": ""
             },
             {

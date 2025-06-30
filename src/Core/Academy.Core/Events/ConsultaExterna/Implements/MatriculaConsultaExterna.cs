@@ -34,11 +34,7 @@ public class MatriculaConsultaExterna : IMatriculaConsultaExterna
 
         var json = System.Text.Json.JsonSerializer.Serialize(body);
         var content = new StringContent(json, System.Text.Encoding.UTF8, "application/json");
-
-        // PUT na rota do endpoint
         var response = await _httpClient.PutAsync("/api/Matricula/AtivarMatricula", content);
-
-        // Se quiser ver o status real (201 ou erro)
         if (!response.IsSuccessStatusCode)
         {
             var erro = await response.Content.ReadAsStringAsync();
