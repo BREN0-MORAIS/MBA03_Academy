@@ -73,6 +73,12 @@ public class Validacoes
         }
     }
 
+    public static void ValidarSeGuidVazio(Guid guid, string mensagem)
+    {
+        if (guid == Guid.Empty)
+            throw new DomainException(mensagem);
+    }
+
     public static void ValidarMinimoMaximo(float valor, float minimo, float maximo, string mensagem)
     {
         if (valor < minimo || valor > maximo)

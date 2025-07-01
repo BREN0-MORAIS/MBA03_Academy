@@ -30,8 +30,8 @@ public class AulaRealizada : EntidadeBase, IAggregateRoot
     public void Validar()
     {
         //Validacoes.ValidarSeVazio(CursoId.ToString(), "O CursoId não pode ser vazio");
-        Validacoes.ValidarSeVazio(MatriculaId.ToString(), "MatriculaId não pode ser vazio");
-        Validacoes.ValidarSeVazio(AulaId.ToString(), "AulaId  não pode ser vazio");
+        Validacoes.ValidarSeGuidVazio(MatriculaId, "MatriculaId não pode ser vazio");
+        Validacoes.ValidarSeGuidVazio(AulaId, "AulaId  não pode ser vazio");
     }
 
 }
