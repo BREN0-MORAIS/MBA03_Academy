@@ -33,9 +33,9 @@ public class Certificado : EntidadeBase, IAggregateRoot
 
     private void Validar()
     {
-        Validacoes.ValidarSeNulo(UserId, "O ID do UserId é obrigatório.");
-        Validacoes.ValidarSeNulo(CursoId, "O ID do CursoId é obrigatório.");
-        Validacoes.ValidarSeNulo(MatriculaId, "O ID do MatriculaId é obrigatório.");
+        Validacoes.ValidarSeNulo(UserId, "UserId é obrigatório.");
+        Validacoes.ValidarSeGuidVazio(CursoId, "CursoId é obrigatório.");
+        Validacoes.ValidarSeGuidVazio(MatriculaId, "MatriculaId é obrigatório.");
         Validacoes.ValidarSeVazio(NomeDoAluno, "O nome do NomeDoAluno é obrigatório.");
         Validacoes.ValidarTamanho(NomeDoAluno, 3, 100, "O NomeDoAluno do aluno deve ter entre 3 e 100 caracteres.");
 

@@ -100,13 +100,9 @@ AulaRealizadas
 */
 
 select * from cursos where UPPER(id) = UPPER('b0684ac2-cbb6-4115-a0bb-154e063516ae');
-
 select * from aulas where UPPER(cursoId)  = UPPER('b0684ac2-cbb6-4115-a0bb-154e063516ae')
-
 select * from matriculas where UPPER(id)  = UPPER('1b6c0984-623f-4fa2-aecd-33d54fa6bd85')
-
 select * from AulaRealizadas  where UPPER(MatriculaId)  = UPPER('1b6c0984-623f-4fa2-aecd-33d54fa6bd85')
-
 select * from ProgressoAlunoCursos  where UPPER(MatriculaId)  = UPPER('1b6c0984-623f-4fa2-aecd-33d54fa6bd85')
-
 select * from certificados  where UPPER(id)  = UPPER('2e6adcf4-0304-4419-bbf1-1a2b2ef35d4b')
+select * from pagamentos

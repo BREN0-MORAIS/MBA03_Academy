@@ -8,14 +8,14 @@ public class AulaRealizadaTests
     [Fact]
     public void MatriculaId_E_AulaId_Deve_Ser_Cadastrada_Sem_Excecao()
     {
-        //arrange
+        //Arrange
         var matriculaId = Guid.NewGuid();
         var aulaId = Guid.NewGuid();
 
         //act
         var aulaRealizada = new AulaRealizada(matriculaId, aulaId);
 
-        //assert
+        //Assert
         Assert.Equal(matriculaId, aulaRealizada.MatriculaId);
         Assert.Equal(aulaId, aulaRealizada.AulaId);
     }
