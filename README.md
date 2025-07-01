@@ -47,44 +47,44 @@ O **Academy** visa oferecer:
 │       📁 Const
 │       📁 Dtos
 │       📁 Models
-│       └️📁 Seed
+│       📁 Seed
 
 📁 Services           # Lógica de negócio separada por bounded contexts
 │   📁 Core           # Camada compartilhada entre os contextos
 │   │   📁 Data
 │   │   📁 DomainObjects
 │   │   │   📁 Exceptions
-│   │   │   └️📁 Validations
+│   │   │   📁 Validations
 │   │   📁 Entities
 │   │   📁 Enums
 │   │   📁 Events
 │   │   │   └️📁 ConsultaExterna
 │   │   │       📁 Dtos
 │   │   │       📁 Implements
-│   │   │       └️📁 Interfaces
+│   │   │       📁 Interfaces
 │   │   📁 Extensions
-│   │   └️📁 Interfaces
+│   │   📁 Interfaces
 │   📁 GestaoAlunos   # Contexto de gestão de alunos
 │   │   📁 Application
 │   │   │   📁 AutoMapper
 │   │   │   📁 CQRS
 │   │   │   │   📁 Commands
-│   │   │   │   └️📁 Queries
+│   │   │   │   📁 Queries
 │   │   │   📁 DTOs
 │   │   │   📁 Seed
 │   │   │   📁 Services
 │   │   │   │   📁 Implements
-│   │   │   │   └️📁 Interfaces
+│   │   │   │   📁 Interfaces
 │   │   │   └️📁 Validators
 │   │   📁 Data
 │   │   │   📁 Context
 │   │   │   📁 Migrations
-│   │   │   └️📁 Repository
+│   │   │   📁 Repository
 │   │   └️📁 Domain
 │   │       📁 Entities
 │   │       📁 Enums
 │   │       📁 Interfaces
-│   │       └️📁 ObjectValue
+│   │       📁 ObjectValue
 
 │   # Os contextos GestaoConteudo e PagamentoFaturamento seguem a mesma estrutura de GestaoAlunos.
 
