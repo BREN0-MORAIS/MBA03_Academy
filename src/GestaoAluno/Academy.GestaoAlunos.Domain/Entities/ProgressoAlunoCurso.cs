@@ -21,12 +21,15 @@ public class ProgressoAlunoCurso : EntidadeBase, IAggregateRoot
     }
     public void Validar()
     {
-        Validacoes.ValidarSeVazio(CursoId.ToString(), "UserId não pode ser vazio");
-        Validacoes.ValidarSeVazio(UserId.ToString(), "CursoId não pode ser vazio");
-        Validacoes.ValidarSeVazio(MatriculaId.ToString(), "CursoId não pode ser vazio");
+        Validacoes.ValidarSeGuidVazio(CursoId, "CursoId não pode ser vazio");
+        Validacoes.ValidarSeVazio(UserId.ToString(), "UserId não pode ser vazio");
+        Validacoes.ValidarSeGuidVazio(MatriculaId, "MatriculaId não pode ser vazio");
     }
     public async Task RegistrarProgresso( int total, int concluidas)
     {
+        Validacoes.ValidarSeMenorQue(total, 0, "total não pode ser menor que 0");
+        Validacoes.ValidarSeMenorQue(concluidas, 0, "o campo concluidas não pode ser menor que 0");
+
         if (total == 0)
         {
             Progresso = 0;

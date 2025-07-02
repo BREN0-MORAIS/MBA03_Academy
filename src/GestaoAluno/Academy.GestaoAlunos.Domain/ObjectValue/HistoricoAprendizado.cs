@@ -1,4 +1,6 @@
-﻿namespace Academy.GestaoAlunos.Domain.ObjectValue
+﻿using Academy.Core.DomainObjects.Validations;
+
+namespace Academy.GestaoAlunos.Domain.ObjectValue
 {
     public class HistoricoAprendizado
     {
@@ -9,6 +11,12 @@
         {
             TotalCursosConcluidos = totalCursosConcluidos;
             TotalHoras = totalHoras;
+            Validar();
+        }
+
+        public void Validar()
+        {
+            //Validacoes.se
         }
     }
 }

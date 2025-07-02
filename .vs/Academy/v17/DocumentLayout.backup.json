@@ -1,30 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Fontes\\Lab\\MBA03_Academy\\",
+  "WorkspaceRootPath": "C:\\Lab\\Fontes\\MBA03_Academy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{374FEDD8-404E-4EDE-BC31-19BA2816EFBD}|src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Academy.GestaoAlunos.Tests.csproj|d:\\fontes\\lab\\mba03_academy\\src\\gestaoaluno\\academy.gestaoalunos.tests\\domain\\entities\\aularealizadatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{374FEDD8-404E-4EDE-BC31-19BA2816EFBD}|src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Academy.GestaoAlunos.Tests.csproj|solutionrelative:src\\gestaoaluno\\academy.gestaoalunos.tests\\domain\\entities\\aularealizadatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{374FEDD8-404E-4EDE-BC31-19BA2816EFBD}|src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Academy.GestaoAlunos.Unidade.Tests.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoaluno\\academy.gestaoalunos.tests\\domain\\entities\\progressocursotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{374FEDD8-404E-4EDE-BC31-19BA2816EFBD}|src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Academy.GestaoAlunos.Unidade.Tests.csproj|solutionrelative:src\\gestaoaluno\\academy.gestaoalunos.tests\\domain\\entities\\progressocursotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{374FEDD8-404E-4EDE-BC31-19BA2816EFBD}|src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Academy.GestaoAlunos.Tests.csproj|d:\\fontes\\lab\\mba03_academy\\src\\gestaoaluno\\academy.gestaoalunos.tests\\domain\\entities\\certificadotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{374FEDD8-404E-4EDE-BC31-19BA2816EFBD}|src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Academy.GestaoAlunos.Tests.csproj|solutionrelative:src\\gestaoaluno\\academy.gestaoalunos.tests\\domain\\entities\\certificadotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BFDE5A58-1092-4659-8324-4AAFE3F10BE3}|src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Academy.GestaoAlunos.Domain.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoaluno\\academy.gestaoalunos.domain\\entities\\progressoalunocurso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDE5A58-1092-4659-8324-4AAFE3F10BE3}|src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Academy.GestaoAlunos.Domain.csproj|solutionrelative:src\\gestaoaluno\\academy.gestaoalunos.domain\\entities\\progressoalunocurso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{374FEDD8-404E-4EDE-BC31-19BA2816EFBD}|src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Academy.GestaoAlunos.Tests.csproj|d:\\fontes\\lab\\mba03_academy\\src\\gestaoaluno\\academy.gestaoalunos.tests\\domain\\entities\\matriculatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{374FEDD8-404E-4EDE-BC31-19BA2816EFBD}|src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Academy.GestaoAlunos.Tests.csproj|solutionrelative:src\\gestaoaluno\\academy.gestaoalunos.tests\\domain\\entities\\matriculatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{374FEDD8-404E-4EDE-BC31-19BA2816EFBD}|src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Academy.GestaoAlunos.Unidade.Tests.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoaluno\\academy.gestaoalunos.tests\\domain\\entities\\certificadotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{374FEDD8-404E-4EDE-BC31-19BA2816EFBD}|src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Academy.GestaoAlunos.Unidade.Tests.csproj|solutionrelative:src\\gestaoaluno\\academy.gestaoalunos.tests\\domain\\entities\\certificadotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFDE5A58-1092-4659-8324-4AAFE3F10BE3}|src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Academy.GestaoAlunos.Domain.csproj|d:\\fontes\\lab\\mba03_academy\\src\\gestaoaluno\\academy.gestaoalunos.domain\\entities\\matricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDE5A58-1092-4659-8324-4AAFE3F10BE3}|src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Academy.GestaoAlunos.Domain.csproj|solutionrelative:src\\gestaoaluno\\academy.gestaoalunos.domain\\entities\\matricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{374FEDD8-404E-4EDE-BC31-19BA2816EFBD}|src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Academy.GestaoAlunos.Unidade.Tests.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoaluno\\academy.gestaoalunos.tests\\domain\\entities\\progressoalunotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{374FEDD8-404E-4EDE-BC31-19BA2816EFBD}|src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Academy.GestaoAlunos.Unidade.Tests.csproj|solutionrelative:src\\gestaoaluno\\academy.gestaoalunos.tests\\domain\\entities\\progressoalunotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFDE5A58-1092-4659-8324-4AAFE3F10BE3}|src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Academy.GestaoAlunos.Domain.csproj|d:\\fontes\\lab\\mba03_academy\\src\\gestaoaluno\\academy.gestaoalunos.domain\\entities\\certificado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDE5A58-1092-4659-8324-4AAFE3F10BE3}|src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Academy.GestaoAlunos.Domain.csproj|solutionrelative:src\\gestaoaluno\\academy.gestaoalunos.domain\\entities\\certificado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{374FEDD8-404E-4EDE-BC31-19BA2816EFBD}|src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Academy.GestaoAlunos.Unidade.Tests.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoaluno\\academy.gestaoalunos.tests\\domain\\entities\\matriculatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{374FEDD8-404E-4EDE-BC31-19BA2816EFBD}|src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Academy.GestaoAlunos.Unidade.Tests.csproj|solutionrelative:src\\gestaoaluno\\academy.gestaoalunos.tests\\domain\\entities\\matriculatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFDE5A58-1092-4659-8324-4AAFE3F10BE3}|src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Academy.GestaoAlunos.Domain.csproj|d:\\fontes\\lab\\mba03_academy\\src\\gestaoaluno\\academy.gestaoalunos.domain\\objectvalue\\historicoaprendizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{374FEDD8-404E-4EDE-BC31-19BA2816EFBD}|src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Academy.GestaoAlunos.Unidade.Tests.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoaluno\\academy.gestaoalunos.tests\\domain\\entities\\aularealizadatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{374FEDD8-404E-4EDE-BC31-19BA2816EFBD}|src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Academy.GestaoAlunos.Unidade.Tests.csproj|solutionrelative:src\\gestaoaluno\\academy.gestaoalunos.tests\\domain\\entities\\aularealizadatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFDE5A58-1092-4659-8324-4AAFE3F10BE3}|src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Academy.GestaoAlunos.Domain.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoaluno\\academy.gestaoalunos.domain\\objectvalue\\historicoaprendizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFDE5A58-1092-4659-8324-4AAFE3F10BE3}|src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Academy.GestaoAlunos.Domain.csproj|solutionrelative:src\\gestaoaluno\\academy.gestaoalunos.domain\\objectvalue\\historicoaprendizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFDE5A58-1092-4659-8324-4AAFE3F10BE3}|src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Academy.GestaoAlunos.Domain.csproj|c:\\lab\\fontes\\mba03_academy\\src\\gestaoaluno\\academy.gestaoalunos.domain\\entities\\progressoaluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDE5A58-1092-4659-8324-4AAFE3F10BE3}|src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Academy.GestaoAlunos.Domain.csproj|solutionrelative:src\\gestaoaluno\\academy.gestaoalunos.domain\\entities\\progressoaluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +42,131 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Matricula.cs",
-              "DocumentMoniker": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Entities\\Matricula.cs",
-              "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Entities\\Matricula.cs",
-              "ToolTip": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Entities\\Matricula.cs",
-              "RelativeToolTip": "src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Entities\\Matricula.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAEAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ProgressoCursoTests.cs",
+              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Domain\\Entities\\ProgressoCursoTests.cs",
+              "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Domain\\Entities\\ProgressoCursoTests.cs",
+              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Domain\\Entities\\ProgressoCursoTests.cs",
+              "RelativeToolTip": "src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Domain\\Entities\\ProgressoCursoTests.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAJUAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T22:00:28.936Z",
+              "WhenOpened": "2025-07-02T00:55:48.229Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "ProgressoAlunoTests.cs",
+              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Domain\\Entities\\ProgressoAlunoTests.cs",
+              "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Domain\\Entities\\ProgressoAlunoTests.cs",
+              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Domain\\Entities\\ProgressoAlunoTests.cs",
+              "RelativeToolTip": "src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Domain\\Entities\\ProgressoAlunoTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T00:55:07.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProgressoAluno.cs",
+              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Entities\\ProgressoAluno.cs",
+              "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Entities\\ProgressoAluno.cs",
+              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Entities\\ProgressoAluno.cs",
+              "RelativeToolTip": "src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Entities\\ProgressoAluno.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T00:50:46.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AulaRealizadaTests.cs",
+              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Domain\\Entities\\AulaRealizadaTests.cs",
+              "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Domain\\Entities\\AulaRealizadaTests.cs",
+              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Domain\\Entities\\AulaRealizadaTests.cs",
+              "RelativeToolTip": "src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Domain\\Entities\\AulaRealizadaTests.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T00:29:30.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MatriculaTests.cs",
-              "DocumentMoniker": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Domain\\Entities\\MatriculaTests.cs",
+              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Domain\\Entities\\MatriculaTests.cs",
               "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Domain\\Entities\\MatriculaTests.cs",
-              "ToolTip": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Domain\\Entities\\MatriculaTests.cs",
+              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Domain\\Entities\\MatriculaTests.cs",
               "RelativeToolTip": "src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Domain\\Entities\\MatriculaTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwAsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-01T22:00:18.135Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HistoricoAprendizado.cs",
-              "DocumentMoniker": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\ObjectValue\\HistoricoAprendizado.cs",
-              "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\ObjectValue\\HistoricoAprendizado.cs",
-              "ToolTip": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\ObjectValue\\HistoricoAprendizado.cs",
-              "RelativeToolTip": "src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\ObjectValue\\HistoricoAprendizado.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABNAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CertificadoTests.cs",
+              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Domain\\Entities\\CertificadoTests.cs",
+              "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Domain\\Entities\\CertificadoTests.cs",
+              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Domain\\Entities\\CertificadoTests.cs",
+              "RelativeToolTip": "src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Domain\\Entities\\CertificadoTests.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowCcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T21:47:21.717Z",
+              "WhenOpened": "2025-07-02T00:32:36.583Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AulaRealizadaTests.cs",
-              "DocumentMoniker": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Domain\\Entities\\AulaRealizadaTests.cs",
-              "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Domain\\Entities\\AulaRealizadaTests.cs",
-              "ToolTip": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Domain\\Entities\\AulaRealizadaTests.cs",
-              "RelativeToolTip": "src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Domain\\Entities\\AulaRealizadaTests.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwB8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "HistoricoAprendizado.cs",
+              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\ObjectValue\\HistoricoAprendizado.cs",
+              "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\ObjectValue\\HistoricoAprendizado.cs",
+              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\ObjectValue\\HistoricoAprendizado.cs",
+              "RelativeToolTip": "src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\ObjectValue\\HistoricoAprendizado.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAywBIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T21:31:27.846Z",
+              "WhenOpened": "2025-07-02T00:52:43.318Z",
               "EditorCaption": ""
-            },
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "5f0a40aa-6bc0-44da-8adc-cedf99851dc9",
+        "Display": 2,
+        "X": 115,
+        "Y": 110,
+        "Width": 1060,
+        "Height": 627,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CertificadoTests.cs",
-              "DocumentMoniker": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Domain\\Entities\\CertificadoTests.cs",
-              "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Domain\\Entities\\CertificadoTests.cs",
-              "ToolTip": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Domain\\Entities\\CertificadoTests.cs",
-              "RelativeToolTip": "src\\GestaoAluno\\Academy.GestaoAlunos.Tests\\Domain\\Entities\\CertificadoTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
+              "Title": "ProgressoAlunoCurso.cs",
+              "DocumentMoniker": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Entities\\ProgressoAlunoCurso.cs",
+              "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Entities\\ProgressoAlunoCurso.cs",
+              "ToolTip": "C:\\Lab\\Fontes\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Entities\\ProgressoAlunoCurso.cs*",
+              "RelativeToolTip": "src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Entities\\ProgressoAlunoCurso.cs*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA8wB4AAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T21:27:39.869Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Certificado.cs",
-              "DocumentMoniker": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Entities\\Certificado.cs",
-              "RelativeDocumentMoniker": "src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Entities\\Certificado.cs",
-              "ToolTip": "D:\\Fontes\\Lab\\MBA03_Academy\\src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Entities\\Certificado.cs",
-              "RelativeToolTip": "src\\GestaoAluno\\Academy.GestaoAlunos.Domain\\Entities\\Certificado.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAADgvxQAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T21:27:08.169Z",
+              "WhenOpened": "2025-07-02T00:50:50.684Z",
               "EditorCaption": ""
             }
           ]

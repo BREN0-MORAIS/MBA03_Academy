@@ -34,7 +34,7 @@ public class Matricula : EntidadeBase, IAggregateRoot
     public void Validar()
     {
         Validacoes.ValidarSeVazio(UserId.ToString(), "UserId não pode ser vazio");
-        Validacoes.ValidarSeVazio(CursoId.ToString(), "CursoId não pode ser vazio");
+        Validacoes.ValidarSeGuidVazio(CursoId, "CursoId não pode ser vazio");
     }
 
 }
