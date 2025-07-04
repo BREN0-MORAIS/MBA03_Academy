@@ -202,7 +202,17 @@ A documentação gerada pelo **Swagger** permite visualizar e testar todos os en
 
 ---
 
-## 📁 **10. Considerações Finais**
+## 📚 **10. Usuarios para testes**
+
+Administrador: 
+email: admin@domain.com
+Senha: Admin123!
+
+Aluno:
+Email: student@domain.com
+Senha:Student123! 
+
+## 📁 **11. Considerações Finais**
 
 - Este repositório faz parte de um projeto acadêmico e **não aceita contribuições externas**.
 - Dúvidas e feedbacks devem ser enviados via **Issues**.
